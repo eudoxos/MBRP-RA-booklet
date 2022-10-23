@@ -1,0 +1,17 @@
+\begin{tikzpicture}[
+		%grow cyclic,
+		level 1/.style={sibling angle=50,clockwise from=15},
+		mindmap,
+		% edge from parent/.style={draw},
+		%root concept/.append style={concept color=blue!40},
+		%root concept/.append style={minimum size=5cm},
+		%fill=none,
+%		level 1/.style={clockwise from=10},
+		concept/.append style={fill=none},
+	]
+	\node [concept,minimum size=1cm]{já} child foreach \x in {0,50,...,320} { node [concept,minimum size=3cm] {}}
+	;
+\end{tikzpicture}
+
+
+
