@@ -80,6 +80,7 @@
 	title/.initial=\undefined,
 	title/.store in=\mbrpTitle,
 	toc title/.initial=\relax,
+	toc title/.store in=\mbrpTocTitle,
 	summary/.initial=\undefined,
 	informal moments/.initial=\undefined,
 	informal challenges/.initial=\undefined,
@@ -95,15 +96,25 @@
 %}
 
 \newcommand{\mbrpSession}[1]{
+	\let\mbrpTocTitle\relax
 	\mbrpset{#1}
 	\cleardoublepage
-	\pgfkeysifdefined{/mbrp/toc title}%
-		{\section[\pgfkeysvalueof{/mbrp/toc title}]{\mbrpTitle}}%
-		{\section{\mbrpTitle}}
+	\addtocounter{section}{1}
+	\ifx\mbrpTocTitle\relax\let\mbrpTocTitle\mbrpTitle\fi
+	\xdef\toct{\arabic{section}. \mbrpTocTitle}
+	\sectionmark{\mbrpTocTitle}
+	%	\sectionmark{\mbrpTitle}
+	%\else
+	%	\xdef\toct{\arabic{section}. \mbrpTocTitle}
+	%\fi
+	\addcontentsline{toc}{section}{\toct}
 	\thispagestyle{start-session}
-
 	\bgroup
-		\begin{tcolorbox}[parbox=false,title=Shrnutí]
+		\begin{tcolorbox}[parbox=false,title={\textbf{\Large \arabic{section}. sezení}}]
+			\vskip1em
+			{ \scshape\bfseries\Large \mbrpTitle }
+			\vskip1.5em
+			\tcbsubtitle{Shrnutí}
 			{\let\item\par \par\pgfkeysvalueof{/mbrp/summary}\par}
 		\end{tcolorbox}
 
