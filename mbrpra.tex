@@ -1,0 +1,212 @@
+% https://tex.stackexchange.com/questions/345898/lualatex-0-95-0-tl-2016-has-problem-with-crop-and-microtype-packages-being-tog#345906
+% because of the crop pkg
+\RequirePackage{luatex85}
+
+\documentclass[11pt,a5paper,twoside]{article}
+
+\directlua{dofile("DetectUnderfull.lua")}
+
+\include{mbrpra-defs}
+
+\newif\ifplastex
+\plastexfalse
+
+
+\ifplastex
+	\def\lessstressLogo{\texttt{lessstress.cz}}
+\else
+	\usepackage{enumitem}
+	\usepackage{euler}
+	\usepackage{fontspec}
+	\defaultfontfeatures{Ligatures=TeX} % Mapping=tex-text}
+	\setmainfont[
+		%BoldFont={CMU Serif Bold Extended Roman}
+		BoldFont={CMU Sans Serif Bold},
+		BoldFeatures={SmallCapsFont=CMU Serif Bold Extended Roman,SmallCapsFeatures={Letters=SmallCaps}},
+		%BoldFont={Iwona Heavy}
+	]{CMU Concrete}
+	\bibliographystyle{plain}
+	\usepackage[left=2cm,right=1.5cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
+
+	\usepackage{polyglossia}
+	\setdefaultlanguage{czech}
+	\usepackage{booktabs}
+
+	\setlist[description]{style=unboxed}
+	\usepackage{luavlna}
+	\usepackage{tabularray}
+	\usepackage{adjustbox}
+	\usepackage[tracking,expansion,protrusion]{microtype}
+	\lefthyphenmin=2
+	\righthyphenmin=2
+	\usepackage{verse}
+
+	\usepackage[normalem]{ulem}
+	\setlength{\ULdepth}{.7mm}
+	\def\lessstressLogo{\href{https://lessstress.cz}{\textsf{\textbf{le\uline{\uline{\uline{s}s}s}tre\uline{\uline{s}s}.cz\uline{\hphantom{s}}}}}}
+
+	\usepackage[norule,hang,stable]{footmisc}
+	\footnotemargin=1em
+
+\fi
+% \usepackage{mdwlist}
+%\usepackage[colorlinks=false,allbordercolors=white]{hyperref}
+\usepackage{hyperref}
+% allow linebreak in description list title
+
+
+
+
+\ifplastex
+	\def\Blank#1{. . . . . . . . . . .}
+\else
+	% https://tex.stackexchange.com/a/481045/6758
+	\usepackage{forloop}
+	\newcounter{loopcntr}
+	\newcommand{\rpt}[2][1]{\forloop{loopcntr}{0}{\value{loopcntr}<#1}{#2}}
+	\def\myDottedLine{\noindent\vbox spread 1.5ex {}\null\xleaders\hbox to 1em {\hss {\small.} \hss}\hfill \null}%
+	\def\Blank#1{%
+		\rpt[\numexpr#1-1\relax]{\myDottedLine\newline}\myDottedLine%
+	}
+	% \def\blank#1{{\setbox0\hbox{#1}\hbox to\wd0{\dotfill}}}
+
+	\usepackage{titlesec}
+	\titleformat{\section}[frame]{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace}{1em}{\Large\scshape\bfseries}
+	%\titleformat{\section}{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace\\}{0em}{\Large\scshape\bfseries}
+\fi
+
+
+
+
+
+
+
+\ifplastex\else
+	\clubpenalty=10000
+	\widowpenalty=10000
+	\usepackage{fancyhdr}
+	\setlength{\headheight}{24pt}
+
+	\pagestyle{fancy}
+	\fancyfoot{}
+	\fancyfoot[RO]{Prevence relapsu všímavostí -- MBRP}
+	\fancyfoot[LO]{2022}
+	\fancyfoot[LE]{překlad \lessstressLogo{}}
+	\fancyfoot[RE]{\href{https://practicembrp.com}{PracticeMBRP.com}}
+	\fancyhead{}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyhead[LO]{\leftmark}
+	\renewcommand{\sectionmark}[1]{\markboth{\arabic{section}. #1{}}{}}
+	\renewcommand{\footrulewidth}{.2pt}
+	\renewcommand{\headrulewidth}{.1pt}
+
+
+	\fancypagestyle{start-session}{
+		\fancyhf{}
+		\fancyfoot[RO]{Prevence relapsu všímavostí --- MBRP}
+		\fancyfoot[LO]{2022}
+		\fancyhead[RO]{\thepage}
+		\renewcommand{\footrulewidth}{.2pt}
+		%\renewcommand{\headrulewidth}{0pt}
+		\renewcommand{\headrule}{\vbox to0pt{\smash{\hbox to \headwidth{\hss\rule{10mm}{.2pt}}}}}
+	}
+	\usepackage{setspace}
+	\setstretch{1.05}
+
+	\usepackage{emptypage}
+	\usepackage{tocloft}
+
+	\usepackage[most]{tcolorbox}
+	\newtcolorbox{session-summary}[2][]{%
+		enhanced,
+		boxsep=3pt,
+		arc=1.25ex,
+		colback=white,
+		colframe=brown,
+		boxrule=3pt,
+		leftrule=18pt,
+		parbox=false,
+		overlay unbroken and first ={%
+			\node[rotate=90,
+						minimum width=1cm,
+						anchor=south,
+						font=\Large\sffamily\bfseries,
+						yshift=-18pt,
+						white]
+			at (frame.west) {#2};
+		}
+	}
+
+\fi
+
+
+\newlist{iitemize}{itemize}{1}
+\setlist[iitemize]{label=\circ,noitemsep,nosep,leftmargin=*}
+
+\ifplastex
+	\newenvironment{itemize*}{\begin{itemize}}{\end{itemize}}
+	\newenvironment{enumerate*}{\begin{enumerate}}{\end{enumerate}}
+	\newenvironment{description*}{\begin{description}}{\end{description}}
+	\newenvironment{tcolorbox}[1]{}{}
+\else
+	\newlist{itemize*}{itemize}{1}
+	\setlist[itemize*]{label=\bullet,noitemsep,nosep,leftmargin=*}
+	\newlist{enumerate*}{enumerate}{1}
+	\setlist[enumerate*]{label=\arabic*.,noitemsep,nosep,leftmargin=*}
+	\newlist{description*}{description}{1}
+	\setlist[description*]{style=unboxed,
+		%itemsep=0pt plus5em,parsep=0pt plus5em}
+		% itemsep=.5em,nosep}
+		noitemsep,nosep}
+\fi
+%\newlist{action}{enumerate}{1}
+%\setlist[action]{noitemsep,nosep,label=\arabic*.} % ,leftmargin=*
+
+%\usepackage{draftwatermark}
+%\SetWatermarkText{Draft}
+%\SetWatermarkScale{2}
+
+\def\mbrpIcon#1{\includegraphics[width=1.5em]{fig/#1.pdf}}
+\def\itemStop#1#2{\item[\lower.3em\hbox{\textbf{\textsf{\huge#1}}}\kern.4em] \textbf{#2} \hskip1em}
+\def\itemSq{\item[\lower.1ex\hbox{\footnotesize\Square}]}
+\def\toSelf#1{\emph{„#1“}}
+\def\itemName#1{\item \textbf{#1} }
+
+
+\ifplastex
+	\def\normalPencilLeftDown{{\Large 🖉}}
+	\def\lightning{🗲}
+	\newenvironment{adjustbox}[1]{}{}
+\else
+	\usepackage{wasysym}
+	\let\Square\undefined
+	\usepackage{bbding}
+	\def\normalPencilLeftDown{\texorpdfstring{\lower.2ex\hbox{\textmd{\PencilLeftDown}}}{}}
+\fi
+
+\parskip=.5\baselineskip
+\parindent=0pt
+
+\title{\ifplastex\else\vskip-2cm\fi Prevence relapsu všímavostí\\ MBRP-RA \\ pracovní listy}
+\date{2022, draft}
+\author{Václav Šmilauer, \lessstressLogo}
+
+\begin{document}
+	\maketitle
+
+	%\begin{abstract}
+	\subsection*{Úvodní poznámka}
+		Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA) je protokol pro administraci MBRP programu při průběžné účasti. Protkol je podrobně popsaný v knize C. Ross \& al: \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}. Kniha je open-access, link ke stažení je na stránce \href{https://mindfulrp.com/for-clinicians}{MBRP Clinician Training and Resources} (na \url{https://mindfulrp.com}).
+
+		Následující strany jsou překladem handoutů ze str. 105–160. Účastníci by měli na každém sezení příslušné handouty obdržet. Prvoúčastníci by si navíc měli přečíst \href{https://lessstress.cz/mbrp/brzdime/start}{„Startovací balíček“} pro základní orientaci.
+
+		Doprovodem handoutů jsou nahrávky cvičení z~\href{https://practicembrp.com}{PracticeMBRP.com}, které jsou k dispozici na \href{https://lessstress.cz/mbrp/brzdime}{lessstress.cz/mbrp/brzdime} (a časem na \textbf{brzdime.cz}).
+	% \end{abstract}
+
+	\setlength{\cftbeforesecskip}{1ex}
+
+	\clearpage
+	\tableofcontents
+	%\end{spacing}
+	\include{mbrpra-content}
+\end{document}
