@@ -4,13 +4,18 @@
 
 \documentclass[11pt,a5paper,twoside]{article}
 
-\directlua{dofile("DetectUnderfull.lua")}
+% \directlua{dofile("DetectUnderfull.lua")}
 
-\include{mbrpra-defs}
+\input{mbrpra-defs}
+
+
 
 \newif\ifplastex
 \plastexfalse
 
+
+\showboxbreadth=50 
+\showboxdepth=50
 
 \ifplastex
 	\def\lessstressLogo{\texttt{lessstress.cz}}
@@ -52,6 +57,7 @@
 % \usepackage{mdwlist}
 %\usepackage[colorlinks=false,allbordercolors=white]{hyperref}
 \usepackage{hyperref}
+\usepackage{multicol}
 % allow linebreak in description list title
 
 
@@ -117,6 +123,7 @@
 	\usepackage{tocloft}
 
 	\usepackage[most]{tcolorbox}
+	\tcbuselibrary{skins}
 	\newtcolorbox{session-summary}[2][]{%
 		enhanced,
 		boxsep=3pt,
@@ -140,7 +147,7 @@
 \fi
 
 
-\newlist{iitemize}{itemize}{1}
+\newlist{iitemize}{itemize}{2}
 \setlist[iitemize]{label=\circ,noitemsep,nosep,leftmargin=*}
 
 \ifplastex
@@ -149,8 +156,9 @@
 	\newenvironment{description*}{\begin{description}}{\end{description}}
 	\newenvironment{tcolorbox}[1]{}{}
 \else
-	\newlist{itemize*}{itemize}{1}
-	\setlist[itemize*]{label=\bullet,noitemsep,nosep,leftmargin=*}
+	\newlist{itemize*}{itemize}{2}
+	\setlist[itemize*,1]{label=\bullet,noitemsep,nosep,leftmargin=*}
+	\setlist[itemize*,2]{label=--,noitemsep,nosep,leftmargin=*}
 	\newlist{enumerate*}{enumerate}{1}
 	\setlist[enumerate*]{label=\arabic*.,noitemsep,nosep,leftmargin=*}
 	\newlist{description*}{description}{1}
@@ -198,7 +206,10 @@
 	\subsection*{Úvodní poznámka}
 		Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA) je protokol pro administraci MBRP programu při průběžné účasti. Protkol je podrobně popsaný v knize C. Ross \& al: \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}. Kniha je open-access, link ke stažení je na stránce \href{https://mindfulrp.com/for-clinicians}{MBRP Clinician Training and Resources} (na \url{https://mindfulrp.com}).
 
-		Následující strany jsou překladem handoutů ze str. 105–160. Účastníci by měli na každém sezení příslušné handouty obdržet. Prvoúčastníci by si navíc měli přečíst \href{https://lessstress.cz/mbrp/brzdime/start}{„Startovací balíček“} pro základní orientaci.
+		Následující strany jsou překladem handoutů ze str. 105–160.\footnote{Několik stránek je přidáno z jiných zdrojů:
+			\nameref{slovni-zasoba-pocity} (str.~\pageref{slovni-zasoba-pocity}),
+			\nameref{slovni-zasoba-potreby} (str.~\pageref{slovni-zasoba-potreby}).
+		} Účastníci by měli na každém sezení příslušné handouty obdržet. Prvoúčastníci by si navíc měli přečíst \href{https://lessstress.cz/mbrp/brzdime/start}{„Startovací balíček“} pro základní orientaci.
 
 		Doprovodem handoutů jsou nahrávky cvičení z~\href{https://practicembrp.com}{PracticeMBRP.com}, které jsou k dispozici na \href{https://lessstress.cz/mbrp/brzdime}{lessstress.cz/mbrp/brzdime} (a časem na \textbf{brzdime.cz}).
 	% \end{abstract}

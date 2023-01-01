@@ -1,13 +1,22 @@
-
 % used inside TikZ, thus must be accessible to PlasTeX as well
 \usepackage[dvipsnames]{xcolor}
+
+% HTML from website SASS
+\definecolor{brzdimeBlue}{HTML}{336699}
+\definecolor{brzdimeOrange}{HTML}{ff9300}
+\colorlet{brzdimeBlueBg}{brzdimeBlue!20}
+% semantic foreground
+\colorlet{brzdimeAuto}{brzdimeBlue}
+\colorlet{brzdimeSober}{brzdimeOrange}
+% semantic background
+\colorlet{brzdimeAutoBg}{brzdimeAuto!20}
+\colorlet{brzdimeSoberBg}{brzdimeSober!30}
+
 
 \newcommand*\cleartoleftpage{%
   \clearpage
   \ifodd\value{page}\thispagestyle{empty}\hbox{}\newpage\fi
 }
-
-
 
 
 \usepackage{tikz}
@@ -18,11 +27,16 @@
 
 % https://tex.stackexchange.com/a/72793
 \tikzset{
-	outlined arrow/.style args={#1 colored by #2 and #3}{		
+	outlined arrow/.style args={#1 colored by #2 and #3}{
 		-latex,
-		line width=#1,#2,
-		postaction={draw,-latex,#3,line width=(#1)/3,shorten <=(#1)/4,shorten >=4.5*(#1)/3}
+		line width=#1,color=#2,
+		postaction={draw,-latex,color=#3,line width=(#1)/3,shorten <=(#1)/4,shorten >=4.5*(#1)/3}
 	}
+}
+
+% https://tex.stackexchange.com/a/61362/6758
+\tikzset{
+	every fit/.append style=text badly centered,
 }
 
 %\tikzset{
@@ -46,20 +60,20 @@
 	action/.style={solid,sharp corners},
 	% FIXME: why not 2\pgfkeysvalueof ??
 	wider sober/.style={
-		fill=blue!10,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners,
+		fill=brzdimeSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners,
 		text width=.65*(\linewidth-1em)-1*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth
 	},
-	sober/.style={fill=blue!10,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners},
-	mindful/.style={fill=blue!10,align=center,dotted},
+	sober/.style={fill=brzdimeSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners},
+	mindful/.style={fill=brzdimeSoberBg,align=center,dotted},
 	narrower autopilot/.style={
-		fill=red!10,
+		fill=brzdimeAutoBg,
 		text width=.35*(\linewidth-1em)-1*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth
 	},
-	autopilot/.style={fill=red!10,dashed},
-	sober arrow/.style={outlined arrow={.5mm colored by black and blue!40}},
-	wide sober arrow/.style={outlined arrow={1mm colored by black and blue!40}},
-	autopilot arrow/.style={outlined arrow={.5mm colored by black and red!40}},
-	wide autopilot arrow/.style={outlined arrow={1mm colored by black and red!40}},
+	autopilot/.style={fill=brzdimeAutoBg,dashed},
+	sober arrow/.style={outlined arrow={.5mm colored by black and brzdimeSoberBg}},
+	wide sober arrow/.style={outlined arrow={1mm colored by black and brzdimeSoberBg}},
+	autopilot arrow/.style={outlined arrow={.5mm colored by black and brzdimeAutoBg}},
+	wide autopilot arrow/.style={outlined arrow={1mm colored by black and brzdimeAutoBg}},
 }
 
 \def\soberName#1{\textbf{#1} \nodepart{two} }
@@ -96,10 +110,12 @@
 %}
 
 \newcommand{\mbrpSession}[1]{
+	\bgroup
 	\let\mbrpTocTitle\relax
 	\mbrpset{#1}
 	\cleardoublepage
 	\addtocounter{section}{1}
+	\setcounter{subsection}{0}
 	\ifx\mbrpTocTitle\relax\let\mbrpTocTitle\mbrpTitle\fi
 	\xdef\toct{\arabic{section}. \mbrpTocTitle}
 	\sectionmark{\mbrpTocTitle}
@@ -110,31 +126,53 @@
 	\addcontentsline{toc}{section}{\toct}
 	\thispagestyle{start-session}
 	\bgroup
-		\begin{tcolorbox}[parbox=false,title={\textbf{\Large \arabic{section}. sezení}}]
+		\null\vskip1cm
+		\begin{tcolorbox}[
+			skin=bicolor,
+			boxrule=.4pt,
+			coltitle=black,
+			colbacktitle=brzdimeBlueBg,
+			colback=white,
+			parbox=false,
+			adjusted title={\textbf{\Large \arabic{section}. setkání}},
+			%frame hidden,
+		]
 			\vskip1em
 			{ \scshape\bfseries\Large \mbrpTitle }
 			\vskip1.5em
-			\tcbsubtitle{Shrnutí}
+			\tcbsubtitle{{\large \textbf{Shrnutí}}}
+			\vskip.5em
 			{\let\item\par \par\pgfkeysvalueof{/mbrp/summary}\par}
+			\vskip.5em
 		\end{tcolorbox}
 
 		\clearpage
 
-		\begin{tcolorbox}[title={Formální cvičení, plánovaná},parbox=false]
+		\begin{tcolorbox}[
+			skin=bicolor,
+			boxrule=.4pt,
+			%frame hidden,
+			title={Formální cvičení}, %, plánovaná},
+			parbox=false,
+			coltitle=black,
+			colbacktitle=brzdimeBlueBg,
+			colback=white,
+			fonttitle=\bfseries\large
+		]
 			Snažte se poslouchat nahrávky vedených cvičení všímavosti každý den či obden (4× až 6× za týden). Vyzkoušejte cvičit pokaždé ve stejnou dobu (např. před snídaní).
 
 			Do dalšího sezení doporučujeme se zaměřit na cvičení:
-				\begin{itemize*}
+				\begin{itemize}
 					\pgfkeysvalueof{/mbrp/formal}
-				\end{itemize*}
+				\end{itemize}
 			\medskip
 			%\textbf{Neformální cvičení — za pochodu:}
-			\tcbsubtitle{Neformální cvičení, za pochodu}
-				\begin{description*}
+			\tcbsubtitle{Neformální cvičení} % , za pochodu}
+				\begin{description}
 					\item[Okamžiky:] \pgfkeysvalueof{/mbrp/informal moments}
-					\item[Obtíže:] \pgfkeysvalueof{/mbrp/informal challenges}
+					\item[Obtíže:]   \pgfkeysvalueof{/mbrp/informal challenges}
 					\item[Činnosti:] \pgfkeysvalueof{/mbrp/informal activities}
-				\end{description*}
+				\end{description}
 		\end{tcolorbox}
 	\egroup
 	\clearpage
@@ -146,6 +184,7 @@
 	%	{\pgfkeysvalueof{/mbrp/informal moments}}%
 	%	{\pgfkeysvalueof{/mbrp/informal challenges}}%
 	%	{\pgfkeysvalueof{/mbrp/informal activities}}%
+	\egroup
 }
 
 
@@ -161,7 +200,10 @@
 		node distance=1em,
 	]
 	\mbrpset{#1}
-	\node(top)[text width=.9\linewidth]{\textsc{\pgfkeysvalueof{/mbrp/title1}} \\ \pgfkeysvalueof{/mbrp/title2}};
+
+	\node(top)[text width=.9\linewidth,text badly centered]{ \textsc{\pgfkeysvalueof{/mbrp/title1}} \\ \pgfkeysvalueof{/mbrp/title2} };
+	%\node(top)[text width=.9\linewidth,minimum width=.9\linewidth, text badly centered, align=center]{ \hfill Title };
+	\node(a0)[narrower autopilot, narrower left column=below top]{a0};
 	\node(a0)[narrower autopilot,draw=none,narrower left column=below top]{$\downarrow${} \textsc{Autopilot} $\downarrow$};
 	\draw[autopilot arrow] (top)--(a0);
 	\foreach [var=\type,var=\content,count=\curr,remember=\curr as \prev (initially 0)] in \mbrpAutopilot {
@@ -195,8 +237,8 @@
 	\begin{tikzpicture}[
 		every node/.style={
 			align=center,
-			text width=(\linewidth-1em)/2-2*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth,
-			minimum width=(\linewidth-1em)/2, %-2*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth,
+			text width=(\linewidth-1em)/2-2*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth-4pt,
+			% minimum width=(\linewidth-1em)/2, %-2*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth,
 			draw,
 			rounded corners,
 			font=\small
@@ -280,7 +322,7 @@
 \def\pageBRZDA{
 	\clearpage
 	\subsection{\textsc{Brzda}}
-		\emph{\textsc{Brzda} je cvičení všímavosti „za pochodu“, které můžete použít kdekoliv a kdykoliv, protože je krátké, jednoduché a přizpůsobivé.} Můžete ho udělat za pár sekund i mu dát několik minut. Lze ho použít ve stresující situaci, když jste rozčilení či zakoušíte nutkání či vnitřní impulsy k jednání, kterému se chcete vyhnout. Je užitečné, i když jde všechno hladce, cítíte se dobře, či kdykoliv chcete být duchem „více tady“ k ocenění odehrávající se přítomnosti. Může vám pomoci k vyskočení z reaktivního autopilota a být si víc vědomý v tom, jak v nastalé situaci budete jednat.
+		\textsc{Brzda} \emph{je cvičení všímavosti „za pochodu“, které můžete použít kdekoliv a kdykoliv, protože je krátké, jednoduché a přizpůsobivé.} Můžete ho udělat za pár sekund i mu dát několik minut. Lze ho použít ve stresující situaci, když jste rozčilení či zakoušíte nutkání či vnitřní impulsy k jednání, kterému se chcete vyhnout. Je užitečné, i když jde všechno hladce, cítíte se dobře, či kdykoliv chcete být duchem „více tady“ k ocenění odehrávající se přítomnosti. Může vám pomoci k vyskočení z reaktivního autopilota a být si víc vědomý v tom, jak v nastalé situaci budete jednat.
 
 
 		\begin{itemize}
@@ -319,7 +361,7 @@
 					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
 				\end{tabular}
 			\else
-				\def\myStrut{\rule{0pt}{\dimexpr(\pagewidth-8em-2cm-6em)/7}} % {.07\textheight}}
+				\def\myStrut{\rule{0pt}{\dimexpr(\pagewidth-8em-2cm-6em-3pt)/7}} % {.07\textheight}}
 				\footnotesize
 				\begin{adjustbox}{angle=90}
 				\begin{tblr}{
@@ -359,4 +401,133 @@
 		\restoregeometry
 	}
 
+
+
+\def\pageBasicFeelings{
+	\clearpage
+	\subsection[Slovní zásoba pro pocity]{Slovní zásoba pro pocity\footnote{Podle \emph{Feelings and needs we all have} — \href{https://www.nonviolentcommunication.com/learn-nonviolent-communication/feelings/}{https://www.nonviolentcommunication.com/learn-nonviolent-communication/feelings/}.}}
+		\label{slovni-zasoba-pocity}
+		Můžete použít následující soupis jako inspiraci pro rozšíření palety pocitů, které v sobě dokážete rozpoznat a pojmenovat.
+
+		\begin{multicols}{2}
+		Při základní spokojenosti:
+		\begin{itemize*}
+			\item ohromení
+			\item sebedůvěra
+			\item energičnost
+			\item potěšení
+			\item inspirace
+			\item radost
+			\item optimistismus
+			\item úleva
+			\item překvapení
+			\item dojetí
+			\item pohodlí
+			\item horlivost
+			\item naplněnost
+			\item být plný naděje
+			\item být zaujatý
+			\item pohnutí
+			\item hrdost
+			\item povzbuzení, stimulace
+			\item vděčnost
+			\item být plný důvěry
+		\end{itemize*}
+		\columnbreak
+		Při základní nespokojenosti:
+		\begin{itemize*}
+			\item vztek
+			\item zmatení
+			\item zklamání
+			\item zoufalství
+			\item frustrace
+			\item beznaděj
+			\item podráždění
+			\item nervozita
+			\item zaseknutí
+			\item smutek
+			\item otrávenost
+			\item znepokojení
+			\item zhrzenost, odrazení
+			\item zahanbenost
+			\item bezmoc
+			\item netrpělivost
+			\item osamělost
+			\item být přemožený děním
+			\item neochota
+			\item nepohoda
+		\end{itemize*}
+		\end{multicols}
+}
+
+\def\pageBasicNeeds{
+	\subsection[Slovní zásoba pro potřeby]{Slovní zásoba pro potřeby\footnote{Podle \emph{Feelings and needs we all have} — \href{https://www.nonviolentcommunication.com/learn-nonviolent-communication/feelings/}{https://www.nonviolentcommunication.com/learn-nonviolent-communication/feelings/}.}}
+		\label{slovni-zasoba-potreby}
+		\setstretch{.95}
+		Můžete použít následující soupis potřeb jako inspiraci pro rozšíření palety potřeb, které v sobě dokážete rozpoznat a pojmenovat.
+		\begin{multicols}{2}
+			\begin{itemize*}
+				\item autonomie
+					\begin{itemize*}
+						\item vybírat si sny/cíle/hodnoty
+						\item vybírat si plány pro naplnění svých snů, cílů, hodnot
+					\end{itemize*}
+				\item slavení
+					\begin{itemize*}
+						\item slavení výtvorů života a naplněných snů
+						\item slavení ztrát: blízkých lidí, snů, … (truchlení)
+					\end{itemize*}
+				\item integrita
+					\begin{itemize*}
+						\item autenticita
+						\item tvořivost, kreativita
+						\item smysl
+						\item sebehodnota
+					\end{itemize*}
+				\item propojenost
+					\begin{itemize*}
+						\item přijetí
+						\item ocenění
+						\item blízkost
+						\item společenství
+						\item ohleduplnost
+						\item přispívat k obohacení života
+						\item emoční bezpečí
+						\item soucit, empatie
+						\item upřímnost (posilující upřímnost, díky které se můžeme učit z vlastních omezení)
+						\item láska
+						\item ujištění
+						\item respekt
+						\item podpora
+						\item důvěra
+						\item porozumění
+					\end{itemize*}
+				\item péče o tělo
+					\begin{itemize*}
+						\item vzduch
+						\item jídlo
+						\item pohyb, cvičení
+						\item ochrana před život ohrožujícími organismy: viry, bakteriemi, hmyzem, dravou zvěří
+						\item odpočinek
+						\item sexuální vyjádření
+						\item přístřeší
+						\item dotyk
+						\item voda
+					\end{itemize*}
+				\item hra
+					\begin{itemize*}
+						\item zábava
+						\item smích
+					\end{itemize*}
+				\item duchovní společenství
+					\begin{itemize*}
+						\item krása
+						\item soulad, harmonie
+						\item inspirace
+						\item řád
+						\item pokoj, mír
+					\end{itemize*}
+			\end{itemize*}
+		\end{multicols}
+}
 
