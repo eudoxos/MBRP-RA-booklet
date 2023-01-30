@@ -10,7 +10,7 @@
 \colorlet{brzdimeSober}{brzdimeOrange}
 % semantic background
 \colorlet{brzdimeAutoBg}{brzdimeAuto!20}
-\colorlet{brzdimeSoberBg}{brzdimeSober!30}
+\colorlet{brzdimeSoberBg}{brzdimeSober!20}
 
 
 \newcommand*\cleartoleftpage{%
@@ -38,6 +38,11 @@
 \tikzset{
 	every fit/.append style=text badly centered,
 }
+
+% https://tex.stackexchange.com/a/8473/6758
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=circle,draw,inner sep=2pt] (char) {#1};
+}}
 
 %\tikzset{
 %  disable rounded corners for decorations/.style={
@@ -99,15 +104,9 @@
 	informal moments/.initial=\undefined,
 	informal challenges/.initial=\undefined,
 	informal activities/.initial=\undefined,
-	% formal/.store in=\mbrpFormal,
-	formal/.initial=\undefined
+	formal/.initial=\undefined,
+	practice sheets/.initial=\undefined
 }
-
-
-%\def\summaryAndPractices#1#2#3#4#5{
-%}
-%\def\recommendedPractices#1#2#3#4{
-%}
 
 \newcommand{\mbrpSession}[1]{
 	\bgroup
@@ -119,10 +118,6 @@
 	\ifx\mbrpTocTitle\relax\let\mbrpTocTitle\mbrpTitle\fi
 	\xdef\toct{\arabic{section}. \mbrpTocTitle}
 	\sectionmark{\mbrpTocTitle}
-	%	\sectionmark{\mbrpTitle}
-	%\else
-	%	\xdef\toct{\arabic{section}. \mbrpTocTitle}
-	%\fi
 	\addcontentsline{toc}{section}{\toct}
 	\thispagestyle{start-session}
 	\bgroup
@@ -134,13 +129,14 @@
 			colbacktitle=brzdimeBlueBg,
 			colback=white,
 			parbox=false,
-			adjusted title={\textbf{\Large \arabic{section}. setkání}},
+			adjusted title={\textbf{\Large\strut \arabic{section}. setkání}},
+			% subtitle style={before={\vspace*{-1ex}}}
 			%frame hidden,
 		]
 			\vskip1em
-			{ \scshape\bfseries\Large \mbrpTitle }
+			{ \scshape\bfseries\Large\strut \mbrpTitle }
 			\vskip1.5em
-			\tcbsubtitle{{\large \textbf{Shrnutí}}}
+			\tcbsubtitle{{\large\strut \textbf{Shrnutí}}}
 			\vskip.5em
 			{\let\item\par \par\pgfkeysvalueof{/mbrp/summary}\par}
 			\vskip.5em
@@ -152,38 +148,36 @@
 			skin=bicolor,
 			boxrule=.4pt,
 			%frame hidden,
-			title={Formální cvičení}, %, plánovaná},
+			title={\strut Formální cvičení},
 			parbox=false,
 			coltitle=black,
 			colbacktitle=brzdimeBlueBg,
 			colback=white,
-			fonttitle=\bfseries\large
+			fonttitle=\bfseries\large,
+			% subtitle style={before={\vspace*{-1ex}}}
 		]
 			Snažte se poslouchat nahrávky vedených cvičení všímavosti každý den či obden (4× až 6× za týden). Vyzkoušejte cvičit pokaždé ve stejnou dobu (např. před snídaní).
 
 			Do dalšího sezení doporučujeme se zaměřit na cvičení:
-				\begin{itemize}
+				\begin{itemize*}
 					\pgfkeysvalueof{/mbrp/formal}
-				\end{itemize}
+				\end{itemize*}
 			\medskip
-			%\textbf{Neformální cvičení — za pochodu:}
-			\tcbsubtitle{Neformální cvičení} % , za pochodu}
+			\tcbsubtitle{\strut Neformální cvičení} % , za pochodu}
 				\begin{description}
 					\item[Okamžiky:] \pgfkeysvalueof{/mbrp/informal moments}
 					\item[Obtíže:]   \pgfkeysvalueof{/mbrp/informal challenges}
 					\item[Činnosti:] \pgfkeysvalueof{/mbrp/informal activities}
 				\end{description}
+			\tcbsubtitle{\strut Pracovní listy \normalPencilLeftDown}
+				\begin{itemize*}
+					\pgfkeysvalueof{/mbrp/practice sheets}
+					\item záznam denního cvičení.
+				\end{itemize*}
+				\medskip
 		\end{tcolorbox}
 	\egroup
 	\clearpage
-
-	%\recommendedPractices{#2}{#3}{#4}{#5}
-	%\summaryAndPractices%
-	%	{\pgfkeysvalueof{/mbrp/summary}}%
-	%	{\pgfkeysvalueof{/mbrp/formal}}%
-	%	{\pgfkeysvalueof{/mbrp/informal moments}}%
-	%	{\pgfkeysvalueof{/mbrp/informal challenges}}%
-	%	{\pgfkeysvalueof{/mbrp/informal activities}}%
 	\egroup
 }
 
@@ -202,7 +196,6 @@
 	\mbrpset{#1}
 
 	\node(top)[text width=.9\linewidth,text badly centered]{ \textsc{\pgfkeysvalueof{/mbrp/title1}} \\ \pgfkeysvalueof{/mbrp/title2} };
-	%\node(top)[text width=.9\linewidth,minimum width=.9\linewidth, text badly centered, align=center]{ \hfill Title };
 	\node(a0)[narrower autopilot, narrower left column=below top]{a0};
 	\node(a0)[narrower autopilot,draw=none,narrower left column=below top]{$\downarrow${} \textsc{Autopilot} $\downarrow$};
 	\draw[autopilot arrow] (top)--(a0);
@@ -249,18 +242,16 @@
 	\node(a0)[autopilot,draw=none,left column=below top]{$\downarrow${} \textsc{Autopilot} $\downarrow$};
 	\draw[autopilot arrow] (top)--(a0);
 	\foreach [var=\curr,remember=\curr as \prev (initially 0)] in {1,2,3,4,5} {
-		\node(a\curr) [autopilot,below=of a\prev]{{\LARGE \curr.} \myslenkyPocityJednani: \Blank{3}};
+		\node(a\curr) [autopilot,below=of a\prev]{{\LARGE \curr.} \myslenkyPocityJednani: \Blank{4}};
 		\draw[autopilot arrow] (a\prev.south)--(a\curr.north);
 	}
 
 
-	\node(b1)[sober,right column=below top]{\soberName{Brzdi!} \Blank{1}};
-	% \node(b2)[sober,below=of b1]{\soberName{Roz-vhled!} tělo\Blank{2}\linebreak pocity\Blank{2}\linebreak mysl\Blank{2}};
-	\node(b2)[sober,below=of b1]{\soberName{Roz-vhled!} \teloPocityMysl: \Blank{3}};
-	\node(b3)[sober,below=of b2]{\soberName{Zakotvi se!} \Blank{1}};
-	%\node(b4)[sober,below=of b3]{\soberName{Doširoka se otevři!}  tělo\Blank{2}\linebreak pocity\Blank{2}\linebreak mysl\Blank{2}};
-	\node(b4)[sober,below=of b3]{\soberName{Doširoka se otevři!} \teloPocityMysl: \Blank{3}};
-	\node(b5)[sober,below=of b4]{\soberName{Akce!} \Blank{4}};
+	\node(b1)[sober,right column=below top]{\soberName{Brzdi!} \Blank{2}};
+	\node(b2)[sober,below=of b1]{\soberName{Roz-vhled!} \teloPocityMysl: \Blank{4}};
+	\node(b3)[sober,below=of b2]{\soberName{Zakotvi se!} \Blank{2}};
+	\node(b4)[sober,below=of b3]{\soberName{Doširoka se otevři!} \teloPocityMysl: \Blank{4}};
+	\node(b5)[sober,below=of b4]{\soberName{Akce!} \Blank{5}};
 
 	\begin{scope}
 		\draw[sober arrow] (top) -- (b1);
@@ -273,19 +264,19 @@
 	%\end{adjustbox}
 }
 
-\def\pageBRZDAown#1#2#3{
-	\clearpage\subsection{#1 \normalPencilLeftDown}
-	\vskip-1em #2{} Co se pak stane, když fungujete na autopilota? Jak byste v takové situaci mohli použít \textsc{Brzd}u? Do každého kroku \textsc{Brzd}y vlastními slovy vepište, co byste udělali či vnímali.\par
+\def\pageBRZDAown#1#2{
+	% \clearpage\subsection*{#1 \normalPencilLeftDown}
+	\vskip-1em #1{} Co se pak stane, když fungujete na autopilota? Jak byste v takové situaci mohli použít \textsc{Brzd}u? Do každého kroku \textsc{Brzd}y vlastními slovy vepište, co byste udělali či vnímali.\par
 	\vskip0pt minus1cm
-	\soberSpaceEmpty{title1={#3}}
+	\soberSpaceEmpty{title1={#2}}
 }
 
 
 
 \def\pageGuesthouse{
 	\clearpage
-\subsection{Dům pro hosty}
-	[\emph{Rúmí}; autor překladu neznámý]
+\subsection{Dům pro hosty\footnote{Autor překladu neznámý.}}
+	%[\emph{Rúmí}; autor překladu neznámý]
 	% FROM https://tex.stackexchange.com/a/196934/6758
 	\newlength{\saveleftmargini}
 	\setlength{\saveleftmargini}{\leftmargini}
@@ -315,7 +306,8 @@
 	jako učitele.
 	\end{verse}
 	\setlength{\leftmargini}{\saveleftmargini}
-	\vfill
+	\hskip.5\linewidth\emph{Rúmí}
+	% \vfill
 }
 
 
@@ -323,7 +315,6 @@
 	\clearpage
 	\subsection{\textsc{Brzda}}
 		\textsc{Brzda} \emph{je cvičení všímavosti „za pochodu“, které můžete použít kdekoliv a kdykoliv, protože je krátké, jednoduché a přizpůsobivé.} Můžete ho udělat za pár sekund i mu dát několik minut. Lze ho použít ve stresující situaci, když jste rozčilení či zakoušíte nutkání či vnitřní impulsy k jednání, kterému se chcete vyhnout. Je užitečné, i když jde všechno hladce, cítíte se dobře, či kdykoliv chcete být duchem „více tady“ k ocenění odehrávající se přítomnosti. Může vám pomoci k vyskočení z reaktivního autopilota a být si víc vědomý v tom, jak v nastalé situaci budete jednat.
-
 
 		\begin{itemize}
 		\itemStop{B}{Brzdi.} Šlápněte na brzdu a zastavte se, abyste toto cvičení mohli udělat. Je to první krok, kterým vystoupíte z autopilota.
@@ -334,71 +325,43 @@
 		\end{itemize}
 	}
 
-
 	\def\pagePracticeLog{
-		\par\vfill\pagebreak % this will acutally flush the previous page (unlike clearpage) and \newgeometry won't affect the previous page
-		\cleartoleftpage
-		\newgeometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
-		\thispagestyle{empty}
+		%\par\vfill\pagebreak % this will acutally flush the previous page (unlike clearpage) and \newgeometry won't affect the previous page
+		%\newgeometry{right=1cm,bottom=1cm} % top=1cm,left=1cm
+		\practiceSheetTitle{Záznam cvičení}
+		%\enlargethispage{5cm}
 		\bgroup
-		\subsection{Záznam cvičení \normalPencilLeftDown}
-			\ifplastex
-				\def\myStrut{...}
-				\begin{tabular}{l|l|l|l}
-					% PASTED TWICE
-					{datum \\ den } & pravidelné cvičení & cvičení za pochodu & { poznámky \\ postřehy  } \\
-					& Vyhraďte si čas na nahrávku & {
-						\textbf{všímavé zastavení}: náhodná chvíle k napojení na sebe \\
-						\textbf{všímavé zvládání obtíží}: \textsc{Brzda} v náročné situaci \\
-						\textbf{všímavé činnosti}: jídlo, chůze, domácí práce, pohyb venku } & \\
-					& {Co jsem cvičil? \\  Jak dlouho?} & {Co jsem dělal? \\ Kolikrát? } & \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-				\end{tabular}
-			\else
-				\def\myStrut{\rule{0pt}{\dimexpr(\pagewidth-8em-2cm-6em-3pt)/7}} % {.07\textheight}}
-				\footnotesize
-				\begin{adjustbox}{angle=90}
-				\begin{tblr}{
-					width=.92\textheight,
-					colspec={X[l,1.3]|X[l,4]|X[l,4]|X[l,2]},
-					%row{2}={font=\tiny}
-				}
-					% PASTED TWICE
-					%{datum \\ den } & pravidelné cvičení & cvičení za pochodu & { poznámky \\ postřehy  } \\
-					%& Vyhraďte si čas na nahrávku & {
-					%	\textbf{všímavé zastavení}: náhodná chvíle k napojení na sebe \\
-					%	\textbf{všímavé zvládání obtíží}: \textsc{Brzda} v náročné situaci \\
-					%	\textbf{všímavé činnosti}: jídlo, chůze, domácí práce, pohyb venku } & \\
-					%& {Co jsem cvičil? \\  Jak dlouho?} & {Co jsem dělal? \\ Kolikrát? } & \\
-					{datum \\ den } & {
-						\textbf{pravidelné cvičení} \\
-						{\tiny čas vyhrazený na nahrávku} \\
-						Co jsem cvičil? Jak dlouho?
-					} & {
-						\textbf{cvičení za pochodu}  \\
-						\textbf{okamžiky}: náhodné napojení na sebe \\
-						\textbf{obtíže}: \textsc{Brzda} v náročné situaci \\
-						\textbf{činnosti}: jídlo, chůze, domácí práce, pohyb venku \\
-						Co jsem dělal? Kolikrát?
-					} & { poznámky \\ postřehy  } \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-					\hline \myStrut & \myStrut & \myStrut & \myStrut \\
-				\end{tblr}
-				\end{adjustbox}
-			\fi
+			\def\myStrut{\rule{0pt}{\dimexpr(\pagewidth+5mm-8em-2cm-6em-3pt)/7}} % {.07\textheight}}
+			\footnotesize
+			%\noindent\kern-5mm
+			\begin{adjustbox}{angle=90,Trim={10mm 50mm 0mm 5mm}}
+			\begin{tblr}{
+				width=\dimexpr\textheight+18mm\relax,
+				colspec={X[l,1.3]|X[l,4]|X[l,4]|X[l,2]},
+				%row{2}={font=\tiny}
+			}
+				{datum \\ den } & {
+					\textbf{pravidelné cvičení} \\
+					{\tiny čas vyhrazený na nahrávku} \\
+					Co jsem cvičil? Jak dlouho?
+				} & {
+					\textbf{cvičení za pochodu}  \\
+					\textbf{okamžiky}: náhodné napojení na sebe \\
+					\textbf{obtíže}: \textsc{Brzda} v náročné situaci \\
+					\textbf{činnosti}: jídlo, chůze, domácí práce, pohyb venku \\
+					Co jsem dělal? Kolikrát?
+				} & { poznámky \\ postřehy  } \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+				\hline \myStrut & \myStrut & \myStrut & \myStrut \\
+			\end{tblr}
+			\end{adjustbox}
 		\egroup
-		\restoregeometry
+		% \restoregeometry
 	}
 
 
