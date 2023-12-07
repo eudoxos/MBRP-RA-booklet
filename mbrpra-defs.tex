@@ -89,13 +89,13 @@
 	title1/.initial=\undefined,
 	title2/.initial=\undefined,
 	autopilot/.store in=\mbrpAutopilot,
-	brzda B/.initial={Zastavte se a vyskočte z autopilota.},
-	brzda R/.store in=\mbrpBrzdaR,
-	brzda R/.initial=\undefined,
-	brzda Z/.initial={Několikrát se pomalu a pozorně nadýchěte a vydýchněte. Pozornost zaměřte na dech.},
-	brzda D/.initial={Rozšiřte znovu svou pozornost na to, jak se cítíte. Nakolik to jde, zkuste to udělat s postojem otevřenosti a přijetí.},
-	brzda A/.store in=\mbrpBrzdaA,
-	brzda A/.initial=\undefined,
+	sober S/.initial={Zastavte se a vyskočte z autopilota.},
+	sober O/.store in=\mbrpBrzdaR,
+	sober O/.initial=\undefined,
+	sober B/.initial={Několikrát se pomalu a pozorně nadýchěte a vydýchněte. Pozornost zaměřte na dech.},
+	sober E/.initial={Rozšiřte znovu svou pozornost na to, jak se cítíte. Nakolik to jde, zkuste to udělat s postojem otevřenosti a přijetí.},
+	sober R/.store in=\mbrpBrzdaA,
+	sober R/.initial=\undefined,
 	%
 	title/.initial=\undefined,
 	title/.store in=\mbrpTitle,
@@ -206,10 +206,10 @@
 	}
 
 
-	\node(b1)[wider sober,wider right column=below top]{\soberName{Brzdi!} \pgfkeysvalueof{/mbrp/brzda B}};
+	\node(b1)[wider sober,wider right column=below top]{\soberName{Brzdi!} \pgfkeysvalueof{/mbrp/sober S}};
 	\node(b2)[wider sober,below=of b1]{\soberName{Roz-vhled!} Podívejte se bez posuzování na probíhající zkušenost: \begin{iitemize}\foreach\content in\mbrpBrzdaR{\item\content}\end{iitemize}};
-	\node(b3)[wider sober,below=of b2]{\soberName{Zakotvi se!} \pgfkeysvalueof{/mbrp/brzda Z}};
-	\node(b4)[wider sober,below=of b3]{\soberName{Doširoka se otevři!} \pgfkeysvalueof{/mbrp/brzda D}};
+	\node(b3)[wider sober,below=of b2]{\soberName{Zakotvi se!} \pgfkeysvalueof{/mbrp/sober B}};
+	\node(b4)[wider sober,below=of b3]{\soberName{Doširoka se otevři!} \pgfkeysvalueof{/mbrp/sober E}};
 	\node(b5)[wider sober,below=of b4]{\soberName{Akce!} Jednejte z porozumění situaci, které máte. \begin{iitemize}\foreach\content in\mbrpBrzdaA{\item\content}\end{iitemize}};
 	\begin{scope}
 		\draw[sober arrow] (top) -- (b1);
