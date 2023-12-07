@@ -1,0 +1,37 @@
+\appendix
+\cleardoublepage
+
+
+\def\practiceSheetTitle#1{\clearpage\fancyhead[L]{\large\textbf{#1 \normalPencilLeftDown}}}
+\pagestyle{practice-sheet}
+\pagePracticeLog
+%% 1
+\practiceSheetTitle{\circledI{} \textsc{Brzda} s pocitem}
+\pageBRZDAown{Popište situaci, která vyvolá automatickou reakci.}{Situace}
+% Najděte ještě jeden příklad. Popište jinou situaci, která vyvolá automatickou reakci.
+%% 4
+\practiceSheetTitle{\circledIV{} \textsc{Brzda} na spouštěč}
+\pageBRZDAown{Zamyslete se nad \emph{spouštěčem}, který přináší nutkání či bažení po alkoholu či drogách.}{{\Large\textup{\lightning}} Primární spouštěč}
+% Najděte ještě jeden příklad \emph{spouštěče}, který přináší nutkání či bažení po alkoholu či drogách.
+%% 7
+% \pageBRZDAown{\textsc{Brzda} na spouštěč: vlastní}{} Primární spouštěč}
+% \clearpage
+% \subsection*{\circled{7} Mé osobní hodnoty \normalPencilLeftDown}
+\practiceSheetTitle{\circledVII{} Mé osobní hodnoty}
+	Co je pro vás, úplně uvnitř a niterně, důležité? Na čem byste chtěli, aby váš život stál? Do políček „pavouka“ vepište své hodnoty. Nemusíte využít všechna políčka, a můžete si přikreslit další dle potřeby.
+
+	% Osobní hodnoty jsou principy a přesvědčení o tom, jak chceme žít a jací chceme být. Hodnoty jsou směry, ve kterých se pohybujeme. Například, pokud chcete být milujícím, laskavým a podpůrným partnerem, to je hodnota — pokračující proces.
+	% \emph{Jako osnovu pro reflexi o svých hodnotách můžete využít text.}
+
+		\begin{center}
+		\begin{tikzpicture}
+			% https://tex.stackexchange.com/a/145381/6758
+			\draw (0:0) node[circle,draw,inner sep=.05\linewidth](self){\textbf{já}};
+			\foreach \a in {1,2,...,6}{
+				\draw (13+\a*360/6: .35\linewidth) node[circle,draw,inner sep=.09\linewidth](circ){ };
+				\draw (self)--(circ);
+			}
+		\end{tikzpicture}
+		\end{center}
+
+

@@ -49,6 +49,9 @@
 % \usepackage{mdwlist}
 %\usepackage[colorlinks=false,allbordercolors=white]{hyperref}
 \usepackage{hyperref}
+% for grayscale print
+%\hypersetup{hidelinks}
+
 \usepackage{multicol}
 % allow linebreak in description list title
 
@@ -63,7 +66,8 @@
 % \def\blank#1{{\setbox0\hbox{#1}\hbox to\wd0{\dotfill}}}
 
 \usepackage{titlesec}
-\titleformat{\section}[frame]{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace}{1em}{\Large\scshape\bfseries}
+% \titleformat{\section}[frame]{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace}{1em}{\Large\scshape\bfseries}
+
 %\titleformat{\section}{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace\\}{0em}{\Large\scshape\bfseries}
 
 \clubpenalty=10000
@@ -179,20 +183,23 @@
 \begin{document}
 	%\maketitle
 	\thispagestyle{empty}
-	\section*{brzdíme.cz: doprovodné texty}
+	\section*{Brzdíme.cz: doprovodné texty}
 
+	\vskip-3mm
 	Následující strany obsahují doprovodné texty k tematickým skupinovým setkáním kurzu \emph{Prevence relapsu všímavostí} při průběžné účasti. Dalšími součástmi jsou pracovní listy, setkávání skupiny a vaše vlastní cvičení s nahrávkami — vše potřebné najdete na \href{https://brzdime.cz}{brzdime.cz}.
 
-	Pokud s programem začínáte, přečtěte si pro základní orientaci \href{https://brzdime.cz/start}{„Startovací balíček“}.\footnote{\href{https://brzdime.cz/start}{brzdime.cz/start}}
+	Pokud s programem začínáte, přečtěte si pro prvotní orientaci stránku \href{https://brzdime.cz/start}{\emph{Startovací balíček}}.\footnote{\href{https://brzdime.cz/start}{brzdime.cz/start}}
 
 	Obsah této brožurky je volně dostupný pro nekomerční použití\footnote{Pod licencí \doclicenseNameRef.} — stejně jako původní manuál protokolu \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)} od C. Roose,\footnote{C. Roos \& al: \emph{A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)} — fulltext \href{https://brzdime.cz/doc/MBRP-RA-clinicians-guide.pdf}{brzdime.cz/doc/MBRP-RA-clinicians-guide.pdf}.} ze kterého jsme přeložili, s malými adaptacemi, strany 105–160.\footnote{Několik stránek jsme přidali z jiných zdrojů:
 		\nameref{slovni-zasoba-pocity} (str.~\pageref{slovni-zasoba-pocity}),
 		\nameref{slovni-zasoba-potreby} (str.~\pageref{slovni-zasoba-potreby}).
 	}
 
-	Činnost projektu \textbf{brzdíme.cz} můžete podpořit darem přes platformu Donio na \href{https://donio.cz/brzdime-cz}{donio.cz/brzdime-cz}.
+	Roosův manuál byl psán se zřetelem na látkové závislosti. Pokud se vás týká spíše závislostní chování či vnitřní reaktivita, dosaďte si v textech namísto užití látky příslušnou vnější či vnitřní reakci.
 
-	Přejeme vám zdravé tělo a čistou mysl.
+	Projekt \textbf{brzdíme.cz} můžete podpořit darem přes Donio.\footnote{\href{https://donio.cz/brzdime-cz}{donio.cz/brzdime-cz}}
+
+	Ze srdce vám přejeme, aby cvičení přineslo užitek vám a nepřímo i všem ostatním.
 
 	\hfill Václav Šmilauer\linebreak\null\hfill a kolektiv\linebreak\null\hfill\lessstressLogo
 
@@ -201,5 +208,7 @@
 	\tableofcontents
 	\thispagestyle{empty}
 
-	\include{mbrpra-content}
+	% \include{mbrpra-start}
+	\include{mbrpra-sessions}
+	\include{mbrpra-sheets}
 \end{document}

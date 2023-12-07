@@ -1,5 +1,17 @@
 SPLT=brzdime-sezeni
 COMBASE=brzdime
+SHEET1=38 38 39 39 40 37
+SHEETLOG6=37 37 37 37 37 37
+
+.PHONY: print
+
+#exex1:
+#	pdftk mbrpra.pdf cat 38 38 38 38 output $(SPLT)-1-exex.pdf
+#brzda:
+#	pdftk mbrpra.pdf cat 5 5 output $(SPLT)-1-brzda.pdf
+
+neo2023:
+	pdfjam mbrpra.pdf 12,35 --nup 2x1 --landscape --outfile 2023-slovni-zasoba-pocity-potreby.pdf
 
 default:
 	lualatex mbrpra.tex
@@ -18,6 +30,16 @@ split: default
 	pdftk mbrpra.pdf cat 38 output $(SPLT)-1-ex.pdf
 	pdftk mbrpra.pdf cat 39 output $(SPLT)-4-ex.pdf
 	pdftk mbrpra.pdf cat 40 output $(SPLT)-7-ex.pdf
+print:
+	#lualatex mbrpra.tex && lualatex mbrpra.tex && lualatex mbrpra.tex
+	#pdftk mbrpra.pdf cat 38 38 output print/brzdime-letak-1-100ks.pdf
+	#pdftk mbrpra.pdf cat 39 39 output print/brzdime-letak-2-100ks.pdf
+	#pdftk mbrpra.pdf cat 40 37 output print/brzdime-letak-3-100ks.pdf
+	#pdftk mbrpra.pdf cat 37 37 output print/brzdime-letak-4-300ks.pdf
+	gs -sOutputFile=mbrpra-grey.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibiltyLevel=1.4 -dNOPAUSE -dBATCH mbrpra.pdf
+	pdftk mbrpra-grey.pdf cat 1-36 output print/brzdime-booklet-vnitrek.pdf
+gray:
+	gs -sOutputFile=print/brzdime-booklet-vnitrek.gray.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibiltyLevel=1.4 -dNOPAUSE -dBATCH print/brzdime-booklet-vnitrek.pdf
 	
 book:
 	pdfbook2 --paper a4paper --no-crop --short-edge -i0 -i0 -t0 -b0 mbrpra.pdf
