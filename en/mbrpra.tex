@@ -41,7 +41,9 @@
 
 \usepackage[normalem]{ulem}
 \setlength{\ULdepth}{.7mm}
-\def\lessstressLogo{\href{https://PracticeMBRP.com}{PracticeMBRP.com}}
+
+\def\lessstressLogo{\href{https://lessstress.cz}{\textsf{\textbf{le\uline{\uline{\uline{s}s}s}tre\uline{\uline{s}s}.cz\uline{\hphantom{s}}}}}}
+
 % \textsf{\textbf{le\uline{\uline{\uline{s}s}s}tre\uline{\uline{s}s}.cz\uline{\hphantom{s}}}}}}
 
 \usepackage[norule,hang,stable]{footmisc}
@@ -84,7 +86,7 @@
 	\fancyhf{}
 	\fancyfoot[RO]{Mindfulness-Based Relapse Prevention --- MBRP}
 	\fancyfoot[LO]{2023}
-	\fancyfoot[LE]{\href{https://PracticeMBRP.com}{\textbf{PracticeMBRP.com}}} %  (překlad \lessstressLogo{})}
+	\fancyfoot[LE]{\href{https://PracticeMBRP.com}{\textbf{PracticeMBRP.com}}}
 	%\fancyfoot[RE]{\href{https://practicembrp.com}{PracticeMBRP.com}}
 	\fancyfoot[RE]{\doclicenseIconRef}
 	\fancyhead[LE,RO]{\thepage}
@@ -179,7 +181,7 @@
 
 \title{Mindfulness-Based Relapse Prevention (Rolling Admission)}
 \date{2023}
-\author{Corey Roos \&al \lessstressLogo}
+\author{Corey Roos \&al \href{https://PracticeMBRP.com}{PracticeMBRP.com}}
 
 \begin{document}
 	%\maketitle
@@ -188,25 +190,24 @@
 
 	\vskip-3mm
 
-	Blah...
+	These pages are re-formatted content from \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}\footnote{C. Roos \& al: \emph{A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}, licensed under \doclicenseNameRef.}, pages 105–160.
 
-%	Následující strany obsahují doprovodné texty k tematickým skupinovým setkáním kurzu \emph{Prevence relapsu všímavostí} při průběžné účasti. Dalšími součástmi jsou pracovní listy, setkávání skupiny a vaše vlastní cvičení s nahrávkami — vše potřebné najdete na \href{https://brzdime.cz}{brzdime.cz}.
-%
-%	Pokud s programem začínáte, přečtěte si pro prvotní orientaci stránku \href{https://brzdime.cz/start}{\emph{Startovací balíček}}.\footnote{\href{https://brzdime.cz/start}{brzdime.cz/start}}
-%
-%	Obsah této brožurky je volně dostupný pro nekomerční použití\footnote{Pod licencí \doclicenseNameRef.} — stejně jako původní manuál protokolu \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)} od C. Roose,\footnote{C. Roos \& al: \emph{A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)} — fulltext \href{https://brzdime.cz/doc/MBRP-RA-clinicians-guide.pdf}{brzdime.cz/doc/MBRP-RA-clinicians-guide.pdf}.} ze kterého jsme přeložili, s malými adaptacemi, strany 105–160.\footnote{Několik stránek jsme přidali z jiných zdrojů:
-%		\nameref{slovni-zasoba-pocity} (str.~\pageref{slovni-zasoba-pocity}),
-%		\nameref{slovni-zasoba-potreby} (str.~\pageref{slovni-zasoba-potreby}).
-%	}
-%
-%	Roosův manuál byl psán se zřetelem na látkové závislosti. Pokud se vás týká spíše závislostní chování či vnitřní reaktivita, dosaďte si v textech namísto užití látky příslušnou vnější či vnitřní reakci.
-%
-%	Projekt \textbf{brzdíme.cz} můžete podpořit darem.\footnote{\href{https://brzdime.cz/dar}{brzdime.cz/dar}}
-%
-%	Ze srdce vám přejeme, aby cvičení přineslo užitek vám a nepřímo i všem ostatním.
-%
-%	\hfill Václav Šmilauer\linebreak\null\hfill a kolektiv\linebreak\null\hfill\lessstressLogo
-%
+	A few adaptations were done:
+	\begin{itemize*}
+		\item Separation of reading content and handouts:
+			\begin{itemize*}
+				\item all sessions are meant to be printed as a single booklet, and given to participants when they first come;
+				\item handouts on the last few pages (marked with the \normalPencilLeftDown{} symbol) are to be be given out as separate sheets for writing into.
+			\end{itemize*}
+		\item Addition of the sections \emph{Basic Feelings/Needs We All Have} (pp.~\pageref{basic-feelings-we-all-have}, \pageref{basic-needs-we-all-have}) from Non-Violent Communication website.
+		\item Wording was adjusted slightly in Session 7 where the values diagram handout was split off the values text.
+		\item The \emph{Starter Kit} is not included; for the Czech version, it was put on the website instead (\href{https://brzdime.cz/start/}{brzdime.cz/start}): the regular meetings take place online, and the first contact is always through the website.
+	\end{itemize*}
+
+	The formatting was originally created for the Czech translation (\href{https://brzdime.cz}{brzdime.cz}). English text was now put back into the \LaTeX{} skeleton. The hope is that other translations may use the structure to avoid the tedious formatting work, producing a localized and good-looking booklet with relative ease. Ask your local \LaTeX{} expert for help.
+
+	\hfill Václav Šmilauer\linebreak\null\hfill\linebreak\null\hfill\lessstressLogo
+
 	\setlength{\cftbeforesecskip}{1ex}
 	\clearpage
 	\tableofcontents

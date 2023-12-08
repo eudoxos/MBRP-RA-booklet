@@ -2,16 +2,16 @@
 \usepackage[dvipsnames]{xcolor}
 
 % HTML from website SASS
-\definecolor{brzdimeBlue}{HTML}{336699}
-\definecolor{brzdimeOrange}{HTML}{ff9300}
-\colorlet{brzdimeBlueBg}{brzdimeBlue!20}
-\colorlet{brzdimeOrangeBg}{brzdimeOrange!20}
+\definecolor{mbrpBlue}{HTML}{336699}
+\definecolor{mbrpOrange}{HTML}{ff9300}
+\colorlet{mbrpBlueBg}{mbrpBlue!20}
+\colorlet{mbrpOrangeBg}{mbrpOrange!20}
 % semantic foreground
-\colorlet{brzdimeAuto}{brzdimeBlue}
-\colorlet{brzdimeSober}{brzdimeOrange}
+\colorlet{mbrpAuto}{mbrpBlue}
+\colorlet{mbrpSober}{mbrpOrange}
 % semantic background
-\colorlet{brzdimeAutoBg}{brzdimeAuto!20}
-\colorlet{brzdimeSoberBg}{brzdimeSober!20}
+\colorlet{mbrpAutoBg}{mbrpAuto!20}
+\colorlet{mbrpSoberBg}{mbrpSober!20}
 
 
 \newcommand*\cleartoleftpage{%
@@ -66,20 +66,20 @@
 	action/.style={solid,sharp corners},
 	% FIXME: why not 2\pgfkeysvalueof ??
 	wider sober/.style={
-		fill=brzdimeSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners,
+		fill=mbrpSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners,
 		text width=.65*(\linewidth-1em)-1*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth
 	},
-	sober/.style={fill=brzdimeSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners},
-	mindful/.style={fill=brzdimeSoberBg,align=center,dotted},
+	sober/.style={fill=mbrpSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners},
+	mindful/.style={fill=mbrpSoberBg,align=center,dotted},
 	narrower autopilot/.style={
-		fill=brzdimeAutoBg,
+		fill=mbrpAutoBg,
 		text width=.35*(\linewidth-1em)-1*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth
 	},
-	autopilot/.style={fill=brzdimeAutoBg,dashed},
-	sober arrow/.style={outlined arrow={.5mm colored by black and brzdimeSoberBg}},
-	wide sober arrow/.style={outlined arrow={1mm colored by black and brzdimeSoberBg}},
-	autopilot arrow/.style={outlined arrow={.5mm colored by black and brzdimeAutoBg}},
-	wide autopilot arrow/.style={outlined arrow={1mm colored by black and brzdimeAutoBg}},
+	autopilot/.style={fill=mbrpAutoBg,dashed},
+	sober arrow/.style={outlined arrow={.5mm colored by black and mbrpSoberBg}},
+	wide sober arrow/.style={outlined arrow={1mm colored by black and mbrpSoberBg}},
+	autopilot arrow/.style={outlined arrow={.5mm colored by black and mbrpAutoBg}},
+	wide autopilot arrow/.style={outlined arrow={1mm colored by black and mbrpAutoBg}},
 }
 
 \def\soberName#1{\textbf{#1} \nodepart{two} }
@@ -127,7 +127,7 @@
 			skin=bicolor,
 			boxrule=.4pt,
 			coltitle=black,
-			colbacktitle=brzdimeBlueBg,
+			colbacktitle=mbrpBlueBg,
 			colback=white,
 			parbox=false,
 			adjusted title={\textbf{\Large\strut Session \arabic{section}}},
@@ -152,7 +152,7 @@
 			title={\strut Formal Practice},
 			parbox=false,
 			coltitle=black,
-			colbacktitle=brzdimeOrangeBg,
+			colbacktitle=mbrpOrangeBg,
 			colback=white,
 			fonttitle=\bfseries\large,
 			% subtitle style={before={\vspace*{-1ex}}}
@@ -265,7 +265,7 @@
 	%\end{adjustbox}
 }
 
-\def\pageBRZDAown#1#2{
+\def\pageSOBERown#1#2{
 	% \clearpage\subsection*{#1 \normalPencilLeftDown}
 	\vskip-1em #1{}
 		How can you use the \textsc{Sober} space in the situation? For each step of the \text{Sober} write out what you would do/what you would notice in your own words. \par
@@ -311,7 +311,7 @@
 }
 
 
-\def\pageBRZDA{
+\def\pageSOBER{
 	\subsection{\textsc{Sober} Space}
 		The \textsc{Sober} Space is an \emph{on-the-go} mindfulness practice that you can do anywhere, anytime because it is brief, simple, and flexible.
 
