@@ -1,0 +1,35 @@
+\appendix
+\cleardoublepage
+
+
+\def\practiceSheetTitle#1{\clearpage\fancyhead[L]{\large\textbf{#1 \normalPencilLeftDown}}}
+\pagestyle{practice-sheet}
+\pagePracticeLog
+%% 1
+\practiceSheetTitle{\circledI{} \textsc{Sober} Space for feelings}
+\pageBRZDAown{Write your own example. Think about a type of situation that brings about an automatic reaction.}{Situation}
+% Najděte ještě jeden příklad. Popište jinou situaci, která vyvolá automatickou reakci.
+%% 4
+\practiceSheetTitle{\circledIV{} \textsc{Sober} Space for triggers}
+\pageBRZDAown{Think about a \emph{trigger} that brings about an urge or craving to use alcohol or other drugs.}{{\Large\textup{\lightning}} Primary trigger}
+% Najděte ještě jeden příklad \emph{spouštěče}, který přináší nutkání či bažení po alkoholu či drogách.
+%% 7
+% \pageBRZDAown{\textsc{Brzda} na spouštěč: vlastní}{} Primární spouštěč}
+% \clearpage
+% \subsection*{\circled{7} Mé osobní hodnoty \normalPencilLeftDown}
+
+		% Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions on the next page. 
+\practiceSheetTitle{\circledVII{} My Personal Values}
+	Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions in Session 7.%on the next page.
+		\begin{center}
+		\begin{tikzpicture}
+			% https://tex.stackexchange.com/a/145381/6758
+			\draw (0:0) node[circle,draw,inner sep=.05\linewidth](self){\textbf{self}};
+			\foreach \a in {1,2,...,6}{
+				\draw (13+\a*360/6: .35\linewidth) node[circle,draw,inner sep=.09\linewidth](circ){ };
+				\draw (self)--(circ);
+			}
+		\end{tikzpicture}
+		\end{center}
+
+
