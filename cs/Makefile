@@ -10,12 +10,13 @@ SHEETLOG6=37 37 37 37 37 37
 #brzda:
 #	pdftk mbrpra.pdf cat 5 5 output $(SPLT)-1-brzda.pdf
 
-neo2023:
-	pdfjam mbrpra.pdf 12,35 --nup 2x1 --landscape --outfile 2023-slovni-zasoba-pocity-potreby.pdf
-
 default:
 	lualatex mbrpra.tex
 	evince mbrpra.pdf &
+
+neo2023:
+	pdfjam mbrpra.pdf 12,35 --nup 2x1 --landscape --outfile 2023-slovni-zasoba-pocity-potreby.pdf
+
 split: default
 	pdftk mbrpra.pdf cat 3-7 output $(SPLT)-1.pdf
 	pdftk mbrpra.pdf cat 9-12 output $(SPLT)-2.pdf
