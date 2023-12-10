@@ -64,7 +64,7 @@
 	% custom styles
 	thought/.style={dashed,rounded corners,font=\itshape},
 	action/.style={solid,sharp corners},
-	% FIXME: why not 2\pgfkeysvalueof ??
+	% FIXME: why not 2\pgfkeysvalueof{/pgf/inner xsep} ??
 	wider sober/.style={
 		fill=mbrpSoberBg,align=justify,dotted,rectangle split,rectangle split parts=2,sharp corners,
 		text width=.65*(\linewidth-1em)-1*\pgfkeysvalueof{/pgf/inner xsep}-2*\pgflinewidth
