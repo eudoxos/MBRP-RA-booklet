@@ -9,7 +9,7 @@ A few adaptations were done:
 
 - Separation of reading content and handouts:
 	- all sessions are meant to be printed as a single booklet, and given to participants when they first come;
-	- handouts on the last few pages (marked with the \normalPencilLeftDown{} symbol) are to be be given out as separate sheets for writing into.
+	- handouts on the last few pages (marked with the 🖉 symbol) are to be be given out as separate sheets for writing into.
 - Addition of the sections *Basic Feelings/Needs We All Have* from [Non-Violent Communication website](https://www.nonviolentcommunication.com/learn-nonviolent-communication/feelings/)
 - Wording was adjusted slightly in Session 7 where the values diagram handout was split off the values text.
 - The *Starter Kit* is not included; for the Czech version, it was put on https://brzdime.cz/start; the regular meetings take place online, and the first contact is always through the website.
