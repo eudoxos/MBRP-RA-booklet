@@ -1,6 +1,9 @@
 # MBRP-RA booklet
 
-This repository contains re-formatted content from C. Roos & al: *A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)*, pages 105–160.
+This repository contains re-formatted content from C. Roos & al: *A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)* (pages 105–160) and translations:
+
+- [English PDF](https://github.com/eudoxos/MBRP-RA-booklet/blob/pdf/mmbrpra-en.pdf)
+- [Czech PDF](https://github.com/eudoxos/MBRP-RA-booklet/blob/pdf/mmbrpra-cs.pdf)
 
 A few adaptations were done:
 
