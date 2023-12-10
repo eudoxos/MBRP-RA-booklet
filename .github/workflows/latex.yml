@@ -15,8 +15,8 @@ jobs:
       - name: LaTeX 🔧
         run: |
           mkdir out
-          pushd cs; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-cs.pdf; popd
-          pushd en; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-en.pdf; popd
+          pushd cs; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mbrpra-cs.pdf; popd
+          pushd en; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mbrpra-en.pdf; popd
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
