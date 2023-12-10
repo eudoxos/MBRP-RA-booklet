@@ -13,9 +13,10 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-luatex latexmk fonts-texgyre fonts-lmodern gsfonts
       - name: LaTeX 🔧
-        run: mkdir out
-        run: cd cs; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-cs.pdf
-        run: cd en; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-en.pdf
+        run: |
+          mkdir out
+          cd cs; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-cs.pdf
+          cd en; latexmk mbrpra.tex; cp mbrpra.pdf ../out/mmbrpra-en.pdf
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
