@@ -73,7 +73,7 @@ msgid "Respond with awareness."
 msgstr "Jednejte z porozumění situaci, které máte."
 
 #: mbrpra-defs.tex:273
-msgid "How can you use the \\textsc{Sober} space in the situation? For each step of the \\text{Sober} write out what you would do/what you would notice in your own words."
+msgid "How can you use the \\textsc{Sober} space in the situation? For each step of the \\textsc{Sober} write out what you would do/what you would notice in your own words."
 msgstr "Co se pak stane, když fungujete na autopilota? Jak byste v takové situaci mohli použít \\textsc{Brzd}u? Do každého kroku \\textsc{Brzd}y vlastními slovy vepište, co byste udělali či vnímali."
 
 #: mbrpra-defs.tex:282
@@ -337,11 +337,11 @@ msgid ""
 "\t\t\\item Self-compassion means not judging ourselves when we are upset or having a hard time. We can pause and tell ourselves \\toSelf{It’s okay to feel upset. I am doing the best I can.}\n"
 "\t\t\\item All human beings struggle. No one is perfect. When we practice self-compassion, we can tell ourselves: \\toSelf{I’m not alone feeling this way. We all go through hard times.}\n"
 "\t"
-msgstr "\\item Sebesoucit (či laskavost k sobě) znamená se k sobě obracet laskavě, jemně a s porozuměním sobě. Sebesoucit nám pomáhá zvládat nezdary či uklouznutí v procesu uzdravování.\\item Sebesoucit znamená, že se neodsuzujeme, když jsme podráždění či v náročné situaci. Dokážeme se zastavit a říci si: \\toSelf{Podrážděnost je v pořádku. Dělám v této situaci nejvíc, co dokážu.}\\item Všichni lidé zažívají těžké chvilky. Nikdo není dokonalý. Když cvičíme sebesoucit, dokážme si říci: \toSelf{Nejsem jediný, kdo se takto cítí. Všichni to máme těžké.}"
+msgstr "\\item Sebesoucit (či laskavost k sobě) znamená se k sobě obracet laskavě, jemně a s porozuměním sobě. Sebesoucit nám pomáhá zvládat nezdary či uklouznutí v procesu uzdravování.\\item Sebesoucit znamená, že se neodsuzujeme, když jsme podráždění či v náročné situaci. Dokážeme se zastavit a říci si: \\toSelf{Podrážděnost je v pořádku. Dělám v této situaci nejvíc, co dokážu.}\\item Všichni lidé zažívají těžké chvilky. Nikdo není dokonalý. Když cvičíme sebesoucit, dokážme si říci: \\toSelf{Nejsem jediný, kdo se takto cítí. Všichni to máme těžké.}"
 
 #: mbrpra-sessions.tex:89
 msgid "\\item Mindful Check-In; \\item Kindness Meditation."
-msgstr "\\item napojení na sebe; \\item \\textsc{Brzda}."
+msgstr "\\item napojení na sebe; \\item meditace laskavosti."
 
 #: mbrpra-sessions.tex:91
 msgid "Try doing the \\textsc{Sober} Space when challenges come up. Practice being kind and compassionate to yourself."
@@ -656,7 +656,7 @@ msgstr "mé osobní hodnoty;"
 
 #: mbrpra-sessions.tex:276 mbrpra-sheets.tex:23
 msgid "My Personal Values"
-msgstr "Mé osobní hodnoty"
+msgstr "Osobní hodnoty"
 
 #: mbrpra-sessions.tex:278
 msgid "Deep down inside, what is important to you? What do you want your life to stand for?"
@@ -696,7 +696,7 @@ msgstr "\\valItem{Vzdělávání, osobní růst a rozvoj.}  Čeho si na učení,
 
 #: mbrpra-sessions.tex:296
 msgid "\\valItem{Recreation/fun/leisure.} What sorts of hobbies, sports, or leisure activities do you enjoy? How would you like to relax/unwind? How would you like to have fun? What sorts of activities would you like to do?"
-msgstr "\\valItem{Rekreace, zábava, oddych.}  Které zájmy, sporty či oddechové aktivity máte rád(a)? Jak byste rád(a) relaxoval(a) a odpočíval(a)? Jakému typu zábavy byste se rád(a) oddával(a)? Kterým aktivitám byste se rád(a) věnoval(a)"
+msgstr "\\valItem{Rekreace, zábava, oddych.}  Které zájmy, sporty či oddechové aktivity máte rád(a)? Jak byste rád(a) relaxoval(a) a odpočíval(a)? Jakému typu zábavy byste se rád(a) oddával(a)? Kterým aktivitám byste se rád(a) věnoval(a)?"
 
 #: mbrpra-sessions.tex:297
 msgid "\\valItem{Spirituality.} Spirituality means different things to everyone. It may be connecting with nature, or it may be participation in an organized religious group. What is important to you in this area of life?"
@@ -725,7 +725,7 @@ msgstr "\\textsc{Brzd}u můžete použít jako nástroj, který vám pomůže se
 #: mbrpra-sessions.tex:311 mbrpra-defs.tex:209 mbrpra-defs.tex:251
 #: mbrpra-defs.tex:321
 msgid "Stop."
-msgstr "Brzdi!"
+msgstr "Brzdi."
 
 #: mbrpra-sessions.tex:311 mbrpra-defs.tex:321
 msgid "S"
@@ -734,7 +734,7 @@ msgstr "B"
 #: mbrpra-sessions.tex:312 mbrpra-defs.tex:210 mbrpra-defs.tex:252
 #: mbrpra-defs.tex:322
 msgid "Observe."
-msgstr "Roz-vhled!"
+msgstr "Roz-vhled."
 
 #: mbrpra-sessions.tex:312 mbrpra-defs.tex:322
 msgid "O"
@@ -747,7 +747,7 @@ msgstr "Úplně nejdřív šlápněte na brzdu. Je to první krok, kterým vysto
 #: mbrpra-sessions.tex:313 mbrpra-defs.tex:211 mbrpra-defs.tex:253
 #: mbrpra-defs.tex:323
 msgid "Breathe."
-msgstr "Zakotvi se!"
+msgstr "Zakotvi se."
 
 #: mbrpra-sessions.tex:313 mbrpra-defs.tex:323
 msgid "B"
@@ -760,7 +760,7 @@ msgstr "Rozhlédněte se ve své svou momentální zkušenosti, okolo sebe i v s
 #: mbrpra-sessions.tex:314 mbrpra-defs.tex:212 mbrpra-defs.tex:254
 #: mbrpra-defs.tex:324
 msgid "Expand."
-msgstr "Doširoka se otevři!"
+msgstr "Doširoka se otevři."
 
 #: mbrpra-sessions.tex:314 mbrpra-defs.tex:324
 msgid "E"
@@ -777,7 +777,7 @@ msgstr "Rozšiřte pozornost od dechu na tělo i na celou situaci. \\emph{Otevř
 #: mbrpra-sessions.tex:315 mbrpra-defs.tex:213 mbrpra-defs.tex:255
 #: mbrpra-defs.tex:325
 msgid "Respond."
-msgstr "Akce!"
+msgstr "Akce."
 
 #: mbrpra-sessions.tex:315 mbrpra-defs.tex:325
 msgid "R"
@@ -829,7 +829,7 @@ msgstr "Rozšiřte znovu svou pozornost na sebe i celou situaci. Pak pozornost r
 
 #: mbrpra-sessions.tex:337
 msgid "{Say to yourself: \\toSelf{Getting a job is important to me right now. I’ll just do the best I can.}},{Go to job interview.}"
-msgstr "{Řeknu si: \toSelf{Získat práci je teď pro mě důležité. Udělám to nejlepší, co svedu.}},{Jdu na pohovor.}"
+msgstr "{Řeknu si: \\toSelf{Získat práci je teď pro mě důležité. Udělám to nejlepší, co svedu.}},{Jdu na pohovor.}"
 
 #: mbrpra-sessions.tex:338
 msgid "\\textsc{Sober} Space for values: boredom"
