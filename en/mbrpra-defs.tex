@@ -226,8 +226,8 @@
 	%\begin{adjustbox}{width=\linewidth,height=.85\textheight,keepaspectratio}
 	\mbrpset{#1}
 	\def\miniStrut{\rule[-.4ex]{0pt}{0pt}}
-	\def\myslenkyPocityJednani{\leavevmode\lower.3ex\hbox{\vbox{\tiny\baselineskip=0pt\lineskip=-.3ex\hbox{thoughts}\hbox{feelings}\hbox{actions}}}}
-	\def\teloPocityMysl{\leavevmode\lower.3ex\hbox{\vbox{\tiny\baselineskip=0pt\lineskip=-.3ex\hbox{body\miniStrut}\hbox{feelings\miniStrut}\hbox{mind\miniStrut}}}}
+	\def\thoughtsFeelingsActions{\leavevmode\lower.3ex\hbox{\vbox{\tiny\baselineskip=0pt\lineskip=-.3ex\hbox{thoughts}\hbox{feelings}\hbox{actions}}}}
+	\def\bodyFeelingsMind{\leavevmode\lower.3ex\hbox{\vbox{\tiny\baselineskip=0pt\lineskip=-.3ex\hbox{body\miniStrut}\hbox{feelings\miniStrut}\hbox{mind\miniStrut}}}}
 	\begin{tikzpicture}[
 		every node/.style={
 			align=center,
@@ -243,15 +243,15 @@
 	\node(a0)[autopilot,draw=none,left column=below top]{$\downarrow${} \textsc{Autopilot} $\downarrow$};
 	\draw[autopilot arrow] (top)--(a0);
 	\foreach [var=\curr,remember=\curr as \prev (initially 0)] in {1,2,3,4,5} {
-		\node(a\curr) [autopilot,below=of a\prev]{{\LARGE \curr.} \myslenkyPocityJednani: \Blank{4}};
+		\node(a\curr) [autopilot,below=of a\prev]{{\LARGE \curr.} \thoughtsFeelingsActions: \Blank{4}};
 		\draw[autopilot arrow] (a\prev.south)--(a\curr.north);
 	}
 
 
 	\node(b1)[sober,right column=below top]{\soberName{Stop.} \Blank{2}};
-	\node(b2)[sober,below=of b1]{\soberName{Observe.} \teloPocityMysl: \Blank{4}};
+	\node(b2)[sober,below=of b1]{\soberName{Observe.} \bodyFeelingsMind: \Blank{4}};
 	\node(b3)[sober,below=of b2]{\soberName{Breathe.} \Blank{2}};
-	\node(b4)[sober,below=of b3]{\soberName{Expand.} \teloPocityMysl: \Blank{4}};
+	\node(b4)[sober,below=of b3]{\soberName{Expand.} \bodyFeelingsMind: \Blank{4}};
 	\node(b5)[sober,below=of b4]{\soberName{Respond.} \Blank{5}};
 
 	\begin{scope}
