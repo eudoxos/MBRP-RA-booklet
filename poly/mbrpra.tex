@@ -1,0 +1,223 @@
+% https://tex.stackexchange.com/questions/345898/lualatex-0-95-0-tl-2016-has-problem-with-crop-and-microtype-packages-being-tog#345906
+% because of the crop pkg
+\RequirePackage{luatex85}
+
+\documentclass[11pt,a5paper,twoside]{article}
+
+%\directlua{dofile("DetectUnderfull.lua")}
+
+% this is make gettext no-op, \csname ensures it does not get parsed by the extractor as a string to be translated
+\long\expandafter\def\csname gettext\endcsname#1{#1}
+\long\expandafter\def\csname pgettext\endcsname#1#2{#1}
+
+
+\input{mbrpra-defs}
+
+
+\showboxbreadth=50 
+\showboxdepth=50
+
+\usepackage{enumitem}
+\usepackage{euler}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX} % Mapping=tex-text}
+\setmainfont[
+	%BoldFont={CMU Serif Bold Extended Roman}
+	BoldFont={CMU Sans Serif Bold},
+	BoldFeatures={SmallCapsFont=CMU Serif Bold Extended Roman,SmallCapsFeatures={Letters=SmallCaps}},
+	%BoldFont={Iwona Heavy}
+]{CMU Concrete}
+\bibliographystyle{plain}
+\usepackage[left=2cm,right=1.5cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{\pgettext{polyglossia}{english}}
+\usepackage{booktabs}
+
+\setlist[description]{style=unboxed}
+\usepackage{luavlna}
+\usepackage{tabularray}
+\usepackage{adjustbox}
+\usepackage[tracking,expansion,protrusion]{microtype}
+\lefthyphenmin=2
+\righthyphenmin=2
+\usepackage{verse}
+
+\usepackage[normalem]{ulem}
+\setlength{\ULdepth}{.7mm}
+
+\def\lessstressLogo{\href{https://lessstress.cz}{\textsf{\textbf{le\uline{\uline{\uline{s}s}s}tre\uline{\uline{s}s}.cz\uline{\hphantom{s}}}}}}
+
+% \textsf{\textbf{le\uline{\uline{\uline{s}s}s}tre\uline{\uline{s}s}.cz\uline{\hphantom{s}}}}}}
+
+\usepackage[norule,hang,stable]{footmisc}
+\footnotemargin=1em
+
+% \usepackage{mdwlist}
+%\usepackage[colorlinks=false,allbordercolors=white]{hyperref}
+\usepackage{hyperref}
+% for grayscale print
+%\hypersetup{hidelinks}
+
+\usepackage{multicol}
+% allow linebreak in description list title
+
+% https://tex.stackexchange.com/a/481045/6758
+\usepackage{forloop}
+\newcounter{loopcntr}
+\newcommand{\rpt}[2][1]{\forloop{loopcntr}{0}{\value{loopcntr}<#1}{#2}}
+\def\myDottedLine{\noindent\vbox spread 1.5ex {}\null\xleaders\hbox to 1em {\hss {\small.} \hss}\hfill \null}%
+\def\Blank#1{%
+	\rpt[\numexpr#1-1\relax]{\myDottedLine\newline}\myDottedLine%
+}
+% \def\blank#1{{\setbox0\hbox{#1}\hbox to\wd0{\dotfill}}}
+
+\usepackage{titlesec}
+% \titleformat{\section}[frame]{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace}{1em}{\Large\scshape\bfseries}
+
+%\titleformat{\section}{\Large\bfseries}{\filright\enspace\thesection. setkání\enspace\\}{0em}{\Large\scshape\bfseries}
+
+\clubpenalty=10000
+\widowpenalty=10000
+\usepackage{fancyhdr}
+\setlength{\headheight}{24pt}
+
+%\addtolength{\topmargin}{-12pt}
+
+\def\doclicenseIconRef{\href{\doclicenseURL}{\doclicenseIcon}}
+
+\fancypagestyle{normal}{
+	\fancyhf{}
+	\fancyfoot[RO]{Mindfulness-Based Relapse Prevention --- MBRP}
+	\fancyfoot[LO]{2023}
+	\fancyfoot[LE]{\href{https://PracticeMBRP.com}{\textbf{PracticeMBRP.com}}}
+	%\fancyfoot[RE]{\href{https://practicembrp.com}{PracticeMBRP.com}}
+	\fancyfoot[RE]{\doclicenseIconRef}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyhead[LO]{\leftmark}
+	\renewcommand{\sectionmark}[1]{\markboth{\arabic{section}. ##1{}}{}}
+	\renewcommand{\footrulewidth}{.2pt}
+	\renewcommand{\headrulewidth}{.1pt}
+	%\renewcommand{\headrule}{\leavevmode\leaders\hrule height \headrulewidth\hfill\kern0pt}
+}
+
+\pagestyle{normal}
+
+\fancypagestyle{practice-sheet}{
+	\fancyhf{}
+	\fancyhead[R]{\href{https://PracticeMBRP.com}{\textbf{PracticeMBRP.com}}}
+	\renewcommand{\footrulewidth}{0pt}
+	\renewcommand{\headrulewidth}{.2pt}
+	%\renewcommand{\headrule}{\leavevmode\leaders\hrule height \headrulewidth\hfill\kern0pt}
+	%\renewcommand{\headrule}{\vbox to0pt{\smash{\hbox to \headwidth{\hss\rule{10mm}{.2pt}}}}}
+}
+
+\fancypagestyle{start-session}{
+	\fancyhf{}
+	\fancyfoot[RO]{Mindfulness-Based Relapse Prevention --- MBRP}
+	\fancyfoot[LO]{2023}
+	\fancyhead[R]{\thepage}
+	\renewcommand{\footrulewidth}{.2pt}
+	\renewcommand{\headrulewidth}{0pt}
+	%\renewcommand{\headrule}{\vbox to0pt{\smash{\hbox to \headwidth{\hss\rule{10mm}{.2pt}}}}}
+	%\renewcommand{\headrule}{0pt}
+}
+
+\usepackage{setspace}
+\setstretch{1.05}
+
+\usepackage{emptypage}
+\usepackage{tocloft}
+
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins}
+
+
+\newlist{iitemize}{itemize}{2}
+\setlist[iitemize]{label=\circ,noitemsep,nosep,leftmargin=*}
+
+\newlist{itemize*}{itemize}{2}
+\setlist[itemize*,1]{label=\bullet,noitemsep,nosep,leftmargin=*}
+\setlist[itemize*,2]{label=--,noitemsep,nosep,leftmargin=*}
+\newlist{enumerate*}{enumerate}{1}
+\setlist[enumerate*]{label=\arabic*.,noitemsep,nosep,leftmargin=*}
+\newlist{description*}{description}{1}
+\setlist[description*]{style=unboxed,
+	%itemsep=0pt plus5em,parsep=0pt plus5em}
+	% itemsep=.5em,nosep}
+	noitemsep,nosep
+}
+
+\def\mbrpIcon#1{\includegraphics[width=1.5em]{fig/#1.pdf}}
+\def\itemStop#1#2{\item[\lower.3em\hbox{\textbf{\textsf{\huge#1}}}\kern.4em] \textbf{#2} \hskip1em}
+\def\itemSq{\item[\lower.1ex\hbox{\footnotesize\Square}]}
+\def\toSelf#1{\emph{„#1“}}
+\def\itemName#1{\item \textbf{#1} }
+
+
+\usepackage{wasysym}
+\let\Square\undefined
+\usepackage{bbding}
+\def\normalPencilLeftDown{\texorpdfstring{\lower.2ex\hbox{\textmd{\PencilLeftDown}}}{}}
+\usepackage{pifont}
+\def\circledI{\ding{192}}
+\def\circledII{\ding{193}}
+\def\circledIII{\ding{194}}
+\def\circledIV{\ding{195}}
+\def\circledV{\ding{196}}
+\def\circledVI{\ding{197}}
+\def\circledVII{\ding{198}}
+\def\circledVIII{\ding{199}}
+\def\circledIX{\ding{200}}
+\def\circledX{\ding{201}}
+
+\parskip=.5\baselineskip
+\parindent=0pt
+
+
+\makeatletter\def\doclicense@UrlLangPart{/deed.cs}\makeatother
+\usepackage[
+	type={CC},
+	modifier={by-nc-nd},
+	version={4.0},
+	% imagemodifier={-eu-88x31},
+]{doclicense}
+
+\title{\gettext{Mindfulness-Based Relapse Prevention (Rolling Admission)}}
+\date{2023}
+\author{\gettext{Corey Roos \&al \href{https://PracticeMBRP.com}{PracticeMBRP.com}}}
+
+\begin{document}
+	%\maketitle
+	\thispagestyle{empty}
+	\section*{Foreword}
+
+	\vskip-3mm
+
+	These pages are re-formatted content from \emph{Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}\footnote{C. Roos \& al: \emph{A Clinician's Guide to Mindfulness-Based Relapse Prevention — Rolling Admission (MBRP-RA)}, licensed under \doclicenseNameRef.}, pages 105–160.
+
+	A few adaptations were done:
+	\begin{itemize*}
+		\item Separation of reading content and handouts:
+			\begin{itemize*}
+				\item all sessions are meant to be printed as a single booklet, and given to participants when they first come;
+				\item handouts on the last few pages (marked with the \normalPencilLeftDown{} symbol) are to be be given out as separate sheets for writing into.
+			\end{itemize*}
+		\item Addition of the sections \emph{Basic Feelings/Needs We All Have} (pp.~\pageref{basic-feelings-we-all-have}, \pageref{basic-needs-we-all-have}) from Non-Violent Communication website.
+		\item Wording was adjusted slightly in Session 7 where the values diagram handout was split off the values text.
+		\item The \emph{Starter Kit} is not included; for the Czech version, it was put on the website instead (\href{https://brzdime.cz/start/}{brzdime.cz/start}): the regular meetings take place online, and the first contact is always through the website.
+	\end{itemize*}
+
+	The formatting was originally created for the Czech translation (\href{https://brzdime.cz}{brzdime.cz}). English text was now put back into the \LaTeX{} skeleton. The hope is that other translations may use the structure to avoid the tedious formatting work, producing a localized and good-looking booklet with relative ease. Ask your local \LaTeX{} expert for help.
+
+	\hfill Václav Šmilauer\linebreak\null\hfill\linebreak\null\hfill\lessstressLogo
+
+	\setlength{\cftbeforesecskip}{1ex}
+	\clearpage
+	\tableofcontents
+	\thispagestyle{empty}
+
+	% \include{mbrpra-start}
+	\include{mbrpra-sessions}
+	\include{mbrpra-sheets}
+\end{document}
