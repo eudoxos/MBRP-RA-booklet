@@ -1,0 +1,91 @@
+\appendix
+\cleardoublepage
+
+
+\def\practiceSheetTitle#1{\clearpage\fancyhead[L]{\large\textbf{#1 \normalPencilLeftDown}}}
+\pagestyle{practice-sheet}
+\pagePracticeLog
+%% 1
+\practiceSheetTitle{\circledI{} \gettext{\textsc{Sober} Space for feelings}}
+\pageSOBERown{\gettext{Write your own example. Think about a type of situation that brings about an automatic reaction.}}{\gettext{Situation}}
+% Najděte ještě jeden příklad. Popište jinou situaci, která vyvolá automatickou reakci.
+%% 4
+\practiceSheetTitle{\circledIV{} \gettext{\textsc{Sober} Space for triggers}}
+\pageSOBERown{\gettext{Think about a \emph{trigger} that brings about an urge or craving to use alcohol or other drugs.}}{{\Large\textup{\lightning}} \gettext{Primary trigger}}
+% Najděte ještě jeden příklad \emph{spouštěče}, který přináší nutkání či bažení po alkoholu či drogách.
+%% 7
+% \pageSOBERown{\textsc{Brzda} na spouštěč: vlastní}{} Primární spouštěč}
+% \clearpage
+% \subsection*{\circled{7} Mé osobní hodnoty \normalPencilLeftDown}
+
+		% Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions on the next page. 
+\practiceSheetTitle{\circledVII{} \gettext{My Personal Values}}
+	\gettext{Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions in Session 7.} %on the next page.
+		\begin{center}
+		\begin{tikzpicture}
+			% https://tex.stackexchange.com/a/145381/6758
+			\draw (0:0) node[circle,draw,inner sep=.05\linewidth](self){\textbf{self}};
+			\foreach \a in {1,2,...,6}{
+				\draw (13+\a*360/6: .35\linewidth) node[circle,draw,inner sep=.09\linewidth](circ){ };
+				\draw (self)--(circ);
+			}
+		\end{tikzpicture}
+		\end{center}
+
+
+
+
+%%
+%% STARTUP
+%%
+
+\practiceSheetTitle{\textcircled{\scriptsize\normalfont\sffamily S} \gettext{Plan out your practice routine}}
+	\textbf{\gettext{How many times per week I listen to an mindfulness exercise:}} \Blank{1}
+
+	\gettext{We recommend listening to a mindfulness exercise on a daily or semi-daily basis (4 to 6 days per week). Regular practice will keep your “mindfulness muscle” strong over time.}
+
+	\textbf{\gettext{The time of day I usually will practice is:}}\Blank{2}
+
+	\gettext{Here are some example times of day to practice that work for other people:}
+	\begin{itemize*}\gettext{
+		\item In the morning: before breakfast, after showering, when getting ready
+		\item At night: after putting on pajamas, during nighttime unwind routine
+		\item Midday: during lunch break
+	}\end{itemize*}
+
+	\textbf{\gettext{How am I going to access the audio-guided exercises? [?]}} \Blank{2}
+
+	\textbf{\gettext{I will practice in the following location:}} \Blank{1}
+
+	\gettext{Here are some potential options: (1) Bedroom, (2) On the bus (with headphones), (3) Car (while parked), (4) Office, (5) Outside.}
+
+	\textbf{\gettext{I will practice in the following position/posture:}} \Blank{2}
+
+	\gettext{We recommend sitting upright, rather than slouching. For the options below, use pillows as needed to support your back.}
+	\begin{enumerate*}\gettext{
+		\item Sit in a chair with feet on floor
+		\item Sit on couch in a cross-legged position or with feet on floor
+		\item Sit on a bed in a cross-legged position
+		\item Sit cross-legged on the floor (maybe with back against wall)
+	}\end{enumerate*}
+	\gettext{Lying down is an option too. However, it can be easier to get sleepy in this position. If you get too sleepy lying down, then try sitting upright in one of the positions listed above.}
+
+
+\practiceSheetTitle{\textcircled{\scriptsize\normalfont\sffamily S} \gettext{Motivations for practicing}}
+	\gettext{What are your personal motivations for practicing mindfulness? Check one or more of the options below. Or, write in your own personal motivations.}
+	\begin{itemize}
+		\itemSq \gettext{My recovery matters a lot to me}
+		\itemSq \gettext{Self-care is an important part of my life}
+		\itemSq \gettext{I want to boost my ability to handle stress in my life}
+		\itemSq \gettext{I am willing to try something new}
+		\itemSq \gettext{I like that mindfulness is backed by research}
+		\itemSq \gettext{I recognize that mindfulness has helped other people in recovery}
+		\itemSq \gettext{I want to learn effective coping strategies}
+		\itemSq \gettext{I value my mental health as much as my physical health}
+		\itemSq \gettext{I want to live a healthy and balanced life}
+		\itemSq \Blank{1}
+		\itemSq \Blank{1}
+		\itemSq \Blank{1}
+	 \end{itemize}
+
+

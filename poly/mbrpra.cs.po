@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-12-13 22:31+0100\n"
+"PO-Revision-Date: 2023-12-14 23:25+0100\n"
 "Last-Translator: Václav Šmilauer <vaclav@lessstress.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
 "Language: cs\n"
@@ -12,75 +12,75 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: mbrpra-defs.tex:112
+#: en/mbrpra-defs.tex:112
 msgid "Expand your awareness back to how you are feeling. Do your best to bring a sense of openness and acceptance to your experience."
 msgstr "Rozšiřte znovu svou pozornost na to, jak se cítíte. Nakolik to jde, zkuste to udělat s postojem otevřenosti a přijetí."
 
-#: mbrpra-defs.tex:134
+#: en/mbrpra-defs.tex:134
 msgid "Session \\arabic{section}"
 msgstr "\\arabic{section}. setkání"
 
-#: mbrpra-defs.tex:142
+#: en/mbrpra-defs.tex:142
 msgid "Key Concepts"
 msgstr "Shrnutí"
 
-#: mbrpra-defs.tex:158
+#: en/mbrpra-defs.tex:158
 msgid "Formal Practice"
 msgstr "Formální cvičení"
 
-#: mbrpra-defs.tex:162
+#: en/mbrpra-defs.tex:162
 msgid "Do your best to listen to an audio-guided mindfulness exercise on a daily or semi-daily basis (4 to 6 days per week). Go to \\href{https://PracticeMBRP.com}{PracticeMBRP.com} to access the exercises. Try to practice at the same time each day (such as before breakfast)."
 msgstr "Snažte se poslouchat nahrávky vedených cvičení všímavosti každý den či obden (4× až 6× za týden). Vyzkoušejte cvičit pokaždé ve stejnou dobu (např. před snídaní)."
 
-#: mbrpra-defs.tex:163
+#: en/mbrpra-defs.tex:163
 msgid "We recommend focusing on these audio-guided exercises over the next few days/week:"
 msgstr "Do dalšího sezení doporučujeme se zaměřit na cvičení:"
 
-#: mbrpra-defs.tex:168
+#: en/mbrpra-defs.tex:168
 msgid "On-the-Go Practice"
 msgstr "Neformální cvičení"
 
-#: mbrpra-defs.tex:169
+#: en/mbrpra-defs.tex:169
 msgid "Mindful Moments:"
-msgstr "Okamžiky:"
+msgstr "Okamžiky"
 
-#: mbrpra-defs.tex:170
+#: en/mbrpra-defs.tex:170
 msgid "Mindful Coping:"
-msgstr "Obtíže:"
+msgstr "Obtíže"
 
-#: mbrpra-defs.tex:171
+#: en/mbrpra-defs.tex:171
 msgid "Mindful Activities:"
 msgstr "Činnosti:"
 
-#: mbrpra-defs.tex:174
+#: en/mbrpra-defs.tex:174
 msgid "Handouts"
 msgstr "Pracovní listy"
 
-#: mbrpra-defs.tex:177
+#: en/mbrpra-defs.tex:177
 msgid "My Practice Log."
 msgstr "záznam denního cvičení."
 
-#: mbrpra-defs.tex:203 mbrpra-defs.tex:245
+#: en/mbrpra-defs.tex:203 en/mbrpra-defs.tex:245
 msgid "Autopilot"
 msgstr "Autopilot"
 
-#: mbrpra-defs.tex:210
+#: en/mbrpra-defs.tex:210
 msgid "Observe your experience without judgment:"
 msgstr "Podívejte se bez posuzování na probíhající zkušenost:"
 
-#: mbrpra-defs.tex:213
+#: en/mbrpra-defs.tex:213
 msgid "Respond with awareness."
 msgstr "Jednejte z porozumění situaci, které máte."
 
-#: mbrpra-defs.tex:273
+#: en/mbrpra-defs.tex:273
 msgid "How can you use the \\textsc{Sober} space in the situation? For each step of the \\textsc{Sober} write out what you would do/what you would notice in your own words."
 msgstr "Co se pak stane, když fungujete na autopilota? Jak byste v takové situaci mohli použít \\textsc{Brzd}u? Do každého kroku \\textsc{Brzd}y vlastními slovy vepište, co byste udělali či vnímali."
 
-#: mbrpra-defs.tex:282
+#: en/mbrpra-defs.tex:282
 msgid "The Guest House Poem"
 msgstr "Dům pro hosty\\footnote{Autor překladu neznámý.}"
 
-#: mbrpra-defs.tex:308
+#: en/mbrpra-defs.tex:308
 msgid ""
 "\n"
 "\t\tThis being human is a guest house.\\\\\n"
@@ -107,91 +107,275 @@ msgid ""
 "\t"
 msgstr "Lidská bytost je jako dům pro hosty.\\\\ Každé ráno přicházejí noví hosté.\\par Radost, zármutek, podlost, \\\\ okamžitý stav mysli přichází \\\\ jako nečekaný host. \\par Všechny přivítej a bav se s nimi! \\\\ I když je to je houf starostí, \\\\ které vtrhnou dovnitř a násilím rabují. \\par I přesto přivítej každého hosta s úctou. \\\\ Možná tě zbaví něčeho, \\\\ co ti bránilo prožít nové radosti. \\par Temné myšlenky, stud a zlobu \\\\ přivítej s úsměvem u dveří \\\\ a pozvi je dál. \\par Za každého, kdo přijde, buď vděčný, \\\\ protože ti jej osud posílá \\\\ jako učitele."
 
-#: mbrpra-defs.tex:315
+#: en/mbrpra-defs.tex:315
 msgid "Rumi"
 msgstr "Rúmí"
 
-#: mbrpra-defs.tex:317
+#: en/mbrpra-defs.tex:317 en/mbrpra-start.tex:78
 msgid "\\textsc{Sober} Space"
 msgstr "\\textsc{Brzda}"
 
-#: mbrpra-defs.tex:320
+#: en/mbrpra-defs.tex:321
 msgid "It can be used in a stressful situation, if you are upset, or when you are experiencing urges or impulses to engage in unwanted behavior. It can also be used when things are going well, when you are having fun, or any other time you want to more fully “show up” to appreciate the present moment. It can help you step out of “automatic pilot” and be more aware and mindful in your response."
 msgstr "Můžete ho udělat za pár sekund i mu dát několik minut. Lze ho použít ve stresující situaci, když jste rozčilení či zakoušíte nutkání či vnitřní impulsy k jednání, kterému se chcete vyhnout. Je užitečné, i když jde všechno hladce, cítíte se dobře, či kdykoliv chcete být duchem „více tady“ k ocenění odehrávající se přítomnosti. Může vám pomoci k vyskočení z reaktivního autopilota a být si víc vědomý v tom, jak v nastalé situaci budete jednat."
 
-#: mbrpra-defs.tex:325
+#: en/mbrpra-defs.tex:326
 msgid "Expand your awareness beyond just the breath to your whole body and then to the whole situation you are in."
 msgstr "Rozšiřte pozornost od dechu na celé tělo a pak i na celou situaci, ve které se nacházíte."
 
-#: mbrpra-defs.tex:326
+#: en/mbrpra-defs.tex:327
 msgid "Respond to the situation with awareness, rather than reacting automatically. Recognize that you have choices for how to respond. Think about what you need and how you can take care of yourself."
 msgstr "Jednete v nastalé situaci s vnitřní orientací, nenechte jen proběhnout automatickou reakci. Buďte aktivní, ne reaktivní. Uvědomte si, že ve svém jednání máte na výběr. Zamyslete se nad tím, co v tuto chvíli potřebujete a jak byste se o sebe nejlépe postarali."
 
-#: mbrpra-defs.tex:333
+#: en/mbrpra-defs.tex:334
 msgid "My Practice Log"
 msgstr "Záznam cvičení"
 
-#: mbrpra-defs.tex:344
+#: en/mbrpra-defs.tex:345
 msgid "Date \\\\ Day"
 msgstr "datum \\\\ den"
 
-#: mbrpra-defs.tex:346
+#: en/mbrpra-defs.tex:347
 msgid "Planned Practice"
 msgstr "pravidelné cvičení"
 
-#: mbrpra-defs.tex:347
+#: en/mbrpra-defs.tex:348
 msgid "Set aside time to listen to audio-guided exercise"
 msgstr "čas vyhrazený na nahrávku"
 
-#: mbrpra-defs.tex:348
+#: en/mbrpra-defs.tex:349
 msgid "Which practice? How long?"
 msgstr "Co jsem cvičil? Jak dlouho?"
 
-#: mbrpra-defs.tex:350
+#: en/mbrpra-defs.tex:351
 msgid "Mindful Moment"
-msgstr "okamžiky"
+msgstr "Okamžiky"
 
-#: mbrpra-defs.tex:350
+#: en/mbrpra-defs.tex:351
 msgid "On-the-Go Practice:"
-msgstr "cvičení za pochodu"
+msgstr "cvičení za pochodu:"
 
-#: mbrpra-defs.tex:351
-msgid "Mindful Coping"
-msgstr "obtíže"
-
-#: mbrpra-defs.tex:351
+#: en/mbrpra-defs.tex:352
 msgid "took a random moment to pause/check-in"
 msgstr "náhodné napojení na sebe"
 
-#: mbrpra-defs.tex:352
+#: en/mbrpra-defs.tex:352 en/mbrpra-start.tex:97
+msgid "Mindful Coping"
+msgstr "Obtíže"
+
+#: en/mbrpra-defs.tex:353
 msgid "Mindful Activity"
 msgstr "činnosti"
 
-#: mbrpra-defs.tex:352
+#: en/mbrpra-defs.tex:353
 msgid "Used \\textsc{Sober} Space in challenging situation"
 msgstr "\\textsc{Brzda} v náročné situaci"
 
-#: mbrpra-defs.tex:353
+#: en/mbrpra-defs.tex:354
 msgid "eating, walking, chores, being outside."
 msgstr "jídlo, chůze, domácí práce, pohyb venku"
 
-#: mbrpra-defs.tex:354
+#: en/mbrpra-defs.tex:355
 msgid "What did you do? How many times?"
 msgstr "Co jsem dělal? Kolikrát?"
 
-#: mbrpra-defs.tex:362
+#: en/mbrpra-defs.tex:363
 msgid "Notes \\\\ Observations"
 msgstr "poznámky \\\\ postřehy"
 
-#: mbrpra-sessions.tex:7
+#: en/mbrpra-defs.tex:373
+msgid "Some Basic Feelings We All Have"
+msgstr "Slovní zásoba pro pocity"
+
+#: en/mbrpra-defs.tex:376
+msgid "Feel free to use the following list as a inspiration for expanding the vocabulary of feelings which you can recognize and name:"
+msgstr "Můžete použít následující soupis jako inspiraci pro rozšíření palety pocitů, které v sobě dokážete rozpoznat a pojmenovat."
+
+#: en/mbrpra-defs.tex:378
+msgid "When needs “are” fulfilled:"
+msgstr "Při základní spokojenosti:"
+
+#: en/mbrpra-defs.tex:398
+msgid ""
+"\n"
+"\t\t\t\\item Amazed\n"
+"\t\t\t\\item Confident\n"
+"\t\t\t\\item Energetic\n"
+"\t\t\t\\item Glad\n"
+"\t\t\t\\item Inspired\n"
+"\t\t\t\\item Joyous\n"
+"\t\t\t\\item Optimistic\n"
+"\t\t\t\\item Relieved\n"
+"\t\t\t\\item Surprised\n"
+"\t\t\t\\item Touched\n"
+"\t\t\t\\item Comfortable\n"
+"\t\t\t\\item Eager\n"
+"\t\t\t\\item Fulfilled\n"
+"\t\t\t\\item Hopeful\n"
+"\t\t\t\\item Intrigued\n"
+"\t\t\t\\item Moved\n"
+"\t\t\t\\item Proud\n"
+"\t\t\t\\item Stimulated\n"
+"\t\t\t\\item Thankful\n"
+"\t\t"
+msgstr "\\item ohromení \\item sebedůvěra \\item energičnost \\item potěšení \\item inspirace \\item radost \\item optimistismus \\item úleva \\item překvapení \\item dojetí \\item pohodlí \\item horlivost \\item naplněnost \\item být plný naděje \\item být zaujatý \\item pohnutí \\item hrdost \\item povzbuzení, stimulace \\item vděčnost \\item být plný důvěry"
+
+#: en/mbrpra-defs.tex:401
+msgid "When needs “are not” fulfilled:"
+msgstr "Při základní nespokojenosti:"
+
+#: en/mbrpra-defs.tex:422
+msgid ""
+"\n"
+"\t\t\t\\item Angry\n"
+"\t\t\t\\item Confused\n"
+"\t\t\t\\item Disappointed\n"
+"\t\t\t\\item Distressed\n"
+"\t\t\t\\item Frustrated\n"
+"\t\t\t\\item Hopeless\n"
+"\t\t\t\\item Irritated\n"
+"\t\t\t\\item Nervous\n"
+"\t\t\t\\item Puzzled\n"
+"\t\t\t\\item Sad\n"
+"\t\t\t\\item Annoyed\n"
+"\t\t\t\\item Concerned\n"
+"\t\t\t\\item Discouraged\n"
+"\t\t\t\\item Embarrassed\n"
+"\t\t\t\\item Helpless\n"
+"\t\t\t\\item Impatient\n"
+"\t\t\t\\item Lonely\n"
+"\t\t\t\\item Overwhelmed\n"
+"\t\t\t\\item Reluctant\n"
+"\t\t\t\\item Uncomfortable\n"
+"\t\t"
+msgstr "\\item vztek \\item zmatení \\item zklamání \\item zoufalství \\item frustrace \\item beznaděj \\item podráždění \\item nervozita \\item zaseknutí \\item smutek \\item otrávenost \\item znepokojení \\item zhrzenost, odrazení \\item zahanbenost \\item bezmoc \\item netrpělivost \\item osamělost \\item být přemožený děním \\item neochota \\item nepohoda"
+
+#: en/mbrpra-defs.tex:427
+msgid "Some Basic Needs We All Have"
+msgstr "Slovní zásoba pro potřeby"
+
+#: en/mbrpra-defs.tex:431
+msgid "Feel free to use the following list as a inspiration for expanding the vocabulary of needs which you can recognize and name:"
+msgstr "Můžete použít následující soupis potřeb jako inspiraci pro rozšíření palety potřeb, které v sobě dokážete rozpoznat a pojmenovat."
+
+#: en/mbrpra-defs.tex:434
+msgid "Autonomy"
+msgstr "autonomie"
+
+#: en/mbrpra-defs.tex:437
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Choosing dreams/goals/values\n"
+"\t\t\t\t\t\t\\item Choosing plans for fulfilling one’s dreams, goals, values\n"
+"\t\t\t\t\t"
+msgstr "\\item vybírat si sny/cíle/hodnoty \\item vybírat si plány pro naplnění svých snů, cílů, hodnot"
+
+#: en/mbrpra-defs.tex:439
+msgid "Celebration"
+msgstr "slavení"
+
+#: en/mbrpra-defs.tex:442
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Celebrate the creation of life and dreams fulfilled\n"
+"\t\t\t\t\t\t\\item Celebrate losses: loved ones, dreams, etc. (mourning)\n"
+"\t\t\t\t\t"
+msgstr "\\item slavení výtvorů života a naplněných snů \\item slavení ztrát: blízkých lidí, snů, … (truchlení)"
+
+#: en/mbrpra-defs.tex:444
+msgid "Integrity"
+msgstr "integrita"
+
+#: en/mbrpra-defs.tex:449
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Authenticity\n"
+"\t\t\t\t\t\t\\item Creativity\n"
+"\t\t\t\t\t\t\\item Meaning\n"
+"\t\t\t\t\t\t\\item Self-worth\n"
+"\t\t\t\t\t"
+msgstr "\\item autenticita \\item tvořivost, kreativita \\item smysl \\item sebehodnota"
+
+#: en/mbrpra-defs.tex:451
+msgid "Interdependence"
+msgstr "propojenost"
+
+#: en/mbrpra-defs.tex:467
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Acceptance\n"
+"\t\t\t\t\t\t\\item Appreciation\n"
+"\t\t\t\t\t\t\\item Closeness\n"
+"\t\t\t\t\t\t\\item Community\n"
+"\t\t\t\t\t\t\\item Consideration\n"
+"\t\t\t\t\t\t\\item Contribute to the enrichment of life\n"
+"\t\t\t\t\t\t\\item Emotional Safety\n"
+"\t\t\t\t\t\t\\item Empathy\n"
+"\t\t\t\t\t\t\\item Honesty (the empowering honesty that enables us to learn from our limitations)\n"
+"\t\t\t\t\t\t\\item Love\n"
+"\t\t\t\t\t\t\\item Reassurance\n"
+"\t\t\t\t\t\t\\item Respect\n"
+"\t\t\t\t\t\t\\item Support\n"
+"\t\t\t\t\t\t\\item Trust\n"
+"\t\t\t\t\t\t\\item Understanding\n"
+"\t\t\t\t\t"
+msgstr "\\item přijetí \\item ocenění \\item blízkost \\item společenství \\item ohleduplnost \\item přispívat k obohacení života \\item emoční bezpečí \\item soucit, empatie \\item upřímnost (posilující upřímnost, díky které se můžeme učit z vlastních omezení) \\item láska \\item ujištění \\item respekt \\item podpora \\item důvěra \\item porozumění"
+
+#: en/mbrpra-defs.tex:469
+msgid "Physical Nutrutrance"
+msgstr "péče o tělo"
+
+#: en/mbrpra-defs.tex:479
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Air\n"
+"\t\t\t\t\t\t\\item Food\n"
+"\t\t\t\t\t\t\\item Movement, exercise\n"
+"\t\t\t\t\t\t\\item Protection from life-threatening forms of life: viruses, bacteria, insects, predatory animals\n"
+"\t\t\t\t\t\t\\item Rest\n"
+"\t\t\t\t\t\t\\item Sexual expression\n"
+"\t\t\t\t\t\t\\item Shelter\n"
+"\t\t\t\t\t\t\\item Touch\n"
+"\t\t\t\t\t\t\\item Water\n"
+"\t\t\t\t\t"
+msgstr "\\item vzduch \\item jídlo \\item pohyb, cvičení \\item ochrana před život ohrožujícími organismy: viry, bakteriemi, hmyzem, dravou zvěří \\item odpočinek \\item sexuální vyjádření \\item přístřeší \\item dotyk \\item voda"
+
+#: en/mbrpra-defs.tex:481
+msgid "Play"
+msgstr "hra"
+
+#: en/mbrpra-defs.tex:484
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Fun\n"
+"\t\t\t\t\t\t\\item Laughter\n"
+"\t\t\t\t\t"
+msgstr "\\item zábava \\item smích"
+
+#: en/mbrpra-defs.tex:486
+msgid "Spiritual Communion"
+msgstr "duchovní společenství"
+
+#: en/mbrpra-defs.tex:492
+msgid ""
+"\n"
+"\t\t\t\t\t\t\\item Beauty\n"
+"\t\t\t\t\t\t\\item Harmony\n"
+"\t\t\t\t\t\t\\item Inspiration\n"
+"\t\t\t\t\t\t\\item Order\n"
+"\t\t\t\t\t\t\\item Peace\n"
+"\t\t\t\t\t"
+msgstr "\\item krása \\item soulad, harmonie \\item inspirace \\item řád \\item pokoj, mír"
+
+#: en/mbrpra-sessions.tex:7
 msgid "Mindfulness vs.\\\\ Automatic Pilot"
 msgstr "Všímavost vs. autopilot"
 
-#: mbrpra-sessions.tex:8
+#: en/mbrpra-sessions.tex:8
 msgid "Mindfulness vs. Automatic Pilot"
 msgstr "Všímavost vs. autopilot"
 
-#: mbrpra-sessions.tex:14
+#: en/mbrpra-sessions.tex:14
 msgid ""
 "\n"
 "\t\t\\item “Automatic pilot” is when we are not aware of what we are doing. We just do things automatically.\n"
@@ -201,107 +385,108 @@ msgid ""
 "\t"
 msgstr "\\item „Autopilot“ znamená, že si neuvědomujeme, co děláme. Fungujeme automaticky. \\item Když máme nutkání či bažení po alkoholu/drogách, často spadneme do autopilota. Pouze reagujeme, bez uvědomění si toho. \\item Všímavost je opak autopilota. Když jsme všímaví, plně si uvědomujeme, co se v přítomném okamžiku děje. \\item Všímavost nám pomáhá vyskočit z režimu autopilota a rozhodovat se vědoměji (například v situaci, kdy máme nutkání či bažení)."
 
-#: mbrpra-sessions.tex:15 mbrpra-sessions.tex:109
+#: en/mbrpra-sessions.tex:15 en/mbrpra-sessions.tex:109
 msgid "\\item Mindful Check-In; \\item \\textsc{Sober} Space."
 msgstr "\\item napojení na sebe; \\item \\textsc{Brzda}."
 
-#: mbrpra-sessions.tex:16 mbrpra-sessions.tex:90 mbrpra-sessions.tex:175
-#: mbrpra-sessions.tex:250 mbrpra-sessions.tex:269 mbrpra-sessions.tex:369
+#: en/mbrpra-sessions.tex:16 en/mbrpra-sessions.tex:90
+#: en/mbrpra-sessions.tex:175 en/mbrpra-sessions.tex:250
+#: en/mbrpra-sessions.tex:269 en/mbrpra-sessions.tex:369
 msgid "At random times, pause and mindfully check-in with yourself."
 msgstr "Náhodně během dne se zastavujte a napojujte se na sebe."
 
-#: mbrpra-sessions.tex:17 mbrpra-sessions.tex:176
+#: en/mbrpra-sessions.tex:17 en/mbrpra-sessions.tex:176
 msgid "Try doing the \\textsc{Sober} Space when challenges come up."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže."
 
-#: mbrpra-sessions.tex:18
+#: en/mbrpra-sessions.tex:18
 msgid "Try mindful eating. For each meal, take one mindful bite. Bring your full attention to your food and the experience of eating."
 msgstr "Vyzkoušejte všímavé jedení: při každém jídle snězte jedno spousto všímavě. Přineste v tu chvíli plnou pozornost k jídlu a žité zkušenosti jedení."
 
-#: mbrpra-sessions.tex:24
+#: en/mbrpra-sessions.tex:24
 msgid "\\item \\textsc{Sober} Space for feelings 2×;"
 msgstr "\\item \\textsc{Brzda} s pocitem 2×;"
 
-#: mbrpra-sessions.tex:25
+#: en/mbrpra-sessions.tex:25
 msgid "\\textsc{Sober} Space for feelings: pain and depression"
 msgstr "\\textsc{Brzda} s pocitem: bolest a deprese"
 
-#: mbrpra-sessions.tex:27 mbrpra-sessions.tex:43 mbrpra-sheets.tex:13
+#: en/mbrpra-sessions.tex:27 en/mbrpra-sessions.tex:43 en/mbrpra-sheets.tex:13
 msgid "Situation"
 msgstr "Situace"
 
-#: mbrpra-sessions.tex:28
+#: en/mbrpra-sessions.tex:28
 msgid "Wake up in the morning with intense physical pain and feeling depressed"
 msgstr "ranní probuzení se silnou fyzickou bolestí a pocitem deprese"
 
-#: mbrpra-sessions.tex:30
+#: en/mbrpra-sessions.tex:30
 msgid "Not this again. I can’t handle this."
 msgstr "Už je to tu zas. Nezvládám to!"
 
-#: mbrpra-sessions.tex:31
+#: en/mbrpra-sessions.tex:31
 msgid "Just lie in bed, instead of getting up."
 msgstr "Nevstává, zůstává ležet v posteli."
 
-#: mbrpra-sessions.tex:32
+#: en/mbrpra-sessions.tex:32
 msgid "This pain will never go away."
 msgstr "Tahle bolest nikdy nezmizí."
 
-#: mbrpra-sessions.tex:33
+#: en/mbrpra-sessions.tex:33
 msgid "I need to get high. \\emph{(Feel craving to use)}"
 msgstr "Musím si šlehnout. \\emph{(pocit nutkání užít drogu)}"
 
-#: mbrpra-sessions.tex:35
+#: en/mbrpra-sessions.tex:35
 msgid "Text a friend to get drugs."
 msgstr "Pošle zprávu kamarádovi, aby si opatřil drogu."
 
-#: mbrpra-sessions.tex:36
+#: en/mbrpra-sessions.tex:36
 msgid "{Pressure and aching in back},{Sadness},{Lots of negative thoughts popping up}"
 msgstr "{tlak a bolest v zádech},{smutek},{přichází spousta negativních myšlenek}"
 
-#: mbrpra-sessions.tex:40
+#: en/mbrpra-sessions.tex:40
 msgid "{Remind yourself: \\toSelf{I can handle this. I have done it before.}},{ Get out of bed and take a hot shower.}"
 msgstr "{Připomínám si: \\toSelf{Zvládnu to. Už jsem to zvládla i předtím.}},{Vstávám z postele a jdu si dát horkou sprchu.}"
 
-#: mbrpra-sessions.tex:41
+#: en/mbrpra-sessions.tex:41
 msgid "\\textsc{Sober} Space for feelings: boredom and loneliness"
 msgstr "\\textsc{Brzda} s pocitem: nuda a osamělost"
 
-#: mbrpra-sessions.tex:44
+#: en/mbrpra-sessions.tex:44
 msgid "Feel bored and lonely on a Saturday night"
 msgstr "sobota večer, cítím se znuděně a osaměle"
 
-#: mbrpra-sessions.tex:46
+#: en/mbrpra-sessions.tex:46
 msgid "My life is so boring."
 msgstr "Můj život je tak nudný."
 
-#: mbrpra-sessions.tex:47
+#: en/mbrpra-sessions.tex:47
 msgid "I could use some company right now."
 msgstr "Bylo by fajn mít společnost."
 
-#: mbrpra-sessions.tex:48
+#: en/mbrpra-sessions.tex:48
 msgid "Call a friend you previously used alcohol and drugs with."
 msgstr "Volá kamrádovi, se kterým dříve pil a bral drogy."
 
-#: mbrpra-sessions.tex:50
+#: en/mbrpra-sessions.tex:50
 msgid "Feel craving to use."
 msgstr "Nutkání k užití."
 
-#: mbrpra-sessions.tex:51
+#: en/mbrpra-sessions.tex:51
 msgid "{Heaviness in chest area},{Bored, Lonely},{Thoughts about reaching out to others.}"
 msgstr "{těžkost na hrudníku},{nuda, osamělost},{myšlenky o tom, jak se někomu ozvu.}"
 
-#: mbrpra-sessions.tex:60
+#: en/mbrpra-sessions.tex:60
 msgid ""
 "\n"
 "\t\t\t{Call a sober-support friend and make plans to get dinner.}\n"
 "\t\t"
 msgstr "{Volám příteli, který mi je oporou v zotavování, naplánujeme si společnou večeři.}"
 
-#: mbrpra-sessions.tex:62
+#: en/mbrpra-sessions.tex:62
 msgid "Emotions as Visitors"
 msgstr "Pocity jsou jako hosté"
 
-#: mbrpra-sessions.tex:67
+#: en/mbrpra-sessions.tex:67
 msgid ""
 "\n"
 "\t\t\\item Challenging emotions (anxiety, sadness, anger) can trigger an urge to use alcohol or drugs. We may turn to alcohol and drugs to avoid or escape our emotions. \n"
@@ -310,27 +495,27 @@ msgid ""
 "\t"
 msgstr "\\item Náročné pocity (úzkost, smutek, vztek) mohou spustit nutkání užít alkohol/drogu. K alkoholu/drogám se můžeme utéci, abychom se vyhnuli náročného pocitu či před ním utekli.\\item Všímavě vnímat pocity znamená dovolit si tyto pocity v tomto momentě cítit, ne se od nich snažit utéci. Vzít pocity na vědomí (neignorovat je) s otevřeností, zvědavostí a neposuzováním.\\item Náročné pocity jsou jako „hosté“ či „návštěva“. Navštíví nás a zase odejdou. Jsou dočasné. Náročné pocity mohou být při své návštěvě i nápomocné. \\emph{I přesto přivítej každého hosta s úctou. / Možná tě zbaví něčeho, / co ti bránilo prožít nové radosti […] protože ti jej osud posílá / jako učitele.} (báseň \\emph{Dům po hosty})."
 
-#: mbrpra-sessions.tex:68
+#: en/mbrpra-sessions.tex:68
 msgid "\\item Mindful Check-In; \\item Mindfulness of Emotions (with \\emph{Guest House} Reading)."
 msgstr "\\item napojení na sebe; \\item všímavost k pocitům (s přečtením si \\emph{Domu pro hosty})."
 
-#: mbrpra-sessions.tex:69
+#: en/mbrpra-sessions.tex:69
 msgid "At random times, pause and mindfully check-in. Notice any emotions you might be feeling with a sense of openness and acceptance."
 msgstr "Náhodně během dne se zastavujte a napojujte se na sebe. Všimněte si pocitů, pokud nějaké vnímáte, s otevřeností a přijetím."
 
-#: mbrpra-sessions.tex:70
+#: en/mbrpra-sessions.tex:70
 msgid "Try doing the \\textsc{Sober} Space when difficult emotions come up. Practice accepting your emotions and allowing yourself to feel your emotions."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže. Cvičte přijímání svých pocitů a dovolte si je cítit."
 
-#: mbrpra-sessions.tex:71
+#: en/mbrpra-sessions.tex:71
 msgid "Try mindful showering or bathing. Bring your full attention to the activity of showering or bathing. Connect with your 5 senses."
 msgstr "Zkoušejte všímavou sprchu či koupel. Přineste v tu chvíli plnou pozornost k tomu, jak se sprchujete či koupete. Napojte se na svých pět smyslů."
 
-#: mbrpra-sessions.tex:83
+#: en/mbrpra-sessions.tex:83
 msgid "Self-Compassion"
 msgstr "Laskavost k sobě"
 
-#: mbrpra-sessions.tex:88
+#: en/mbrpra-sessions.tex:88
 msgid ""
 "\n"
 "\t\t\\item Self-compassion is about being kind, gentle, and understanding towards ourselves. Self-compassion helps us work through from setbacks and slips in the recovery process.\n"
@@ -339,27 +524,27 @@ msgid ""
 "\t"
 msgstr "\\item Sebesoucit (či laskavost k sobě) znamená se k sobě obracet laskavě, jemně a s porozuměním sobě. Sebesoucit nám pomáhá zvládat nezdary či uklouznutí v procesu uzdravování.\\item Sebesoucit znamená, že se neodsuzujeme, když jsme podráždění či v náročné situaci. Dokážeme se zastavit a říci si: \\toSelf{Podrážděnost je v pořádku. Dělám v této situaci nejvíc, co dokážu.}\\item Všichni lidé zažívají těžké chvilky. Nikdo není dokonalý. Když cvičíme sebesoucit, dokážme si říci: \\toSelf{Nejsem jediný, kdo se takto cítí. Všichni to máme těžké.}"
 
-#: mbrpra-sessions.tex:89
+#: en/mbrpra-sessions.tex:89
 msgid "\\item Mindful Check-In; \\item Kindness Meditation."
 msgstr "\\item napojení na sebe; \\item meditace laskavosti."
 
-#: mbrpra-sessions.tex:91
+#: en/mbrpra-sessions.tex:91
 msgid "Try doing the \\textsc{Sober} Space when challenges come up. Practice being kind and compassionate to yourself."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže. Cvičte laskavost k sobě a sebesoucit."
 
-#: mbrpra-sessions.tex:92
+#: en/mbrpra-sessions.tex:92
 msgid "Try mindful teeth brushing. Bring your full attention to the activity of brushing your teeth. Connect with your 5 senses."
 msgstr "Zkoušejte všímavé čištění zubů. Přineste v tu chvíli k čištění zubů plnou pozornost. Napojte se na svých pět smyslů."
 
-#: mbrpra-sessions.tex:101
+#: en/mbrpra-sessions.tex:101
 msgid "Responding (not reacting) to triggers"
 msgstr "Na spouštěče aktivně — ne reaktivně"
 
-#: mbrpra-sessions.tex:102
+#: en/mbrpra-sessions.tex:102
 msgid "Responding (not reacting)\\\\ to triggers"
 msgstr "Na spouštěče aktivně —\\\\ ne reaktivně"
 
-#: mbrpra-sessions.tex:108
+#: en/mbrpra-sessions.tex:108
 msgid ""
 "\n"
 "\t\t\\item Triggers are persons, places, or things that bring about an urge or craving to do something, such as using substances \n"
@@ -369,51 +554,51 @@ msgid ""
 "\t"
 msgstr "\\item Spouštěče jsou osoby, místa či věci, které vyvolají nutkání něco udělat či bažení po něčem, např. po droze.\\item Spouštěče mohou „spustit“ řetěz vjemů, myšlenek a pocitů, ze kterých se skládá celkový prožitek bažení. Zatažení za \\textsc{Brzd}u nám pomůže si více uvědomovat samotné spouštěče i vjemy, myšlenky a pocity, které následují.\\item Zatažení za \\textsc{Brzd}u nám pomáhá, když se spouštěč objeví, si uchovat aktivitu a uvědomění, místo automatické reaktivity. Použití \\textsc{Brzd}y nám pomáhá rozhodovat se vědomě, z přítomného okamžiku; máme pak méně sklon k užití alkoholu/drogy, když se spouštěč aktivuje.\\item \\textsc{Brzda} je přizpůsobivá a lze za ni zatáhnout různými způsoby. Někdy budete mít čas jen si říct „Brzdi!“ a od spouštěče se vzdálit (např. když vám někdo nabídne drogu). Pak, když už jste odešli, si můžete prosím celou \\textsc{Brzd}u, abyste lépe zvládli tuto situaci a bažení, které ještě možná trvá."
 
-#: mbrpra-sessions.tex:110
+#: en/mbrpra-sessions.tex:110
 msgid "At random times, pause and mindfully check-in."
 msgstr "Náhodně během dne se zastavujte a napojujte se na sebe."
 
-#: mbrpra-sessions.tex:111
+#: en/mbrpra-sessions.tex:111
 msgid "Practice the \\textsc{Sober} Space when challenges or triggers come up."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže či spouštěče."
 
-#: mbrpra-sessions.tex:112
+#: en/mbrpra-sessions.tex:112
 msgid "Try mindful hearing during your day. Pause and just take in the sounds around you. Try this when you are outdoors. Try this when you are indoor too. Another options is to try mindful hearing with music. Play a song that you enjoy and practice paying close attention to what the song sounds like."
 msgstr "Zkoušejte všímavé poslouchání. Zastavte se a jen vnímejte zvuky z okolí. Zkouštejte to venku i uvnitř. Jinou možností je všímavě poslouchat hudbu. Pusťte si něco, co máte rádi, a změřte pozornost na to, jak vnímáte přicházející zvuky."
 
-#: mbrpra-sessions.tex:115
+#: en/mbrpra-sessions.tex:115
 msgid "\\item \\textsc{Sober} with trigger 2×;"
 msgstr "\\item \\textsc{Brzda} na spouštěč 2×;"
 
-#: mbrpra-sessions.tex:116
+#: en/mbrpra-sessions.tex:116
 msgid "\\textsc{Sober} Space for triggers: argument"
 msgstr "\\textsc{Brzda} na spouštěč: hádka"
 
-#: mbrpra-sessions.tex:118 mbrpra-sessions.tex:142
+#: en/mbrpra-sessions.tex:118 en/mbrpra-sessions.tex:142
 msgid "Primary Trigger"
 msgstr "Primární spouštěč"
 
-#: mbrpra-sessions.tex:119
+#: en/mbrpra-sessions.tex:119
 msgid "Argument with significant other"
 msgstr "hádka s partnerem / partnerkou"
 
-#: mbrpra-sessions.tex:121
+#: en/mbrpra-sessions.tex:121
 msgid "Automatically walk in direction of nearby liquor store."
 msgstr "Automaticky jdu k nejbližšímu obchodu s alkoholem."
 
-#: mbrpra-sessions.tex:122
+#: en/mbrpra-sessions.tex:122
 msgid "\\textbf{trigger}: \\\\ See liquor store."
 msgstr "\\textbf{spouštěč}: \\\\ Vidím obchod."
 
-#: mbrpra-sessions.tex:124
+#: en/mbrpra-sessions.tex:124
 msgid "Go in store, buy alcohol, and start drinking."
 msgstr "Jdu dovnitř, koupím si lahev, piju."
 
-#: mbrpra-sessions.tex:125
+#: en/mbrpra-sessions.tex:125
 msgid "Slow down before doing anything."
 msgstr "Zpomalte než uděláte cokoliv dalšího."
 
-#: mbrpra-sessions.tex:130
+#: en/mbrpra-sessions.tex:130
 msgid ""
 "\n"
 "\t\t\t{Tightness in chest;},\n"
@@ -422,15 +607,15 @@ msgid ""
 "\t\t"
 msgstr "{těžkost na hrudníku;},{hněv, provinilost;},{myšlenka \\emph{musím se napít}.}"
 
-#: mbrpra-sessions.tex:131
+#: en/mbrpra-sessions.tex:131
 msgid "Focus on your breathing. Notice the breath flowing in and out. Slow down even more."
 msgstr "Zaměřte se na dech. Vnímejte, jak dech proudí dovnitř a ven. Zpomalte ještě o něco víc."
 
-#: mbrpra-sessions.tex:132 mbrpra-sessions.tex:158
+#: en/mbrpra-sessions.tex:132 en/mbrpra-sessions.tex:158
 msgid "Expand back to the full situation. Be aware of yourself and the environment."
 msgstr "Rozšiřte znovu svou pozornost na celou situaci. Uvědomte si sebe i své okolí."
 
-#: mbrpra-sessions.tex:139
+#: en/mbrpra-sessions.tex:139
 msgid ""
 "\n"
 "\t\t\t{Go to bedroom. Listen to music.},\n"
@@ -438,40 +623,40 @@ msgid ""
 "\t\t"
 msgstr "{jdu do ložnice, pustím si hudbu;},{o něco později si s partnerem/partnerkou promluvím.}"
 
-#: mbrpra-sessions.tex:140
+#: en/mbrpra-sessions.tex:140
 msgid "\\textsc{Sober} Space for triggers: old friend"
 msgstr "\\textsc{Brzda} na spouštěč"
 
-#: mbrpra-sessions.tex:143
+#: en/mbrpra-sessions.tex:143
 msgid "Across the street, you see an old friend who used to sell drugs to you."
 msgstr "přes ulici vidíte starého kamaráda, který vám dříve prodával drogy"
 
-#: mbrpra-sessions.tex:145
+#: en/mbrpra-sessions.tex:145
 msgid "Automatically walk across street towards old friend."
 msgstr "Automaticky přejdu ulici ke starému kamarádovi."
 
-#: mbrpra-sessions.tex:146
+#: en/mbrpra-sessions.tex:146
 msgid "\\textbf{Trigger}:\\\\ He tells you he has drugs in his car around the corner."
 msgstr "\\textbf{spouštěč}:\\\\ Řekne mi, že má v autě za rohem drogy."
 
-#: mbrpra-sessions.tex:147
+#: en/mbrpra-sessions.tex:147
 msgid "Go with him to car around corner."
 msgstr "Jdu s ním k jeho autu."
 
-#: mbrpra-sessions.tex:148
+#: en/mbrpra-sessions.tex:148
 msgid "\\textbf{Trigger}:\\\\ He shows you the drugs."
 msgstr "\\textbf{spouštěč}:\\\\ Ukáže mi drogy."
 
-#: mbrpra-sessions.tex:150
+#: en/mbrpra-sessions.tex:150
 msgid "You buy the drugs and use them."
 msgstr "Koupím si drogy a dám si."
 
-#: mbrpra-sessions.tex:151 mbrpra-sessions.tex:331 mbrpra-sessions.tex:348
-#: mbrpra-defs.tex:95
+#: en/mbrpra-sessions.tex:151 en/mbrpra-sessions.tex:331
+#: en/mbrpra-sessions.tex:348 en/mbrpra-defs.tex:95
 msgid "Pause and step out of automatic pilot mode."
 msgstr "Zastavte se a vyskočte z autopilota."
 
-#: mbrpra-sessions.tex:156
+#: en/mbrpra-sessions.tex:156
 msgid ""
 "\n"
 "\t\t\t{Warm feeling in belly. Mouth salivating.},\n"
@@ -480,19 +665,19 @@ msgid ""
 "\t\t"
 msgstr "{teplo v oblasti břicha, slinění v ústech;},{bažení či nutkání být high;},{myšlenka \\vskip0pt plus1cm \\toSelf{měl bych ho aspoň jít pozdravit}}"
 
-#: mbrpra-sessions.tex:157
+#: en/mbrpra-sessions.tex:157
 msgid "Take a slow, mindful breath in and out."
 msgstr "Pomalu a pozorně se nadechněte a vydechněte."
 
-#: mbrpra-sessions.tex:165
+#: en/mbrpra-sessions.tex:165
 msgid "{Walk away in the other direction.},{Take out smartphone and listen to guided \\textsc{Sober} space when you get to apartment.}"
 msgstr "{Odejdu opačným směrem.},{Když dojdu domů, pustím si z telefonu \\textsc{Brzd}u.}"
 
-#: mbrpra-sessions.tex:167
+#: en/mbrpra-sessions.tex:167
 msgid "Seeing Thoughts as Thoughts"
 msgstr "Vidět myšlenky jako myšlenky"
 
-#: mbrpra-sessions.tex:173
+#: en/mbrpra-sessions.tex:173
 msgid ""
 "\n"
 "\t\t\\item Thoughts are words or images that pass through our minds. Thoughts often “pop up” automatically. Just like our lungs breathe and our heart beats, our mind thinks. That is just what it does. \n"
@@ -502,107 +687,107 @@ msgid ""
 "\t"
 msgstr "\\item Myšlenky jsou slova či obrazy, které procházejí myslí. Myšlenky se často „vynoří“ samy od sebe. Naše plíce dýchají, naše srdce bije — a právě tak naše mysl myslí. To mysl jednoduše dělá.\\item Naše myšlenky nejsou nutně pravdivé; nemusíme jim pokaždé věřit či se na ně „nachytat“.\\item Automaticky věřit vlastním myšlenkám či podle nich jednat (např. \\toSelf{Nezvládám to. Kdybych si dal, cítil bych se mnohem lépe.}) může vést k užití alkoholu/drog.\\item Všímavost nám pomáhá vidět myšlenky jako pouhé myšlenky, ne pravdy či příkazy. Všímavost nám pomáhá udělat „krok zpět“, uvědomit si myšlenky, jak se vynořují, a naložit s nimi aktivně: zdravým způsobem, který nepovede k užití alkoholu/drogy."
 
-#: mbrpra-sessions.tex:174
+#: en/mbrpra-sessions.tex:174
 msgid "Mindful Check-In."
 msgstr "napojení na sebe."
 
-#: mbrpra-sessions.tex:177
+#: en/mbrpra-sessions.tex:177
 msgid "Try mindful walking. Bring your full attention to the activity of walking. Notice the sensations in your body as you walk."
 msgstr "Zkoušejte všímavou chůzi. Vneste plnou pozornost do toho, jak jdete. Všímejte si při chůzi všech tělesných vjemů."
 
-#: mbrpra-sessions.tex:181
+#: en/mbrpra-sessions.tex:181
 msgid "The Role of Thoughts in the Relapse Cycle"
 msgstr "Úloha myšlenek v cyklu relapsu"
 
-#: mbrpra-sessions.tex:192
+#: en/mbrpra-sessions.tex:192
 msgid "Trigger:"
 msgstr "Spouštěč:"
 
-#: mbrpra-sessions.tex:193
+#: en/mbrpra-sessions.tex:193
 msgid "Initial Thought:"
 msgstr "Prvotní myšlenka:"
 
-#: mbrpra-sessions.tex:193
+#: en/mbrpra-sessions.tex:193
 msgid "Physical pain and stress from a worsening health condition"
 msgstr "fyzická bolest a stres z chátrajícího zdraví"
 
-#: mbrpra-sessions.tex:196
+#: en/mbrpra-sessions.tex:196
 msgid "Automatic pilot"
 msgstr "Autopilot"
 
-#: mbrpra-sessions.tex:196
+#: en/mbrpra-sessions.tex:196
 msgid "“I can’t deal with this. Getting high would make things a lot better.”"
 msgstr "„Nezvládám to. Bylo by mnohem lepší, kdybych si šlehnul.“"
 
-#: mbrpra-sessions.tex:197
+#: en/mbrpra-sessions.tex:197
 msgid "Believe thoughts\\\\Act on thoughts"
 msgstr "věřím myšlenkám,\\\\jednám podle myšlenek."
 
-#: mbrpra-sessions.tex:198
+#: en/mbrpra-sessions.tex:198
 msgid "Believe thoughts. Feel upset and have urge to use. Go get some alcohol or drugs."
 msgstr "Věřím myšlenkám. Jsem podrážděný a chci užít drogu. Jdu si opatřit alkohol/drogy."
 
-#: mbrpra-sessions.tex:199
+#: en/mbrpra-sessions.tex:199
 msgid "Go back home and take one pill/drink/hit (\\toSelf{Just one})"
 msgstr "Vrátím se domů a dám si jednu tabletku / skleničku / dávku (\\toSelf{Jen jednu})."
 
-#: mbrpra-sessions.tex:199
+#: en/mbrpra-sessions.tex:199
 msgid "Thought:"
 msgstr "Myšlenka:"
 
-#: mbrpra-sessions.tex:199
+#: en/mbrpra-sessions.tex:199
 msgid "“\\textbf{Ah, Screw it.}”"
 msgstr "„\\textbf{K čertu s tím vším.}“"
 
-#: mbrpra-sessions.tex:200
+#: en/mbrpra-sessions.tex:200
 msgid "“I’m a failure. I might as well give up and have another.”"
 msgstr "„Selhal jsem. To už si můžu rovnou dát další!“"
 
-#: mbrpra-sessions.tex:201
+#: en/mbrpra-sessions.tex:201
 msgid "Take/use/drink more and eventually fall asleep"
 msgstr "Piju či si dám další dávku, nakonec usnu."
 
-#: mbrpra-sessions.tex:201
+#: en/mbrpra-sessions.tex:201
 msgid "\\emph{Next day…\\\\ — another:}"
 msgstr "\\emph{Na druhý den…\\\\ — znova:}"
 
-#: mbrpra-sessions.tex:201
+#: en/mbrpra-sessions.tex:201
 msgid "“\\textbf{Screw it!}”"
 msgstr "„\\textbf{K čertu s tím vším}.“"
 
-#: mbrpra-sessions.tex:202
+#: en/mbrpra-sessions.tex:202
 msgid "“I knew I would go back to using. There’s no hope for me.”"
 msgstr "„Věděl jsem, že si zase dám. Jsem beznadějný.“"
 
-#: mbrpra-sessions.tex:211
+#: en/mbrpra-sessions.tex:211
 msgid "Mindful Mode:"
 msgstr "Všímavost:"
 
-#: mbrpra-sessions.tex:212
+#: en/mbrpra-sessions.tex:212
 msgid "See thoughts as thoughts;\\\\ Don’t need to act on thoughts"
 msgstr "vidět myšlenky jako myšlenky,\\\\nemusím jednat podle myšlenek."
 
-#: mbrpra-sessions.tex:213
+#: en/mbrpra-sessions.tex:213
 msgid "Pause. Notice your thoughts as just passing thoughts, not truths or commands. \\toSelf{This is just a thought. I don’t need to believe it or act on it right now.}"
 msgstr "Zastavuji se. Uvědomím si myšlenky jen jako myšlenky probíhající v mysli — ne pravdy či příkazy. \\toSelf{Tohle je jen myšlenka. Nemusím jí věřit či podle ní hned jednat.}"
 
-#: mbrpra-sessions.tex:214
+#: en/mbrpra-sessions.tex:214
 msgid "Focus on your breathing for a few moments to “ground” yourself."
 msgstr "Zaměřím na pár chvil pozornost na dech, abych se zakotvil či „uzemnil“."
 
-#: mbrpra-sessions.tex:215
+#: en/mbrpra-sessions.tex:215
 msgid "Respond with awareness. Make some tea. Call a supportive friend."
 msgstr "Akce s uvědoměním a porozuměním. Udělám si čaj. Zavolám někomu, kdo je pro mě oporou."
 
-#: mbrpra-sessions.tex:232
+#: en/mbrpra-sessions.tex:232
 msgid "Never too late to switch to mindful mode."
 msgstr "Nikdy není pozdě se přepnout na všímavost."
 
-#: mbrpra-sessions.tex:242
+#: en/mbrpra-sessions.tex:242
 msgid "Surfing the Urge"
 msgstr "Jízda na vlně nutkání"
 
-#: mbrpra-sessions.tex:248
+#: en/mbrpra-sessions.tex:248
 msgid ""
 "\n"
 "\t\t\\item Urges or cravings to use are like ocean waves. They rise, reach a peak, and eventually pass by.  \n"
@@ -612,23 +797,23 @@ msgid ""
 "\t"
 msgstr "\\item Nutkání či bažení jsou jako vlny na vodě. Rostou, dosáhnout vrcholu a zase postupně zmizí.\\item Všímavost nám pomáhá zpomalit a být zvídavý k této zkušenosti nutkání/bažení. Můžeme se zastavit a zeptat se sami sebe: \\toSelf{Hmm, jak toto nutkání právě teď prožívám? Jak v těle? Jak v mysli?}\\item S všímavostí se můžeme na vlně nutkání „svézt“ — místo přetlačování se s ní, či snahy se ji zbavit. Můžeme tím pěstovat otevřenost a přijímání zkušenosti nutkání, jak se právě děje.\\item Všmavost nám také může pomoci si více uvědomit, jaké jsou naše vnitřní potřeby a jak o sebe můžeme pečovat, když máme nutkání či bažení. Můžeme zastavit a zeptat se sami sebe: \\toSelf{Co v tuto chvíli opravdu potřebuju?}"
 
-#: mbrpra-sessions.tex:249
+#: en/mbrpra-sessions.tex:249
 msgid "\\item Mindful Check-In; \\item Urge Surfing."
 msgstr "\\item napojení na sebe; \\item jízda na vlně nutkání."
 
-#: mbrpra-sessions.tex:251
+#: en/mbrpra-sessions.tex:251
 msgid "Practice the \\textsc{Sober} Space when challenges or urges come up."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže či nutkání."
 
-#: mbrpra-sessions.tex:252
+#: en/mbrpra-sessions.tex:252
 msgid "Try mindful looking. Pause and take in all the sights around you. Notice colors, shapes, lighting, and shadows. Try this when you are outdoors. Try this when you are indoors too."
 msgstr "Zkoušejte všímavé dívání se. Zastavte se a otevřete se všem zrakovým vjemům. Všimněte si barev, tvarů, světla a stínů. Zkoušejte to venku. I uvnitř."
 
-#: mbrpra-sessions.tex:261
+#: en/mbrpra-sessions.tex:261
 msgid "Following Your Values"
 msgstr "Následovat své hodnoty"
 
-#: mbrpra-sessions.tex:267
+#: en/mbrpra-sessions.tex:267
 msgid ""
 "\n"
 "\t\t\\item Personal values are principles and beliefs we have about how we want to live our life and what kind of person we want to be. \n"
@@ -638,236 +823,236 @@ msgid ""
 "\t"
 msgstr "\\item Osobní hodnoty jsou principy a přesvědčení, jak chceme žít svůj život a jací chceme osobně být.\\item Naše hodnoty jsou kompasem či mapou, podle kterých v životě kráčíme. Naše hodnoty mohou mít vliv na velká i malá rozhodnutí, která během života děláme.\\item Když jsme na autopilotovi, můžeme se chovat či reagovat v nesouladu s vlastními hodnotami. S všímavostí si své chování uvědomujeme a jednáme s vlastními hodnotami v souladu.\\item Zotavování ze závislosti znamená své hodnoty následovat a ve svém životě najít smysl a účel. Dotknout se vlastních hodnot nám může dát sílu dělat, co je pro nás opravdu důležité — i když se objeví stres či nepohoda."
 
-#: mbrpra-sessions.tex:268
+#: en/mbrpra-sessions.tex:268
 msgid "\\item Mindful Check-In;\\item Values Meditation."
 msgstr "\\item napojení na sebe;\\item meditace o hodnotách."
 
-#: mbrpra-sessions.tex:270
+#: en/mbrpra-sessions.tex:270
 msgid "Practice the \\textsc{Sober} Space when challenges come up. Consider your values and how you can make a mindful choice in line with your values."
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže. Zvažte své hodnoty a jak se všímavě rozhodovat, abyste s nimi zůstávali v souladu."
 
-#: mbrpra-sessions.tex:271
+#: en/mbrpra-sessions.tex:271
 msgid "Practice mindfulness while doing a daily chore, like washing the dishes or folding laundry. Bring a curious awareness to what you are doing in the moment. Connect with your senses (e.g., sights, sounds, touch, smell)."
 msgstr "Cvičte všímavost při běžných domácích pracech, např. mytí nádobí či skládání prádla. Vneste zvídavé uvědomování do toho, co právě děláte. Napojte se na své smysly (např. co vidím, zvuky, doteky, pachy)."
 
-#: mbrpra-sessions.tex:275
+#: en/mbrpra-sessions.tex:275
 msgid "My Personal Values;"
 msgstr "mé osobní hodnoty;"
 
-#: mbrpra-sessions.tex:276 mbrpra-sheets.tex:23
+#: en/mbrpra-sessions.tex:276 en/mbrpra-sheets.tex:23
 msgid "My Personal Values"
 msgstr "Osobní hodnoty"
 
-#: mbrpra-sessions.tex:278
+#: en/mbrpra-sessions.tex:278
 msgid "Deep down inside, what is important to you? What do you want your life to stand for?"
 msgstr "Co je pro vás, úplně uvnitř a niterně, důležité? Na čem byste chtěli, aby váš život stál?"
 
-#: mbrpra-sessions.tex:282
+#: en/mbrpra-sessions.tex:282
 msgid "Personal values are principles and beliefs we have about how we want to live our life and what kind of person we want to be. Values are directions we keep moving in. Values are an ongoing process. For example, if you want to be a loving, caring, supportive partner, that is a value – an ongoing process."
 msgstr "Osobní hodnoty jsou principy a přesvědčení o tom, jak chceme žít a jací chceme být. Hodnoty jsou směry, ve kterých se pohybujeme. Například, pokud chcete být milujícím, laskavým a podpůrným partnerem, to je hodnota — pokračující proces."
 
-#: mbrpra-sessions.tex:286
+#: en/mbrpra-sessions.tex:286
 msgid "The following are areas of life that are valued by some people. Not everyone has the same values, and this is not a test to see whether you have the “correct” values. There may be certain areas that you don’t value much; you may skip them if you wish."
 msgstr "Jako osnovu pro reflexi svých hodnot můžete využít tento text. Uvedené oblasti života představují pro některé lidi hodnoty. Ne všichni máme hodnoty shodné, nejde zde o ověření toho, zda máte hodnoty „správné“. Některé z těchto oblastí pro vás možná důležité nejsou; můžete je klidně přeskočit."
 
-#: mbrpra-sessions.tex:290
+#: en/mbrpra-sessions.tex:290
 msgid "\\valItem{Family.} What sort of brother/sister, son/daughter, uncle/aunt, family member do you want to be? What personal qualities would you like to bring to those relationships? What sort of relationships would you like to build? How would you interact with others if you were the ‘ideal you’ in these relationships?"
 msgstr "\\valItem{Rodina.}  Jaká/jaký chcete být jako sestra/bratr, dcera/syn, teta/\\allowbreak{}strýc, člen rodiny? Které osobní vlastnosti byste rád(a) vnesl(a) do těchto vztahů? Jaké vztahy bych chtěl(a) vybudovat? Jak byste se choval(a) k ostatním, pokud byste byl(a) své „ideální já“?"
 
-#: mbrpra-sessions.tex:291
+#: en/mbrpra-sessions.tex:291
 msgid "\\valItem{Marriage/couples/intimate relations.} What sort of partner would you like to be in an intimate relationship? What personal qualities would you like to develop? What sort of relationship would you like to build? How would you interact with your partner if you were the ‘ideal you’ in this relationship?"
 msgstr "\\valItem{Manželství, partnerství, intimní vztahy.}  Jakou partnerkou / jakým partnerem byste chtěl(a) být v intimním vztahu? Které osobní kvality byste rád(a) rozvíjel(a)? Jaký je vztah, který byste chtěl(a) vybudovat? Jak byste se choval(a) ke své partnerce / svému partnerovi, pokud byste byl(a) své „ideální já“?"
 
-#: mbrpra-sessions.tex:292
+#: en/mbrpra-sessions.tex:292
 msgid "\\valItem{Parenting.} What sort of parent would you like to be? What sort of qualities would you like to have? What sort of relationships would you like to build with your children? How would you behave if you were the ‘ideal you’ as a parent?"
 msgstr "\\valItem{Rodičovství.}  Jakým rodičem byste chtěl(a) být? Které vlastnosti byste chtěl(a) mít jako rodič? Jaký vztah byste rád(a) vybudovala se svými dětmi? Jak byste se chovala, pokud byste byla své „ideální já“ v roli rodiče?"
 
-#: mbrpra-sessions.tex:293
+#: en/mbrpra-sessions.tex:293
 msgid "\\valItem{Friendships.} What sort of qualities would you like to bring to your friendships? If you could be the best friend possible, how would you behave towards your friends? What friendships would you like to build?"
 msgstr "\\valItem{Přátelství.} Které kvality byste rád(a) vnášel(a) do svých přátelských vztahů? Pokud byste byl(a) nejlepší možná přítel(kyně), jak byste se choval(a) ke svým přítelům? Jaká přátelství byste rád(a) budovala?"
 
-#: mbrpra-sessions.tex:294
+#: en/mbrpra-sessions.tex:294
 msgid "\\valItem{Career/employment.} What do you value in your work? What would make it more meaningful? What kind of worker would you like to be? If you were living up to your own ideal standards, what personal qualities would you like to bring to your work? What sort of work relations would you like to build?"
 msgstr "\\valItem{Kariéra, práce.} Čeho si ceníte na své práci? Co by ji udělalo více smysluplnou? Jaká/jaký chcete být jako zaměstnanec?  Pokud byste žil(a) podle své ideální představy, které osobní kvality byste do práce přinášel(a)? Jaké typy vztahů na pracovišti byste rád(a) budovala?"
 
-#: mbrpra-sessions.tex:295
+#: en/mbrpra-sessions.tex:295
 msgid "\\valItem{Education/personal growth and development.} What do you value about learning, education, training, or personal growth? What new skills would you like to learn? What knowledge would you like to gain? What further education/learning appeals to you? What sort of student would you like to be? What personal qualities would you like to apply?"
 msgstr "\\valItem{Vzdělávání, osobní růst a rozvoj.}  Čeho si na učení, vzdělávání, tréninku či osobním rozvoji ceníte? Které nové dovednosti byste se rád(a) naučil(a)? O čem byste rád(a) získala vědomosti? Jaké další vzdělávání či učení vás přitahuje? Jakou studentkou / jakým studentem byste chtěl(a) být? Které osobní kvality byste v této oblasti chtěl(a) využít?"
 
-#: mbrpra-sessions.tex:296
+#: en/mbrpra-sessions.tex:296
 msgid "\\valItem{Recreation/fun/leisure.} What sorts of hobbies, sports, or leisure activities do you enjoy? How would you like to relax/unwind? How would you like to have fun? What sorts of activities would you like to do?"
 msgstr "\\valItem{Rekreace, zábava, oddych.}  Které zájmy, sporty či oddechové aktivity máte rád(a)? Jak byste rád(a) relaxoval(a) a odpočíval(a)? Jakému typu zábavy byste se rád(a) oddával(a)? Kterým aktivitám byste se rád(a) věnoval(a)?"
 
-#: mbrpra-sessions.tex:297
+#: en/mbrpra-sessions.tex:297
 msgid "\\valItem{Spirituality.} Spirituality means different things to everyone. It may be connecting with nature, or it may be participation in an organized religious group. What is important to you in this area of life?"
 msgstr "\\valItem{Spiritualita / duchovno.}  Duchovno znamená pro různé lidi různé věci. Může to být spojení s přírodou, může to být účast na náboženské skupině. Co je pro vás v této oblasti důležité?"
 
-#: mbrpra-sessions.tex:298
+#: en/mbrpra-sessions.tex:298
 msgid "\\valItem{Citizenship/environment/community life.} How would you like to contribute to your community or environment, e.g. through volunteering, or recycling, or supporting a group/charity/cause/political party? What sort of environments would you like to create at home, at work, in your community? What environments would you like to spend more time in?"
 msgstr "\\valItem{Občanská společnost, životní prostředí, život obce.}  Jak byste rád(a) přispěl(a) své obci či prostředí, např. dobrovolnickou činností, recyklací, podporou spolku / charity / politické strany? Jaké prostředí byste si rád(a) vytvořil(a) doma, v práci, v obci? V jakém prostředí byste rád(a) trávil(a) víc času?"
 
-#: mbrpra-sessions.tex:299
+#: en/mbrpra-sessions.tex:299
 msgid "\\valItem{Health.} What are your values related to maintaining your physical well-being? How do you want to look after your health, with regard to sleep, diet, exercise, smoking, alcohol, etc.? Why is this important?"
 msgstr "\\valItem{Zdraví.}  Jaké máte hodnoty v oblasti zachování fyzické pohody? Jak se chcete starat o své zdraví s ohledem na spánek, stravování, cvičení, kouření, pití alkohou, …? Proč je to pro vás důležité?"
 
-#: mbrpra-sessions.tex:306
+#: en/mbrpra-sessions.tex:306
 msgid "\\textsc{Sober} Space for values"
 msgstr "\\textsc{Brzda} s hodnotami"
 
-#: mbrpra-sessions.tex:308 mbrpra-defs.tex:319
+#: en/mbrpra-sessions.tex:308 en/mbrpra-defs.tex:320
 msgid "The \\textsc{Sober} Space is an \\emph{on-the-go} mindfulness practice that you can do anywhere, anytime because it is brief, simple, and flexible."
 msgstr "\\textsc{Brzda} je cvičení všímavosti „za pochodu“, které můžete použít kdekoliv a kdykoliv, protože je krátké, jednoduché a přizpůsobivé."
 
-#: mbrpra-sessions.tex:310
+#: en/mbrpra-sessions.tex:310
 msgid "You can use the \\textsc{Sober} Space as a way to make mindful choices and follow your values and goals."
 msgstr "\\textsc{Brzd}u můžete použít jako nástroj, který vám pomůže se vědomě rozhodovat a následovat své hodnoty a cíle."
 
-#: mbrpra-sessions.tex:311 mbrpra-defs.tex:209 mbrpra-defs.tex:251
-#: mbrpra-defs.tex:321
+#: en/mbrpra-sessions.tex:311 en/mbrpra-defs.tex:209 en/mbrpra-defs.tex:251
+#: en/mbrpra-defs.tex:322
 msgid "Stop."
 msgstr "Brzdi."
 
-#: mbrpra-sessions.tex:311 mbrpra-defs.tex:321
+#: en/mbrpra-sessions.tex:311 en/mbrpra-defs.tex:322
 msgid "S"
 msgstr "B"
 
-#: mbrpra-sessions.tex:312 mbrpra-defs.tex:210 mbrpra-defs.tex:252
-#: mbrpra-defs.tex:322
+#: en/mbrpra-sessions.tex:312 en/mbrpra-defs.tex:210 en/mbrpra-defs.tex:252
+#: en/mbrpra-defs.tex:323
 msgid "Observe."
 msgstr "Roz-vhled."
 
-#: mbrpra-sessions.tex:312 mbrpra-defs.tex:322
+#: en/mbrpra-sessions.tex:312 en/mbrpra-defs.tex:323
 msgid "O"
 msgstr "R"
 
-#: mbrpra-sessions.tex:312 mbrpra-defs.tex:322
+#: en/mbrpra-sessions.tex:312 en/mbrpra-defs.tex:323
 msgid "Remember to stop or “pause” to do this exercise. This is the first step in stepping out of automatic pilot."
 msgstr "Úplně nejdřív šlápněte na brzdu. Je to první krok, kterým vystoupíte z autopilota."
 
-#: mbrpra-sessions.tex:313 mbrpra-defs.tex:211 mbrpra-defs.tex:253
-#: mbrpra-defs.tex:323
+#: en/mbrpra-sessions.tex:313 en/mbrpra-defs.tex:211 en/mbrpra-defs.tex:253
+#: en/mbrpra-defs.tex:324
 msgid "Breathe."
 msgstr "Zakotvi se."
 
-#: mbrpra-sessions.tex:313 mbrpra-defs.tex:323
+#: en/mbrpra-sessions.tex:313 en/mbrpra-defs.tex:324
 msgid "B"
 msgstr "Z"
 
-#: mbrpra-sessions.tex:313 mbrpra-defs.tex:323
+#: en/mbrpra-sessions.tex:313 en/mbrpra-defs.tex:324
 msgid "Observe what is going on in the moment, both around you and inside of you (body sensations, emotions, and thoughts). Try to observe with a sense of curiosity and nonjudgment."
 msgstr "Rozhlédněte se ve své svou momentální zkušenosti, okolo sebe i v sobě (tělo, pocity, myšlenky). Zkuste se dívat s určitou zvídavostí a bez odsuzování."
 
-#: mbrpra-sessions.tex:314 mbrpra-defs.tex:212 mbrpra-defs.tex:254
-#: mbrpra-defs.tex:324
+#: en/mbrpra-sessions.tex:314 en/mbrpra-defs.tex:212 en/mbrpra-defs.tex:254
+#: en/mbrpra-defs.tex:325
 msgid "Expand."
 msgstr "Doširoka se otevři."
 
-#: mbrpra-sessions.tex:314 mbrpra-defs.tex:324
+#: en/mbrpra-sessions.tex:314 en/mbrpra-defs.tex:325
 msgid "E"
 msgstr "D\\kern-.1em"
 
-#: mbrpra-sessions.tex:314 mbrpra-defs.tex:324
+#: en/mbrpra-sessions.tex:314 en/mbrpra-defs.tex:325
 msgid "Notice the sensations of the breath in your body as you take a few slow breaths in and out."
 msgstr "Dejte si několik pomalých nádechů a výdechů a zakotvěte přitom svou pozornost v tělesných počitcích, které dýchání doprovázejí."
 
-#: mbrpra-sessions.tex:315
+#: en/mbrpra-sessions.tex:315
 msgid "Expand your awareness to your body and the situation. \\emph{Expand your awareness even more to consider your values.}"
 msgstr "Rozšiřte pozornost od dechu na tělo i na celou situaci. \\emph{Otevřete se ještě šířeji a zvažte i své hodnoty.}"
 
-#: mbrpra-sessions.tex:315 mbrpra-defs.tex:213 mbrpra-defs.tex:255
-#: mbrpra-defs.tex:325
+#: en/mbrpra-sessions.tex:315 en/mbrpra-defs.tex:213 en/mbrpra-defs.tex:255
+#: en/mbrpra-defs.tex:326
 msgid "Respond."
 msgstr "Akce."
 
-#: mbrpra-sessions.tex:315 mbrpra-defs.tex:325
+#: en/mbrpra-sessions.tex:315 en/mbrpra-defs.tex:326
 msgid "R"
 msgstr "A"
 
-#: mbrpra-sessions.tex:316
+#: en/mbrpra-sessions.tex:316
 msgid "Respond to the situation with awareness. \\emph{How can your values guide you in responding to the situation?}"
 msgstr "Jednete v nastalé situaci s vnitřní orientací. \\emph{Jak vám vaše hodnoty v moudré reakci pomáhají?}"
 
-#: mbrpra-sessions.tex:321
+#: en/mbrpra-sessions.tex:321
 msgid "\\textsc{Sober} Space for values: anxiety"
 msgstr "\\textsc{Brzda} na váhání: úzkost"
 
-#: mbrpra-sessions.tex:323 mbrpra-sessions.tex:340
+#: en/mbrpra-sessions.tex:323 en/mbrpra-sessions.tex:340
 msgid "“Choice Point” Situation"
 msgstr "Situace"
 
-#: mbrpra-sessions.tex:324
+#: en/mbrpra-sessions.tex:324
 msgid "Feel anxious before job interview.\\\\ Not sure whether to go."
 msgstr "Mám úzkost před pracovním pohovorem.\\\\ Nejsem si jistý, zda na něj mám jít."
 
-#: mbrpra-sessions.tex:326
+#: en/mbrpra-sessions.tex:326
 msgid "I’m just going to mess up the interview."
 msgstr "Určitě se ztrapním a řeknu nějakou blbost."
 
-#: mbrpra-sessions.tex:327
+#: en/mbrpra-sessions.tex:327
 msgid "What’s the point. I probably won’t even get the job."
 msgstr "Proč tam vůbec chodit, stejně mě nevezmou."
 
-#: mbrpra-sessions.tex:328
+#: en/mbrpra-sessions.tex:328
 msgid "Feel more anxious and start to also feel sense of shame."
 msgstr "Úzkost je silnější, k tomu se přidává stud."
 
-#: mbrpra-sessions.tex:330
+#: en/mbrpra-sessions.tex:330
 msgid "Don’t go to job interview. Stay home and lie in bed."
 msgstr "Na pohovor nejdu, zůstávám doma a ležím v posteli."
 
-#: mbrpra-sessions.tex:332
+#: en/mbrpra-sessions.tex:332
 msgid "{Heart beating fast;},{Anxious;},{Thoughts about avoiding interview.}"
 msgstr "{srdce rychle bije;},{úzkost, obavy;},{myšlenky jak se vyhnout pohovoru.}"
 
-#: mbrpra-sessions.tex:333 mbrpra-sessions.tex:350 mbrpra-defs.tex:96
+#: en/mbrpra-sessions.tex:333 en/mbrpra-sessions.tex:350 en/mbrpra-defs.tex:96
 msgid "Take a few slow, mindful breaths in and out. Focus your attention on the breath."
 msgstr "Několikrát se pomalu a pozorně nadýchěte a vydýchněte. Pozornost zaměřte na dech."
 
-#: mbrpra-sessions.tex:334 mbrpra-sessions.tex:351
+#: en/mbrpra-sessions.tex:334 en/mbrpra-sessions.tex:351
 msgid "Expand your awareness back to yourself and the situation. Expand your awareness even more to consider your personal values."
 msgstr "Rozšiřte znovu svou pozornost na sebe i celou situaci. Pak pozornost rozšiřte ještě víc a zvažte i své osobní hodnoty."
 
-#: mbrpra-sessions.tex:337
+#: en/mbrpra-sessions.tex:337
 msgid "{Say to yourself: \\toSelf{Getting a job is important to me right now. I’ll just do the best I can.}},{Go to job interview.}"
 msgstr "{Řeknu si: \\toSelf{Získat práci je teď pro mě důležité. Udělám to nejlepší, co svedu.}},{Jdu na pohovor.}"
 
-#: mbrpra-sessions.tex:338
+#: en/mbrpra-sessions.tex:338
 msgid "\\textsc{Sober} Space for values: boredom"
 msgstr "\\textsc{Brzda} na váhání: nuda"
 
-#: mbrpra-sessions.tex:341
+#: en/mbrpra-sessions.tex:341
 msgid "Bored on a Sunday. Not sure what to do with yourself."
 msgstr "Nedělní nuda. Nevím, co sám se sebou."
 
-#: mbrpra-sessions.tex:343
+#: en/mbrpra-sessions.tex:343
 msgid "What should I do with myself? Maybe I’ll just chill."
 msgstr "Co bych tak mohl dělat? Možná se budu jen tak flákat."
 
-#: mbrpra-sessions.tex:344
+#: en/mbrpra-sessions.tex:344
 msgid "I would feel more relaxed if I could get a little high."
 msgstr "Byl bych uvolněnější, kdybych si něco malého dal."
 
-#: mbrpra-sessions.tex:345
+#: en/mbrpra-sessions.tex:345
 msgid "Feel craving to get high."
 msgstr "Cítím bažení po droze."
 
-#: mbrpra-sessions.tex:347
+#: en/mbrpra-sessions.tex:347
 msgid "Look around house for drugs or alcohol you might still have."
 msgstr "Hledám doma, jestli ještě někde nemám alkohol či drogy."
 
-#: mbrpra-sessions.tex:349
+#: en/mbrpra-sessions.tex:349
 msgid "{Tension in shoulders;},{Agitated;},{Thinking: \\toSelf{What should I do with myself?}}"
 msgstr "{napětí v ramenou;},{vnitřní nepokoj;},{myšlenky \\toSelf{co bych tak mohl dělat?}}"
 
-#: mbrpra-sessions.tex:360
+#: en/mbrpra-sessions.tex:360
 msgid "{Say to yourself: \\toSelf{You know what, I care about my daughter and want to spend more quality time with her.}},{Call daughter and plan to meet for lunch.}"
 msgstr "{Řeknu si: \\toSelf{Vlastně mám rád svou dceru; rád bych s ní víc hodnotně trávil čas.}},{Volám dceři, naplánuju, že se sejdeme na oběd.}"
 
-#: mbrpra-sessions.tex:362
+#: en/mbrpra-sessions.tex:362
 msgid "Exploring Your Needs"
 msgstr "Prozkoumat své potřeby"
 
-#: mbrpra-sessions.tex:367
+#: en/mbrpra-sessions.tex:367
 msgid ""
 "\n"
 "\t\t\\item We can turn toward substance use because we are just trying find a way to meet our needs in the moment. These include wholesome and healthy needs that we all have as human beings, like the need to feel safe, to get some relief, to feel in control, connect with other people, or to feel happy and alive.   \n"
@@ -876,51 +1061,516 @@ msgid ""
 "\t"
 msgstr "\\item K alkoholu/drogám se můžeme obrátit, když se snažíme naplnit své potřeby v daném okamžiku. Mezi tyto potřeby patří i ty prospěšné a zdravé, které všichni jako liské bytosti máme: např. potřeba pocitu bezpečí, úlevy, vlivu na události, napojení na ostatní, pocitu štěstí a živosti.\\item Návykové látky nám nedají to, co slibují. V dlouhodobé perspektivě užívání alkoholu/drog naše potřeby nenaplňuje. Je samozřejmě zcela pochopitelné, že se k nim obrátíme. Mít nutkání užít alkohol/drogu či návykové látky vyhledávat není nijak „špatně“. V těchto chvílích se snažíme pečovat o sebe a naplnit své potřeby, jako všichni ostatní lidé.\\item Všímavost nám pomáhá dívat se „pod“ prvotní nutkání k užití alkoholu/drogy a prozkoumat své hlubší potřeby, které v tu chvíli možná máme. Když nutkání přijde, můžeme se zabrzdit a zeptat se sami sebe: \\toSelf{Co v tuto chvíli opravdu potřebuji?} Rozeznání toho, co v tu chvíli opravu potřebujeme, nám pomáhá rozhodovat se moudře — místo automatického obrácení se k alkoholu/drogám."
 
-#: mbrpra-sessions.tex:368
+#: en/mbrpra-sessions.tex:368
 msgid "\\item Mindful Check-In;\\item Exploring Your Needs Meditation."
 msgstr "\\item napojení na sebe;\\item meditace zkoumání potřeb."
 
-#: mbrpra-sessions.tex:370
+#: en/mbrpra-sessions.tex:370
 msgid "Try doing the \\textsc{Sober} Space when challenges or urges come up. Think about your needs. Ask yourself: \\toSelf{What do I really need right now?}"
 msgstr "Používejte \\textsc{Brzd}u, když se objeví obtíže či nutkání. Zvažte své potřeby. Zeptejte se sami sebe: \\toSelf{Co v tuto chvíli opravdu potřebuji?}"
 
-#: mbrpra-sessions.tex:371
+#: en/mbrpra-sessions.tex:371
 msgid "Try practicing mindfulness of nature when you are outside. Bring a curious awareness to different aspects of the natural environment, such as the sky, clouds, the wind, plants, trees, or animals."
 msgstr "Cvičte všímavost k přírodě, když jste venku. Vneste zvídavé uvědomování do různých prožitků v přírodě, když vnímáte např. oblohu, oblaka, vítr, rostliny, stromy či zvířata."
 
-#: mbrpra-sheets.tex:10
+#: en/mbrpra-sheets.tex:10
 msgid "Write your own example. Think about a type of situation that brings about an automatic reaction."
 msgstr "Popište situaci, která vyvolá automatickou reakci."
 
-#: mbrpra-sheets.tex:10
+#: en/mbrpra-sheets.tex:10
 msgid "\\textsc{Sober} Space for feelings"
 msgstr "\\textsc{Brzda} s pocitem"
 
-#: mbrpra-sheets.tex:14
+#: en/mbrpra-sheets.tex:14
 msgid "Think about a \\emph{trigger} that brings about an urge or craving to use alcohol or other drugs."
 msgstr "Zamyslete se nad \\emph{spouštěčem}, který přináší nutkání či bažení po alkoholu či drogách."
 
-#: mbrpra-sheets.tex:14
+#: en/mbrpra-sheets.tex:14
 msgid "\\textsc{Sober} Space for triggers"
 msgstr "\\textsc{Brzda} na spouštěč"
 
-#: mbrpra-sheets.tex:15
+#: en/mbrpra-sheets.tex:15
 msgid "Primary trigger"
 msgstr "Primární spouštěč"
 
-#: mbrpra-sheets.tex:24
+#: en/mbrpra-sheets.tex:24
 msgid "Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions in Session 7."
 msgstr "Co je pro vás, úplně uvnitř a niterně, důležité? Na čem byste chtěli, aby váš život stál? Do políček „pavouka“ vepište své hodnoty. Nemusíte využít všechna políčka, a můžete si přikreslit další dle potřeby."
 
-#: mbrpra.tex:35
+#: en/mbrpra-sheets.tex:43
+msgid "How many times per week I listen to an mindfulness exercise:"
+msgstr "Počet dní v týdnu, kdy budu cvičit s nahrávkou:"
+
+#: en/mbrpra-sheets.tex:43
+msgid "Plan out your practice routine"
+msgstr "Plán cvičení"
+
+#: en/mbrpra-sheets.tex:47
+msgid "The time of day I usually will practice is:"
+msgstr "Denní doba, kdy budu obvykle cvičit:"
+
+#: en/mbrpra-sheets.tex:47
+msgid "We recommend listening to a mindfulness exercise on a daily or semi-daily basis (4 to 6 days per week). Regular practice will keep your “mindfulness muscle” strong over time."
+msgstr " Doporučujeme si pustit nahrané cvičení denně či obden (4–6 dní v týdnů). Pravidelné cvičení udrží váš „sval všímavosti“ v kondici."
+
+#: en/mbrpra-sheets.tex:50
+msgid "Here are some example times of day to practice that work for other people:"
+msgstr "Zde je pár příkladů denní doby, která se používá:"
+
+#: en/mbrpra-sheets.tex:54
+msgid ""
+"\n"
+"\t\t\\item In the morning: before breakfast, after showering, when getting ready\n"
+"\t\t\\item At night: after putting on pajamas, during nighttime unwind routine\n"
+"\t\t\\item Midday: during lunch break\n"
+"\t"
+msgstr "\\item Ráno: před snídaní, po sprše, při přípravě na den. \\item Večer: po převlečení do pyžama, během večer ukládací rutiny. \\item Přes den: během přestávky na oběd."
+
+#: en/mbrpra-sheets.tex:56
+msgid "How am I going to access the audio-guided exercises? [?]"
+msgstr "Jak si budu pouštět nahrávky? [?]"
+
+#: en/mbrpra-sheets.tex:58
+msgid "I will practice in the following location:"
+msgstr "Kde budu cvičit?"
+
+#: en/mbrpra-sheets.tex:62
+msgid "Here are some potential options: (1) Bedroom, (2) On the bus (with headphones), (3) Car (while parked), (4) Office, (5) Outside."
+msgstr "Zde je pár možností: ložnice, v autobuse či vlaku (na sluchátka), v autě (zaparkovaném), v kanceláři, venku."
+
+#: en/mbrpra-sheets.tex:62
+msgid "I will practice in the following position/posture:"
+msgstr "V jaké pozici?"
+
+#: en/mbrpra-sheets.tex:65
+msgid "We recommend sitting upright, rather than slouching. For the options below, use pillows as needed to support your back."
+msgstr "Doporučujeme sedět vzpřímeně, neopírat se. Podle potřeby použijte polštářky jako oporu pro záda."
+
+#: en/mbrpra-sheets.tex:70
+msgid ""
+"\n"
+"\t\t\\item Sit in a chair with feet on floor\n"
+"\t\t\\item Sit on couch in a cross-legged position or with feet on floor\n"
+"\t\t\\item Sit on a bed in a cross-legged position\n"
+"\t\t\\item Sit cross-legged on the floor (maybe with back against wall)\n"
+"\t"
+msgstr "\\item V sedě na židli, chodidla na zemi. \\item V sedě na pohovce, nohy zkřížené či na zemi. \\item V sedě na posteli, zkřížené nohy. \\item V sedě na zemi (je možné se opřít zády o zeď)."
+
+#: en/mbrpra-sheets.tex:74
+msgid "Lying down is an option too. However, it can be easier to get sleepy in this position. If you get too sleepy lying down, then try sitting upright in one of the positions listed above."
+msgstr "Lze cvičit i v leže. V této pozici je však snažší upadnout do ospalosti. Pokud byste se v leže cítili velmi ospalí, zkuste jednu z uvedených vzpřímených pozic."
+
+#: en/mbrpra-sheets.tex:75
+msgid "Motivations for practicing"
+msgstr "Motivace ke cvičení"
+
+#: en/mbrpra-sheets.tex:76
+msgid "What are your personal motivations for practicing mindfulness? Check one or more of the options below. Or, write in your own personal motivations."
+msgstr "Jaké jsou vaše osobní motivace ke cvičení všímavosti? Zaškrtněte některé z uvedených možností, případně dopište své vlastní osobní motivy."
+
+#: en/mbrpra-sheets.tex:78
+msgid "My recovery matters a lot to me"
+msgstr "Zotavení ze závislosti je pro mě důležité."
+
+#: en/mbrpra-sheets.tex:79
+msgid "Self-care is an important part of my life"
+msgstr "Péče o sebe je důležitou součástí mého života."
+
+#: en/mbrpra-sheets.tex:80
+msgid "I want to boost my ability to handle stress in my life"
+msgstr "Chci posílit svou schopnost zvládání stresu v životě."
+
+#: en/mbrpra-sheets.tex:81
+msgid "I am willing to try something new"
+msgstr "Rád zkouším nové věci."
+
+#: en/mbrpra-sheets.tex:82
+msgid "I like that mindfulness is backed by research"
+msgstr "Je pro mě důležité, že všímavost je podepřená výzkumem."
+
+#: en/mbrpra-sheets.tex:83
+msgid "I recognize that mindfulness has helped other people in recovery"
+msgstr "Uvědomuju si, že ostatím všímavost v zotavení pomohla."
+
+#: en/mbrpra-sheets.tex:84
+msgid "I want to learn effective coping strategies"
+msgstr "Chci se naučit účinné strategie zvládání životních situací."
+
+#: en/mbrpra-sheets.tex:85
+msgid "I value my mental health as much as my physical health"
+msgstr "Svého mentálního zdraví si cením minimálně tak jako tělesného."
+
+#: en/mbrpra-sheets.tex:86
+msgid "I want to live a healthy and balanced life"
+msgstr "Chci žít zdravý a vyvážený život."
+
+#: en/mbrpra-start.tex:11
+msgid "Getting Started"
+msgstr "Začínáme"
+
+#: en/mbrpra-start.tex:13
+msgid "About Mindfulness-Based Relapse Prevention"
+msgstr "O prevenci relapsu všímavostí"
+
+#: en/mbrpra-start.tex:14
+msgid "Mindfulness-Based Relapse Prevention (MBRP) is a program designed to prevent relapse, in prevention of or recovery from addiction — in the wide sense (repeated behavior leading to significant harm and distress), including:"
+msgstr "Program MBRP (\\emph{Mindfulness-Based Relapse Prevention}, Prevence relapsu pomocí všímavosti) je doléčovací a preventivní program pro závislosti — v širokém smyslu (opakované chování s nepříznivými důsledky), který zahrnuje"
+
+#: en/mbrpra-start.tex:17
+msgid ""
+"\n"
+"\t\t\\item substance addictions (alcohol, drugs, tobacco, medicaments);\n"
+"\t\t\\item addictive behaviors:"
+msgstr "\\item látkové závislosti (alkohol, drogy, tabák, léky); \\item závislostní chování:"
+
+#: en/mbrpra-start.tex:20
+msgid ""
+"\n"
+"\t\t\t\t\\item external: food, work, sport, sex, pornography, gambling, self-harm, shopping, …;\n"
+"\t\t\t\t\\item internal: frequent self-criticism or devaluation of others, aggressiveness, anxiety, submissiveness, …\n"
+"\t\t\t"
+msgstr "\\item vnější: jídlo, práce, sport, sex, pornografie, hazardní hry, sebepoškozování, nakupování, …; \\item vnitřní: častá sebekritika či devalvace ostatních, útočnost, úzkostnost, vyhýbavost, submisivita, …"
+
+#: en/mbrpra-start.tex:25
+msgid "\\textbf{Mindfulness} is being aware of our present moment experience (such as how we feel or what is going on around us) in an open and nonjudgmental way."
+msgstr "\\textbf{Všímavost} znamená: být vědomě s právě probíhajícím vlastním prožíváním (například jak se cítíme a co vnímáme okolo sebe) s otevřeností a bez hodnocení."
+
+#: en/mbrpra-start.tex:28
+msgid "MBRP is a structured training of the skill of mindfulness using various guided exercises. The ability to stay oriented in one’s experience as it unfolds reduces the likelihood of relapse — falling back into the addictive behavior."
+msgstr "MBRP je strukturovaný trénink dovednosti být všímavý pomocí různých vedených cvičení. Lepší orientace ve svém prožívání, jak se odehrává, snižuje pravděpodobnost opětovného upadnutí do závislostního chování (relapsu)."
+
+#: en/mbrpra-start.tex:29
+msgid "MBRP can help you:"
+msgstr "MBRP vám může pomoci:"
+
+#: en/mbrpra-start.tex:35
+msgid ""
+"\n"
+"\t\t\\item Be more aware of relapse triggers.\n"
+"\t\t\\item Respond/cope with triggers (not just react).\n"
+"\t\t\\item Work with difficult emotions in healthy ways.\n"
+"\t\t\\item Be kinder and more compassionate towards yourself.\n"
+"\t\t\\item Develop a lifestyle that promotes long-term recovery.\n"
+"\t"
+msgstr "\\item Lépe si uvědomovat spouštěče relapsu. \\item Zvládat spouštěče aktivně — nejen na ně reagovat. \\item Pracovat s obtížnými pocity zdravým způsobem. \\item Být k sobě laskavější. \\item Kultivovat životní styl, který podporuje dlouhodobé uzdravení."
+
+#: en/mbrpra-start.tex:38
+msgid "Research of mindfulness and MBRP"
+msgstr "Výzkum všímavosti a MBRP"
+
+#: en/mbrpra-start.tex:39
+msgid "Research shows that learning and practicing mindfulness…"
+msgstr "Výzkum ukazuje, že učení se a cvičení všímavosti:"
+
+#: en/mbrpra-start.tex:41
+msgid "Reduces the odds of relapsing to alcohol or drug use."
+msgstr "Snižuje riziko relapsu (= upadnutí do opakování návyku)."
+
+#: en/mbrpra-start.tex:42
+msgid "Reduces urges/cravings to use alcohol or drugs."
+msgstr "Snižuje nutkání/bažení po návyku."
+
+#: en/mbrpra-start.tex:43
+msgid "Improves emotional well-being."
+msgstr "Zlepšuje emoční spokojenost."
+
+#: en/mbrpra-start.tex:46
+msgid "Research results are described in articles referenced at XXX."
+msgstr "Výsledky výzkumu MBRP jsou podrobněji popsané v článcích odkázaných na stránce XXX."
+
+#: en/mbrpra-start.tex:47
+msgid "Structure"
+msgstr "Struktura"
+
+#: en/mbrpra-start.tex:48
+msgid "The MBRP programme has three pillars, main components. They are all recommended, but also voluntary."
+msgstr "Program má tři pilíře, hlavní součásti — všechny jsou doporučené, ale též dobrovolné:"
+
+#: en/mbrpra-start.tex:49
+msgid "Formal mindfulness practices:"
+msgstr "formální cvičení všímavosti:"
+
+#: en/mbrpra-start.tex:50
+msgid "Informal practices:"
+msgstr "neformální cvičení:"
+
+#: en/mbrpra-start.tex:50
+msgid "regular (e.g. daily) practice with guided meditation recordings, in dedicated time."
+msgstr "pravidelné (např. každodenní) puštění si nahrávek a cvičení s nimi, ve vlastním vyčleněném čase;"
+
+#: en/mbrpra-start.tex:51
+msgid "Support group meetings:"
+msgstr "setkání skupiny,"
+
+#: en/mbrpra-start.tex:51
+msgid "bringing mindfulness into activities and situations throughout your daily life."
+msgstr "přinášení všímavosti do činností a situací během vašeho každodenního života;"
+
+#: en/mbrpra-start.tex:52
+msgid "sharing the experience, support from the group, regularity and structure for the practice. Groups are facilitated by a trained professional."
+msgstr "sloužící ke strukturování cvičení, sdílení zkušeností se cvičením a další podpoře. Skupiny probíhají pod vedení školeného profesionála."
+
+#: en/mbrpra-start.tex:62
+msgid "Formal Practices"
+msgstr "Formální cvičení"
+
+#: en/mbrpra-start.tex:63
+msgid "There are 12 guided meditations altogether, listed below. Each session recommends practices for the next week."
+msgstr "Nahraných cvičení je celkem 12, níže jsou vypsaná. Na každém setkání skupiny doporučíme cvičení do dalšího týdne."
+
+#: en/mbrpra-start.tex:66
+msgid ""
+"\n"
+"\t\t\\item All recorded meditations are available at \\href{https://PracticeMBRP.com}{PracticeMBRP.com}, you can play them on a computer or phone.\n"
+"\t\t\\item You can also download and use the recordings in other suitable ways (offline from the phone, MP3 player, mindfulness app)\n"
+"\t"
+msgstr "\\item Všechny nahrávky včetně popisků najdete na \\href{https://brzdime.cz}{brzdime.cz}, kde si je můžete i pustit (z telefonu či počítače). \\item Nahrávky si můžete i stáhnout a přehrát jiným způsobem, který Vám více vyhovuje (offline z telefonu, MP3 přehrávač, …)."
+
+#: en/mbrpra-start.tex:68
+msgid "It is beneficial to establish regularity of the practice, a routine. Example practice routines:"
+msgstr "Je dobré mít ve cvičení pravidelnost, rutinu. Může to vypadat například takto:"
+
+#: en/mbrpra-start.tex:69
+msgid "John"
+msgstr "Honza"
+
+#: en/mbrpra-start.tex:70
+msgid "Emily"
+msgstr "Alena"
+
+#: en/mbrpra-start.tex:70
+msgid "I listen to a 5- or 10-minute audio-guided mindfulness exercise about 6 days a week. I practice before breakfast in the morning. I sit in a chair. Practicing at the same time every day helps me remember to practice. I go to the website PracticeMBRP.com on my smartphone and play the recordings from there. I make mindfulness practice a part of my life because it helps me be more aware of what is going on and helps me stay on track with my recovery."
+msgstr "Přibližně 6 dní v týdnu poslouchám 5–10 minut nahraných cvičení. Cvičím před snídaní. V sedě na židli. Cvičit každý den ve stejný čas mi pomáhá na cvičení nezapomenout. Otevřu si brzdime.cz na telefonu a tam si nahrávky pouštím. Cvičení všímavosti je součást mého života, protože mi pomáhá více si uvědomovat, co se děje, a díky tomu se mohu lépe udržet na cestě zotavení."
+
+#: en/mbrpra-start.tex:71
+msgid "I listen to a 10 or 15-minute audio-guided mindfulness exercise about 5 days a week. I practice at night after I shower and put on my pajamas. I sit in my bed and use pillows to support my back. I play the recordings from a MP3 player I borrowed from my therapist. I also use headphones to block out other noise. When I stick to a regular practice routine, I feel more grounded and I am better able to deal with stress that comes up in my life."
+msgstr "Poslouchám 10- či 15-minutová cvičení všímavosti asi tak 5 dní v týdnu. Cvičím večer před spaním, když už jsem po sprše v pyžamu. Sedím na posteli a polštáři si vypodložím záda. Nahrávky si pouštím na MP3 přehrávači, který jsem si půjčila od svého terapeuta. Mám sluchátka, aby mě méně rušil hluk zvenku. Když se držím pravidelného cvičení, cítím se více ukotvená a lépe zvládám stres, který se v mém životě objeví."
+
+#: en/mbrpra-start.tex:75
+msgid "Audio-guided exercises"
+msgstr "Nahrávky ke cvičení"
+
+#: en/mbrpra-start.tex:76
+msgid "Mindful Check-in"
+msgstr "Napojení na sebe"
+
+#: en/mbrpra-start.tex:77
+msgid "Body Scan"
+msgstr "Bodyscan"
+
+#: en/mbrpra-start.tex:77
+msgid "Check-in with yourself. Notice what’s going on in your body and mind. Then, focus your attention on your breathing. \\par The Mindful Check-in is a core exercise in this program that we practice at the beginning of every session. This a good practice to listen to on a regular basis.Of course, mix it up too and listen to other exercises, such as the one’s below."
+msgstr "Vnímání toho, co se děje v mém těle a mysli, následované zaměřením pozornosti na dech. \\par Cvičení zařazené na začátku každého setkání. Je možné ho často opakovat."
+
+#: en/mbrpra-start.tex:78
+msgid "“Scan” your body and bring a curious awareness to sensations you notice."
+msgstr "Procházejte pozorností různé části těla a zkuste se zvídavě podívat, jaké tělesné vjemy přicházejí."
+
+#: en/mbrpra-start.tex:79
+msgid "Go through the steps of the \\textsc{Sober}: Stop, Observe, Breathe, Expand, Respond."
+msgstr "Pět kroků zkratky: Brzdi, Roz-vhled, Zakotvi se, Doširoka se otevři, Akce. Cvičení, které je vždy po ruce a lze ho udělat i během několika vteřin v náročné situaci. "
+
+#: en/mbrpra-start.tex:79
+msgid "Urge Surfing"
+msgstr "Jízda na vlně nutkání"
+
+#: en/mbrpra-start.tex:80
+msgid "Breath Meditation"
+msgstr "Meditace s dechem"
+
+#: en/mbrpra-start.tex:80
+msgid "Practice mindfully “surfing” or riding out the experience of an urge or craving."
+msgstr "Všímavě se držet na vlně nutkání či bažení, jak v čase sama zesiluje a zase slábne. "
+
+#: en/mbrpra-start.tex:81
+msgid "Focus your attention on the breath. When your attention wanders, gently bring your focus back to the breath again and again."
+msgstr "Dech jako kotva pozornosti, uvědomování si toulání mysli a učení se vracení se ze zamotaných myšlenek. "
+
+#: en/mbrpra-start.tex:81
+msgid "Mountain Meditation"
+msgstr "Meditace o hoře"
+
+#: en/mbrpra-start.tex:82
+msgid "Kindness Meditation"
+msgstr "Meditace laskavosti"
+
+#: en/mbrpra-start.tex:82
+msgid "Use visualization to develop a sense of strength and stability."
+msgstr "Vizualizace k rozvinutí pocitu síly a stability. "
+
+#: en/mbrpra-start.tex:83
+msgid "Mindful Movement"
+msgstr "Všímavý pohyb"
+
+#: en/mbrpra-start.tex:83
+msgid "Send thoughts and feelings of kindness and compassion to yourself and others."
+msgstr "Posílání myšlenek a přání laskavosti a soucitu sobě a ostatním. "
+
+#: en/mbrpra-start.tex:84
+msgid "Bring a curious awareness to sensations in your body as you engage in gentle movements and stretches."
+msgstr "Pěstování zvídavé pozornosti k tělesným vjemům při jemných pohybech a protahování. "
+
+#: en/mbrpra-start.tex:84
+msgid "Mindful Walking"
+msgstr "Všímavá chůze"
+
+#: en/mbrpra-start.tex:85
+msgid "Bring a curious awareness to sensations in your body as you walk."
+msgstr "Zvídavá pozornost k smyslovým vjemům při chůzi. "
+
+#: en/mbrpra-start.tex:85
+msgid "Meditation on Thoughts"
+msgstr "Meditace s myšlenkami (?)"
+
+#: en/mbrpra-start.tex:86
+msgid "Practice mindfully observing thoughts that pass through your awareness."
+msgstr "Všímavě sledujte myšlenky, jak procházejí skrz vědomí."
+
+#: en/mbrpra-start.tex:90
+msgid "On-The-Go (informal) Practices"
+msgstr "Neformální cvičení"
+
+#: en/mbrpra-start.tex:91
+msgid "You can use on-the-go practices at any moment of your daily life."
+msgstr "Neformální cvičení využijete „za pochodu“, kdykoliv během všedního dne."
+
+#: en/mbrpra-start.tex:92
+msgid "Mindful Moments"
+msgstr "Okamžiky:"
+
+#: en/mbrpra-start.tex:93
+msgid "At random times during your day, \\emph{pause} and…"
+msgstr "náhodně se během dne \\emph{zastavte} a…"
+
+#: en/mbrpra-start.tex:96
+msgid ""
+"\n"
+"\t\t\t\t\\item Take a few mindful breaths to slow down \n"
+"\t\t\t\t\\item Take 1 minute to mindfully check-in with yourself (\\toSelf{How am I feeling right now?})\n"
+"\t\t\t"
+msgstr "\\item zpomalte se několika vědomými dechy; \\item dejte si 1 minutu, abyste se na sebe napojili (\\toSelf{Jak se právě teď cítím?})."
+
+#: en/mbrpra-start.tex:98
+msgid "When challenging situations come up, such as arguments, difficult emotions, craving to use…"
+msgstr "když se objeví náročná situace, např. hádka, těžké pocity, nutkání k užití…:"
+
+#: en/mbrpra-start.tex:101
+msgid ""
+"\n"
+"\t\t\t\t\\item Use mindfulness to cope\n"
+"\t\t\t\t\\item Use the \\textsc{Sober} Space: is an \\emph{on-the-go} mindfulness practice that you can do anywhere, anytime because it is brief, simple, and flexible. It is described on page \\pageref{sober-space} in detail.\n"
+"\t\t\t"
+msgstr "\\item projděte situací všímavě, méně reaktivně; \\item použijte \\textsc{Brzd}u: krátké, jednoduché a velmi přizpůsobivé cvičení všímavosti za pochodu, které můžete použít kdekoliv a kdykoliv. Podrobně je popsané na str.~\\pageref{sober-space}."
+
+#: en/mbrpra-start.tex:102
+msgid "Mindful Activities"
+msgstr "Činnosti:"
+
+#: en/mbrpra-start.tex:103
+msgid "When you are engaging in daily activities, such as eating, chores, showering, brushing teeth, walking…"
+msgstr "při běžných činnostech, např. jedení, domácí práce, sprchování se, čištění zubů, chůze někam…:"
+
+#: en/mbrpra-start.tex:106
+msgid ""
+"\n"
+"\t\t\t\t\\item Bring a curious attention to the present moment\n"
+"\t\t\t\t\\item Connect with your 5 senses (sight, sound, touch, smell, taste)\n"
+"\t\t\t"
+msgstr "\\item vneste do přítomného okamžiku zvídavou pozornost; \\item napojte se na pět smyslů (zrak, sluch, chuť, čich, hmat)."
+
+#: en/mbrpra-start.tex:111
+msgid "Common challenges"
+msgstr "Obvyklé potíže"
+
+#: en/mbrpra-start.tex:113
+msgid "It is completely okay, normal, and common to experience the challenges listed below. These challenges are \\emph{not} “bad” or “wrong” in any way. These challenges are simply part of the process. You \\emph{can} work through these challenges and stick with your practice. Here are some tips for working through the different types of challenges that come up."
+msgstr "Je zcela v pořádku, normální a běžné zakoušet při cvičení obtíže, které jsou níže rozebrané — i nějaké jiné. Není na nich nic „špatného“ či „vadného“. Nejsou poruchou procesu, naopak, jsou jeho nedílnou součástí. \\emph{Můžete} jimi projít a ve cvičení pokračovat. Zde jsou tipy, jak se skrz různé obtíže propracovat, pokud se objeví."
+
+#: en/mbrpra-start.tex:114
+msgid "“My mind won’t stop wandering.”"
+msgstr "„Moje mysl se neustále toulá.“"
+
+#: en/mbrpra-start.tex:115
+msgid "It is totally normal and common to experience a wandering mind and have lots of thoughts come up during mindfulness practice. That is just what the mind does; it wanders. You don’t need to stop thoughts or push them away. Do your best to just notice what your experience is with a sense of curiosity and nonjudgment (\\toSelf{Oh look at that, there my mind goes again}). Sometimes thoughts can be “racing” or “intrusive” to the point it is very distressing. In these moments, see what it’s like to bring a sense of acceptance and kindness to your experience (\\toSelf{Hmm, what would it be like to just notice these thoughts and let them be, instead of fighting them or criticizing myself?})."
+msgstr "Je naprosto normální a běžné zakoušet toulavou mysl a mít během cvičení všímavosti spoustu myšlenek. Je to jedna z věcí, kterou mysl dělává: toulá se. Nemusíte se snažit myšlenky zastavit či je potlačit. Nakolik to jde, jen si uvědomte probíhající zkušenost, s určitou zvědavostí a bez odsuzování (\\toSelf{Hele, podívej se, pozornost už zase odešla}). Některé myšlenky mohou být až znepokojivě „zrychlené“ či „neodbytné“. V těchto chvílích zkuste prozkoumat, jaké je se i k této zkušenosti postavit s přijetím a laskavostí (\\toSelf{Jaké by to asi bylo, kdybych ty myšlenky jen zaznamenala a nechala je, místo zápasení s nimi a kritizování se za ně?})."
+
+#: en/mbrpra-start.tex:115
+msgid "“I feel restless and can’t sit still.”"
+msgstr "„Cítím se nepokojně a nedokážu v klidu sedět.“"
+
+#: en/mbrpra-start.tex:116
+msgid "It is common and totally okay to feel restless while practicing. This can be a physical restlessness and/or a mental restlessness. See what it’s like to notice the restlessness with a sense of curiosity (\\toSelf{Hmm, what does this actually feel like?}), rather than judging yourself or trying to force the restlessness to go away. You can also mix in mindful walking and mindful movement into your practice, instead of only practices where you sit still."
+msgstr "Je běžné a zcela v pořádku se při cvičení cítit nepokojně. Může jít o tělesnou neposednost, mentální neklid, či oboje současně. Zkuste, co se stane, když i ten neklid zaznamenáte se zvídavostí (\\toSelf{Hmm, jak to vlastně prožívám?}), namísto odsuzování sebe či snahy nepokoj zahnat. Můžete do svého cvičení, vedle těch, která jsou vsedu, přidat všímavou chůzi a všímavý pohyb."
+
+#: en/mbrpra-start.tex:116
+msgid "“I feel sleepy or fall asleep when I practice.”"
+msgstr "„Jsem ospalá a při cvičení usínám.“"
+
+#: en/mbrpra-start.tex:117
+msgid "It’s okay if you fall asleep. No worries! Getting sleepy is more likely to happen when lying down. Try practicing sitting upright instead, or practicing with your eyes open or half open (softly gazing downwards in front of you)."
+msgstr "Usnout při cvičení je v pořádku. Netřeba se toho bát! Ospalost se objevuje víc při poloze vleže. Zkuste místo toho cvičit ve vzpřímeném sedu, případně mít pootevřené či otevřené oči (s pohledem uvolněně sklopeným šikmo dolů před sebe)."
+
+#: en/mbrpra-start.tex:117
+msgid "“I can’t do this” or “I’m not doing it right.”"
+msgstr "„Nezvládám to“ či „Nedělám to dobře“."
+
+#: en/mbrpra-start.tex:118
+msgid "It is totally normal to have thoughts like this where we start to doubt ourselves and our ability to practice mindfulness. Try to gently acknowledge these thoughts with a sense of curiosity and kindness. (\\toSelf{Oh, look at that, there’s that doubt coming up again}). Keep in mind that there is no such thing as doing a practice “right” or “wrong.” There is simply doing a practice and seeing what comes up for you. If your mind wanders a lot or you have difficulty focusing, that is totally okay and normal."
+msgstr "Myšlenky tohoto typu jsou zcela normální — začináme pochybovat o sobě a své schopnosti všímavost cvičit. Zkuste zlehka tyto myšlenky zaznamenat, se zvídavostí a laskavostí (\\toSelf{Helemese, už zase přišlo tohle pochybování.}). Připomínejte si, že není nic takového jako cvičit „správně“ či „špatně“. Je jen provádění cvičení a zjistit, co přijde. Pokud se vaše mysl hodně toulá či je pro vás těžké zaměřit pozornost, je to zcela v pořádku a normální."
+
+#: en/mbrpra-start.tex:118
+msgid "“I don’t feel any better. What’s wrong with me?”"
+msgstr "„Necítím se o nic lépe. Co je to se mnou?“"
+
+#: en/mbrpra-start.tex:119
+msgid "When we practice, it is common to feel a desire to feel better or to judge ourselves for how we feel. See if you can pause and acknowledge that desire to feel different (\\toSelf{Oh wow, look at that, I am putting pressure on myself to feel different than how I feel}). See what it’s like to give yourself permission to just feel the way you are feeling in the moment. Mindfulness practice involves bringing a sense of acceptance towards our experience, instead of pressuring ourselves to feel better or different."
+msgstr "Při cvičení je běžné cítit touhu, abychom se cítili lépe, či se soudit za to, že se cítíme tak, jak se cítíme. Zkuste se na chviličku zastavit a vzít na vědomí tuto touhu se cítit jinak (\\toSelf{Páni, teď vidím, jak sama sebe dostávám pod tlak, když se chci cítit jinak, než se cítím.}). Jaké by bylo dovolit si cítit se v tuto chvíli právě tak, jak se cítíte? Cvičení všímavosti zahrnuje kultivaci přijímání k naší prožívané zkušenosti — nejde o vytváření tlaku na sebe, abychom se cítili jinak či lépe."
+
+#: en/mbrpra-start.tex:119
+msgid "“I keep forgetting to practice.”"
+msgstr "„Pořád na cvičení zapomínám.“"
+
+#: en/mbrpra-start.tex:120
+msgid "It is completely normal and okay to forget to practice and to have times when you are busy or get sidetracked from your practice. This happens to all us. Even if you have missed several days or weeks of practice, you can always get back on track at any time and start practicing again. The key is to commit to regular practice for the long-run and to keep coming back to your practice again and again. Remember that you don’t need to take huge chunks out of your day to practice mindfulness. Just 5 or 10 minutes of practice a day, goes a long way! Doing little bits of practice each day is like giving your brain a little “recharge” each day, which keep your brain strong and healthy. You can also set an “alarm” on your smartphone to remind you to practice."
+msgstr "Je úplně normální a v pořádku na cvičení zapomenout či mít období, kdy jsme zaneprázdněni či nás něco od cvičení odtáhne. To se děje nám všem. I pokud jste zmeškali něklik dní či týdnů cvičení, kdykoliv se můžete ke cvičení vrátit a pokračovat. Důležité je mít vnitřní závazek k pravidelnému cvičení v dlouhém časovém horizontu a ke cvičení se vracet znova a znova. Připomeňte si, že na cvičení všímavosti nemůsíte ze svého dne ukrojit obrovské porce času. I kdyby to bylo 5 či 10 minut denně, dlouhodobě to přinese užitek. Dělat malé cvičení každý den je jako každý den mozek „dobíjet“, aby zůstal silný a zdravý. Můžete si také nastavit alarm na telefonu, aby vám cvičení připomenul."
+
+#: en/mbrpra-start.tex:125
+msgid "Why stick with it?"
+msgstr "Proč u toho vydržet?"
+
+#: en/mbrpra-start.tex:126
+msgid "Think about your \\emph{brain}!"
+msgstr "Myslete na svůj \\emph{mozek}!"
+
+#: en/mbrpra-start.tex:127
+msgid "Our brains literally continue to grow and form new connections all throughout our lives,"
+msgstr "Mozek doslova rostoe a vytváří nová spojení po celý život"
+
+#: en/mbrpra-start.tex:128
+msgid "Your brain is like a muscle that can be strengthened through hard work and practice."
+msgstr "Mozek je jako sval, který je možné posílit úsilím a cvičením."
+
+#: en/mbrpra-start.tex:128
+msgid "even as adults. We are not simply born with one brain that stay the same all of our lives. Rather, our brain is constantly changing depending on what experiences we have and what information and skills we learn about and practice. Whenever we learn or practice something new, like a skill, new connections are formed in the brain. The more and more we practice a skill, the stronger these connections become. The fancy word to describe changes in the brain is called neuroplasticity."
+msgstr ", včetně dospělosti. Nenarodíme se jednoduše s mozkem, který nám už pak na celý život zůstane. Náš mozek se neustále proměňuje podle zkušeností, které prožíváme, a informací a dovedností, které se učíme a cvičíme. Kdykoliv se učíme či cvičíme něco nového, např. nějakou dovednost, vytvářejí se v mozku nové spoje. S dalším a dalším cvičením té dovednosti se tyto spoje dále zesilují. \\emph{Neuroplasticita} (dosl. nervová tvárnost) je odborné slovo, kterým se tyto změny v mozku popisují."
+
+#: en/mbrpra-start.tex:129
+msgid "Just like exercising your body makes your body stronger, exercising your brain with mental exercises like mindfulness actually makes your brain stronger. Research shows that regular practice of mindfulness actually changes people brains and strengthens the areas of the brain involved in managing stress and emotions. These studies also show that people’s stress levels go down with regular practice of mindfulness."
+msgstr "Podobně jako fyzická cvičení posilují tělo, cvičení mozku mentálními cvičeními — jako je např. všímavost — posiluje váš mozek. Výzkum ukazuje, že pravidelné cvičení všímavosti mozek pozorovatelně mění a posiluje oblasti mozku, které se podílejí na zvládání stresu a emocí. Tyto studie též ukázaly, že hladina stresu se pravidelným cvičením všíavosti snižuje."
+
+#: en/mbrpra-start.tex:130
+msgid "Remember, you have the ability to change your brain. Mindfulness is a science-backed tool you can use to change your brain and boost your coping power."
+msgstr "Zapamatujte si: máte schopnost změnit svůj mozek. Všímavost je vědou podepřený nástroj, který můžete používat ke změně mozku a zvýšení schopnosti zvládat náročné situace."
+
+#: en/mbrpra.tex:35
 msgctxt "polyglossia"
 msgid "english"
 msgstr "czech"
 
-#: mbrpra.tex:187
+#: en/mbrpra.tex:188
 msgid "Mindfulness-Based Relapse Prevention (Rolling Admission)"
 msgstr "Prevence relapsu všímavostí MBRP-RA: doprovodný text"
 
-#: mbrpra.tex:190
+#: en/mbrpra.tex:191
 msgid "Corey Roos \\&al \\href{https://PracticeMBRP.com}{PracticeMBRP.com}"
 msgstr "Corey Roos \\& al; překlad Václav Šmilauer."
