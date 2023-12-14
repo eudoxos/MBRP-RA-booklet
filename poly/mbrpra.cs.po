@@ -531,7 +531,7 @@ msgid "Automatic pilot"
 msgstr "Autopilot"
 
 #: mbrpra-sessions.tex:196
-msgid "„I can’t deal with this. Getting high would make things a lot better.“"
+msgid "“I can’t deal with this. Getting high would make things a lot better.”"
 msgstr "„Nezvládám to. Bylo by mnohem lepší, kdybych si šlehnul.“"
 
 #: mbrpra-sessions.tex:197
