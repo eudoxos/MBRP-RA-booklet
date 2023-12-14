@@ -8,7 +8,7 @@
 
 % this is make gettext no-op, \csname ensures it does not get parsed by the extractor as a string to be translated
 \long\expandafter\def\csname gettext\endcsname#1{#1}
-\long\expandafter\def\csname pgettext\endcsname#1#2{#1}
+\long\expandafter\def\csname pgettext\endcsname#1#2{#2}
 
 
 \input{mbrpra-defs}
@@ -28,10 +28,11 @@
 	%BoldFont={Iwona Heavy}
 ]{CMU Concrete}
 \bibliographystyle{plain}
-\usepackage[left=2cm,right=1.5cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
+\usepackage[left=1.5cm,right=2cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
 
 \usepackage{polyglossia}
 \setdefaultlanguage{\pgettext{polyglossia}{english}}
+\usepackage{csquotes}
 \usepackage{booktabs}
 
 \setlist[description]{style=unboxed}
@@ -145,13 +146,13 @@
 \setlist[description*]{style=unboxed,
 	%itemsep=0pt plus5em,parsep=0pt plus5em}
 	% itemsep=.5em,nosep}
-	noitemsep,nosep
+	nosep,itemsep=\parskip,leftmargin=0pt
 }
 
 \def\mbrpIcon#1{\includegraphics[width=1.5em]{fig/#1.pdf}}
 \def\itemStop#1#2{\item[\lower.3em\hbox{\textbf{\textsf{\huge#1}}}\kern.4em] \textbf{#2} \hskip1em}
 \def\itemSq{\item[\lower.1ex\hbox{\footnotesize\Square}]}
-\def\toSelf#1{\emph{„#1“}}
+\def\toSelf#1{\emph{\textquote{#1}}}
 \def\itemName#1{\item \textbf{#1} }
 
 
