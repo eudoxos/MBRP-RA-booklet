@@ -9,7 +9,6 @@
 \input{mbrpra-defs}
 
 
-
 \showboxbreadth=50 
 \showboxdepth=50
 
@@ -24,10 +23,11 @@
 	%BoldFont={Iwona Heavy}
 ]{CMU Concrete}
 \bibliographystyle{plain}
-\usepackage[left=2cm,right=1.5cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
+\usepackage[left=1.5cm,right=2cm,top=2.5cm,bottom=2.5cm,headheight=14pt]{geometry}
 
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
+\usepackage{csquotes}
 \usepackage{booktabs}
 
 \setlist[description]{style=unboxed}
@@ -141,13 +141,13 @@
 \setlist[description*]{style=unboxed,
 	%itemsep=0pt plus5em,parsep=0pt plus5em}
 	% itemsep=.5em,nosep}
-	noitemsep,nosep
+	nosep,itemsep=\parskip,leftmargin=0pt
 }
 
 \def\mbrpIcon#1{\includegraphics[width=1.5em]{fig/#1.pdf}}
 \def\itemStop#1#2{\item[\lower.3em\hbox{\textbf{\textsf{\huge#1}}}\kern.4em] \textbf{#2} \hskip1em}
 \def\itemSq{\item[\lower.1ex\hbox{\footnotesize\Square}]}
-\def\toSelf#1{\emph{„#1“}}
+\def\toSelf#1{\emph{\textquote{#1}}}
 \def\itemName#1{\item \textbf{#1} }
 
 
@@ -201,7 +201,7 @@
 			\end{itemize*}
 		\item Addition of the sections \emph{Basic Feelings/Needs We All Have} (pp.~\pageref{basic-feelings-we-all-have}, \pageref{basic-needs-we-all-have}) from Non-Violent Communication website.
 		\item Wording was adjusted slightly in Session 7 where the values diagram handout was split off the values text.
-		\item The \emph{Starter Kit} is not included; for the Czech version, it was put on the website instead (\href{https://brzdime.cz/start/}{brzdime.cz/start}): the regular meetings take place online, and the first contact is always through the website.
+		\item The \emph{Startup Packet} is was slightly restructured for print.
 	\end{itemize*}
 
 	The formatting was originally created for the Czech translation (\href{https://brzdime.cz}{brzdime.cz}). English text was now put back into the \LaTeX{} skeleton. The hope is that other translations may use the structure to avoid the tedious formatting work, producing a localized and good-looking booklet with relative ease. Ask your local \LaTeX{} expert for help.
@@ -213,7 +213,7 @@
 	\tableofcontents
 	\thispagestyle{empty}
 
-	% \include{mbrpra-start}
+	\include{mbrpra-start}
 	\include{mbrpra-sessions}
 	\include{mbrpra-sheets}
 \end{document}
