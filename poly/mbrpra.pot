@@ -1,0 +1,1390 @@
+msgid ""
+msgstr ""
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: en/mbrpra-defs.tex:112
+msgid "Expand your awareness back to how you are feeling. Do your best to bring a sense of openness and acceptance to your experience."
+msgstr ""
+
+#: en/mbrpra-defs.tex:134
+msgid "Session \\arabic{section}"
+msgstr ""
+
+#: en/mbrpra-defs.tex:142
+msgid "Key Concepts"
+msgstr ""
+
+#: en/mbrpra-defs.tex:158
+msgid "Formal Practice"
+msgstr ""
+
+#: en/mbrpra-defs.tex:162
+msgid "Do your best to listen to an audio-guided mindfulness exercise on a daily or semi-daily basis (4 to 6 days per week). Go to \\href{https://PracticeMBRP.com}{PracticeMBRP.com} to access the exercises. Try to practice at the same time each day (such as before breakfast)."
+msgstr ""
+
+#: en/mbrpra-defs.tex:163
+msgid "We recommend focusing on these audio-guided exercises over the next few days/week:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:168
+msgid "On-the-Go Practice"
+msgstr ""
+
+#: en/mbrpra-defs.tex:169
+msgid "Mindful Moments:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:170
+msgid "Mindful Coping:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:171
+msgid "Mindful Activities:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:174
+msgid "Handouts"
+msgstr ""
+
+#: en/mbrpra-defs.tex:177
+msgid "My Practice Log."
+msgstr ""
+
+#: en/mbrpra-defs.tex:203
+#: en/mbrpra-defs.tex:245
+msgid "Autopilot"
+msgstr ""
+
+#: en/mbrpra-defs.tex:210
+msgid "Observe your experience without judgment:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:213
+msgid "Respond with awareness."
+msgstr ""
+
+#: en/mbrpra-defs.tex:273
+msgid "How can you use the \\textsc{Sober} space in the situation? For each step of the \\textsc{Sober} write out what you would do/what you would notice in your own words."
+msgstr ""
+
+#: en/mbrpra-defs.tex:282
+msgid "The Guest House Poem"
+msgstr ""
+
+#: en/mbrpra-defs.tex:308
+msgid "\n		This being human is a guest house.\\\\\n		Every morning a new arrival.\n\n		A joy, a depression, a meanness,\\\\\n		some momentary awareness comes\\\\\\\n		as an unexpected visitor.\n\n		Welcome and entertain them all!\\\\\n		Even if they are a crowd of sorrows,\\\\\n		who sweep your house\\\\\n		empty of its furniture,\\\\\n		still, treat each guest honorably.\\\\\n		They may be clearing you out\\\\\n		for some new delight.\n\n		The dark thought, the shame, the malice.\\\\\n		meet them at the door and invite them in.\n\n		Be grateful for whatever comes.\\\\\n		Because each has been sent\\\\\n		as a guide from beyond.\n	"
+msgstr ""
+
+#: en/mbrpra-defs.tex:315
+msgid "Rumi"
+msgstr ""
+
+#: en/mbrpra-defs.tex:317
+#: en/mbrpra-start.tex:78
+msgid "\\textsc{Sober} Space"
+msgstr ""
+
+#: en/mbrpra-defs.tex:321
+msgid "It can be used in a stressful situation, if you are upset, or when you are experiencing urges or impulses to engage in unwanted behavior. It can also be used when things are going well, when you are having fun, or any other time you want to more fully “show up” to appreciate the present moment. It can help you step out of “automatic pilot” and be more aware and mindful in your response."
+msgstr ""
+
+#: en/mbrpra-defs.tex:326
+msgid "Expand your awareness beyond just the breath to your whole body and then to the whole situation you are in."
+msgstr ""
+
+#: en/mbrpra-defs.tex:327
+msgid "Respond to the situation with awareness, rather than reacting automatically. Recognize that you have choices for how to respond. Think about what you need and how you can take care of yourself."
+msgstr ""
+
+#: en/mbrpra-defs.tex:334
+msgid "My Practice Log"
+msgstr ""
+
+#: en/mbrpra-defs.tex:345
+msgid "Date \\\\ Day"
+msgstr ""
+
+#: en/mbrpra-defs.tex:347
+msgid "Planned Practice"
+msgstr ""
+
+#: en/mbrpra-defs.tex:348
+msgid "Set aside time to listen to audio-guided exercise"
+msgstr ""
+
+#: en/mbrpra-defs.tex:349
+msgid "Which practice? How long?"
+msgstr ""
+
+#: en/mbrpra-defs.tex:351
+msgid "Mindful Moment"
+msgstr ""
+
+#: en/mbrpra-defs.tex:351
+msgid "On-the-Go Practice:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:352
+msgid "took a random moment to pause/check-in"
+msgstr ""
+
+#: en/mbrpra-defs.tex:352
+#: en/mbrpra-start.tex:97
+msgid "Mindful Coping"
+msgstr ""
+
+#: en/mbrpra-defs.tex:353
+msgid "Mindful Activity"
+msgstr ""
+
+#: en/mbrpra-defs.tex:353
+msgid "Used \\textsc{Sober} Space in challenging situation"
+msgstr ""
+
+#: en/mbrpra-defs.tex:354
+msgid "eating, walking, chores, being outside."
+msgstr ""
+
+#: en/mbrpra-defs.tex:355
+msgid "What did you do? How many times?"
+msgstr ""
+
+#: en/mbrpra-defs.tex:363
+msgid "Notes \\\\ Observations"
+msgstr ""
+
+#: en/mbrpra-defs.tex:373
+#: en/mbrpra-defs.tex:373
+msgid "Some Basic Feelings We All Have"
+msgstr ""
+
+#: en/mbrpra-defs.tex:376
+msgid "Feel free to use the following list as a inspiration for expanding the vocabulary of feelings which you can recognize and name:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:378
+msgid "When needs “are” fulfilled:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:398
+msgid "\n			\\item Amazed\n			\\item Confident\n			\\item Energetic\n			\\item Glad\n			\\item Inspired\n			\\item Joyous\n			\\item Optimistic\n			\\item Relieved\n			\\item Surprised\n			\\item Touched\n			\\item Comfortable\n			\\item Eager\n			\\item Fulfilled\n			\\item Hopeful\n			\\item Intrigued\n			\\item Moved\n			\\item Proud\n			\\item Stimulated\n			\\item Thankful\n		"
+msgstr ""
+
+#: en/mbrpra-defs.tex:401
+msgid "When needs “are not” fulfilled:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:422
+msgid "\n			\\item Angry\n			\\item Confused\n			\\item Disappointed\n			\\item Distressed\n			\\item Frustrated\n			\\item Hopeless\n			\\item Irritated\n			\\item Nervous\n			\\item Puzzled\n			\\item Sad\n			\\item Annoyed\n			\\item Concerned\n			\\item Discouraged\n			\\item Embarrassed\n			\\item Helpless\n			\\item Impatient\n			\\item Lonely\n			\\item Overwhelmed\n			\\item Reluctant\n			\\item Uncomfortable\n		"
+msgstr ""
+
+#: en/mbrpra-defs.tex:427
+#: en/mbrpra-defs.tex:427
+msgid "Some Basic Needs We All Have"
+msgstr ""
+
+#: en/mbrpra-defs.tex:431
+msgid "Feel free to use the following list as a inspiration for expanding the vocabulary of needs which you can recognize and name:"
+msgstr ""
+
+#: en/mbrpra-defs.tex:434
+msgid "Autonomy"
+msgstr ""
+
+#: en/mbrpra-defs.tex:437
+msgid "\n						\\item Choosing dreams/goals/values\n						\\item Choosing plans for fulfilling one’s dreams, goals, values\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:439
+msgid "Celebration"
+msgstr ""
+
+#: en/mbrpra-defs.tex:442
+msgid "\n						\\item Celebrate the creation of life and dreams fulfilled\n						\\item Celebrate losses: loved ones, dreams, etc. (mourning)\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:444
+msgid "Integrity"
+msgstr ""
+
+#: en/mbrpra-defs.tex:449
+msgid "\n						\\item Authenticity\n						\\item Creativity\n						\\item Meaning\n						\\item Self-worth\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:451
+msgid "Interdependence"
+msgstr ""
+
+#: en/mbrpra-defs.tex:467
+msgid "\n						\\item Acceptance\n						\\item Appreciation\n						\\item Closeness\n						\\item Community\n						\\item Consideration\n						\\item Contribute to the enrichment of life\n						\\item Emotional Safety\n						\\item Empathy\n						\\item Honesty (the empowering honesty that enables us to learn from our limitations)\n						\\item Love\n						\\item Reassurance\n						\\item Respect\n						\\item Support\n						\\item Trust\n						\\item Understanding\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:469
+msgid "Physical Nutrutrance"
+msgstr ""
+
+#: en/mbrpra-defs.tex:479
+msgid "\n						\\item Air\n						\\item Food\n						\\item Movement, exercise\n						\\item Protection from life-threatening forms of life: viruses, bacteria, insects, predatory animals\n						\\item Rest\n						\\item Sexual expression\n						\\item Shelter\n						\\item Touch\n						\\item Water\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:481
+msgid "Play"
+msgstr ""
+
+#: en/mbrpra-defs.tex:484
+msgid "\n						\\item Fun\n						\\item Laughter\n					"
+msgstr ""
+
+#: en/mbrpra-defs.tex:486
+msgid "Spiritual Communion"
+msgstr ""
+
+#: en/mbrpra-defs.tex:492
+msgid "\n						\\item Beauty\n						\\item Harmony\n						\\item Inspiration\n						\\item Order\n						\\item Peace\n					"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:7
+msgid "Mindfulness vs.\\\\ Automatic Pilot"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:8
+msgid "Mindfulness vs. Automatic Pilot"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:14
+msgid "\n		\\item “Automatic pilot” is when we are not aware of what we are doing. We just do things automatically.\n		\\item When we have urges or cravings to use alcohol or other drugs, we often go into automatic pilot. We just \\emph{react} without awareness.\n		\\item Mindfulness is the opposite of automatic pilot. When we are mindful, we are fully aware of what we are doing in the moment.\n		\\item Mindfulness helps us step out of automatic pilot mode and make more conscious choices (such as when we have an urge or craving to use)\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:15
+#: en/mbrpra-sessions.tex:109
+msgid "\\item Mindful Check-In; \\item \\textsc{Sober} Space."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:16
+#: en/mbrpra-sessions.tex:90
+#: en/mbrpra-sessions.tex:175
+#: en/mbrpra-sessions.tex:250
+#: en/mbrpra-sessions.tex:269
+#: en/mbrpra-sessions.tex:369
+msgid "At random times, pause and mindfully check-in with yourself."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:17
+#: en/mbrpra-sessions.tex:176
+msgid "Try doing the \\textsc{Sober} Space when challenges come up."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:18
+msgid "Try mindful eating. For each meal, take one mindful bite. Bring your full attention to your food and the experience of eating."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:24
+msgid "\\item \\textsc{Sober} Space for feelings 2×;"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:25
+msgid "\\textsc{Sober} Space for feelings: pain and depression"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:27
+#: en/mbrpra-sessions.tex:43
+#: en/mbrpra-sheets.tex:13
+msgid "Situation"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:28
+msgid "Wake up in the morning with intense physical pain and feeling depressed"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:30
+msgid "Not this again. I can’t handle this."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:31
+msgid "Just lie in bed, instead of getting up."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:32
+msgid "This pain will never go away."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:33
+msgid "I need to get high. \\emph{(Feel craving to use)}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:35
+msgid "Text a friend to get drugs."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:36
+msgid "{Pressure and aching in back},{Sadness},{Lots of negative thoughts popping up}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:40
+msgid "{Remind yourself: \\toSelf{I can handle this. I have done it before.}},{ Get out of bed and take a hot shower.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:41
+msgid "\\textsc{Sober} Space for feelings: boredom and loneliness"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:44
+msgid "Feel bored and lonely on a Saturday night"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:46
+msgid "My life is so boring."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:47
+msgid "I could use some company right now."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:48
+msgid "Call a friend you previously used alcohol and drugs with."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:50
+msgid "Feel craving to use."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:51
+msgid "{Heaviness in chest area},{Bored, Lonely},{Thoughts about reaching out to others.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:60
+msgid "\n			{Call a sober-support friend and make plans to get dinner.}\n		"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:62
+msgid "Emotions as Visitors"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:67
+msgid "\n		\\item Challenging emotions (anxiety, sadness, anger) can trigger an urge to use alcohol or drugs. We may turn to alcohol and drugs to avoid or escape our emotions. \n		\\item Mindfully accepting emotions means allowing ourselves to feel our emotions in the moment, instead of trying to escape our emotions. It means acknowledging emotions (not ignoring them) with a sense of openness, curiosity, and nonjudgment.\n		\\item Challenging emotions are like “visitors” or “guests.” They visit us and then pass by. They are temporary. Challenging emotions can also be helpful when they visit. \\emph{… treat each guest honorably. / They may be clearing you out / for some new delight […] Because each has been sent / as a guide from beyond.} (\\emph{The Guest House Poem}).\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:68
+msgid "\\item Mindful Check-In; \\item Mindfulness of Emotions (with \\emph{Guest House} Reading)."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:69
+msgid "At random times, pause and mindfully check-in. Notice any emotions you might be feeling with a sense of openness and acceptance."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:70
+msgid "Try doing the \\textsc{Sober} Space when difficult emotions come up. Practice accepting your emotions and allowing yourself to feel your emotions."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:71
+msgid "Try mindful showering or bathing. Bring your full attention to the activity of showering or bathing. Connect with your 5 senses."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:83
+msgid "Self-Compassion"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:88
+msgid "\n		\\item Self-compassion is about being kind, gentle, and understanding towards ourselves. Self-compassion helps us work through from setbacks and slips in the recovery process.\n		\\item Self-compassion means not judging ourselves when we are upset or having a hard time. We can pause and tell ourselves \\toSelf{It’s okay to feel upset. I am doing the best I can.}\n		\\item All human beings struggle. No one is perfect. When we practice self-compassion, we can tell ourselves: \\toSelf{I’m not alone feeling this way. We all go through hard times.}\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:89
+msgid "\\item Mindful Check-In; \\item Kindness Meditation."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:91
+msgid "Try doing the \\textsc{Sober} Space when challenges come up. Practice being kind and compassionate to yourself."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:92
+msgid "Try mindful teeth brushing. Bring your full attention to the activity of brushing your teeth. Connect with your 5 senses."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:101
+msgid "Responding (not reacting) to triggers"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:102
+msgid "Responding (not reacting)\\\\ to triggers"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:108
+msgid "\n		\\item Triggers are persons, places, or things that bring about an urge or craving to do something, such as using substances \n		\\item Triggers can “set off” a chain of sensations, thoughts, and emotions, that are part of the overall craving experience. Using the \\textsc{Sober} Space helps us be more aware of both the triggers itself as well as the sensations, thoughts, and emotions that come up.  \n		\\item Using the \\textsc{Sober} Space helps us respond to triggers with awareness, instead of reacting automatically. Using the \\textsc{Sober} Space helps us make conscious choices in the moment that make it less likely we will use substances when triggered.\n		\\item The \\textsc{Sober} Space is flexible and can be used in different ways. In some cases, you may only have time to quickly “Stop” and then walk away from a trigger (person offering you drugs). Then, when you are somewhere else, you can go through the entire \\textsc{Sober} to continue coping with the situation and any craving you may still be experiencing.  \n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:110
+msgid "At random times, pause and mindfully check-in."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:111
+msgid "Practice the \\textsc{Sober} Space when challenges or triggers come up."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:112
+msgid "Try mindful hearing during your day. Pause and just take in the sounds around you. Try this when you are outdoors. Try this when you are indoor too. Another options is to try mindful hearing with music. Play a song that you enjoy and practice paying close attention to what the song sounds like."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:115
+msgid "\\item \\textsc{Sober} with trigger 2×;"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:116
+msgid "\\textsc{Sober} Space for triggers: argument"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:118
+#: en/mbrpra-sessions.tex:142
+msgid "Primary Trigger"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:119
+msgid "Argument with significant other"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:121
+msgid "Automatically walk in direction of nearby liquor store."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:122
+msgid "\\textbf{trigger}: \\\\ See liquor store."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:124
+msgid "Go in store, buy alcohol, and start drinking."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:125
+msgid "Slow down before doing anything."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:130
+msgid "\n			{Tightness in chest;},\n			{Angry, Guilty.},\n			{Having thought \\toSelf{I need a drink}.}\n		"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:131
+msgid "Focus on your breathing. Notice the breath flowing in and out. Slow down even more."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:132
+#: en/mbrpra-sessions.tex:158
+msgid "Expand back to the full situation. Be aware of yourself and the environment."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:139
+msgid "\n			{Go to bedroom. Listen to music.},\n			{Talk over things with significant other.}\n		"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:140
+msgid "\\textsc{Sober} Space for triggers: old friend"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:143
+msgid "Across the street, you see an old friend who used to sell drugs to you."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:145
+msgid "Automatically walk across street towards old friend."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:146
+msgid "\\textbf{Trigger}:\\\\ He tells you he has drugs in his car around the corner."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:147
+msgid "Go with him to car around corner."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:148
+msgid "\\textbf{Trigger}:\\\\ He shows you the drugs."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:150
+msgid "You buy the drugs and use them."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:151
+#: en/mbrpra-sessions.tex:331
+#: en/mbrpra-sessions.tex:348
+#: en/mbrpra-defs.tex:95
+msgid "Pause and step out of automatic pilot mode."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:156
+msgid "\n			{Warm feeling in belly. Mouth salivating.},\n			{Desire or craving to feel high;},\n			{Having thought \\toSelf{I should go say hello}}\n		"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:157
+msgid "Take a slow, mindful breath in and out."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:165
+msgid "{Walk away in the other direction.},{Take out smartphone and listen to guided \\textsc{Sober} space when you get to apartment.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:167
+msgid "Seeing Thoughts as Thoughts"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:173
+msgid "\n		\\item Thoughts are words or images that pass through our minds. Thoughts often “pop up” automatically. Just like our lungs breathe and our heart beats, our mind thinks. That is just what it does. \n		\\item Our thoughts are not necessarily true, and we don’t always need to believe in or “buy into” our own thoughts. \n		\\item Automatically believing in or acting upon our thoughts (ex. \\toSelf{I can’t deal with this. Getting high would make things a lot better}) can lead to substance use.\n		\\item Mindfulness can help us see our thoughts as just thoughts, instead of truths or commands. Mindfulness can help us “step back,” notice thoughts as they come up, and respond to these thoughts in healthy ways that prevent substance use.\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:174
+msgid "Mindful Check-In."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:177
+msgid "Try mindful walking. Bring your full attention to the activity of walking. Notice the sensations in your body as you walk."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:181
+msgid "The Role of Thoughts in the Relapse Cycle"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:192
+msgid "Trigger:"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:193
+msgid "Initial Thought:"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:193
+msgid "Physical pain and stress from a worsening health condition"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:196
+msgid "Automatic pilot"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:196
+msgid "“I can’t deal with this. Getting high would make things a lot better.”"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:197
+msgid "Believe thoughts\\\\Act on thoughts"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:198
+msgid "Believe thoughts. Feel upset and have urge to use. Go get some alcohol or drugs."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:199
+msgid "Go back home and take one pill/drink/hit (\\toSelf{Just one})"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:199
+msgid "Thought:"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:199
+msgid "“\\textbf{Ah, Screw it.}”"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:200
+msgid "“I’m a failure. I might as well give up and have another.”"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:201
+msgid "Take/use/drink more and eventually fall asleep"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:201
+msgid "\\emph{Next day…\\\\ — another:}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:201
+msgid "“\\textbf{Screw it!}”"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:202
+msgid "“I knew I would go back to using. There’s no hope for me.”"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:211
+msgid "Mindful Mode:"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:212
+msgid "See thoughts as thoughts;\\\\ Don’t need to act on thoughts"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:213
+msgid "Pause. Notice your thoughts as just passing thoughts, not truths or commands. \\toSelf{This is just a thought. I don’t need to believe it or act on it right now.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:214
+msgid "Focus on your breathing for a few moments to “ground” yourself."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:215
+msgid "Respond with awareness. Make some tea. Call a supportive friend."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:232
+msgid "Never too late to switch to mindful mode."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:242
+msgid "Surfing the Urge"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:248
+msgid "\n		\\item Urges or cravings to use are like ocean waves. They rise, reach a peak, and eventually pass by.  \n		\\item Mindfulness helps us slow down and be curious about the experience of an urge/craving. We can pause and ask ourselves \\toSelf{Hmm, what does this urge actually feel like right now? In my body? In my mind?}\n		\\item Mindfulness helps us mindfully “surf” or “ride out” urges, instead of fighting urges or trying to get rid of them. We can practice bringing a sense of openness and acceptance toward the experience of an urge in the moment.  \n		\\item Mindfulness can also help us be more aware of what we might need and how we can take care of ourselves when we have an urge or craving. We can pause and ask ourselves: \\toSelf{What do I really need right now?}\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:249
+msgid "\\item Mindful Check-In; \\item Urge Surfing."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:251
+msgid "Practice the \\textsc{Sober} Space when challenges or urges come up."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:252
+msgid "Try mindful looking. Pause and take in all the sights around you. Notice colors, shapes, lighting, and shadows. Try this when you are outdoors. Try this when you are indoors too."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:261
+msgid "Following Your Values"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:267
+msgid "\n		\\item Personal values are principles and beliefs we have about how we want to live our life and what kind of person we want to be. \n		\\item Our values are like a compass or map that guide and direct us in life. Our values can inform the choices we make in daily life – both big and small. \n		\\item When we are on automatic pilot, we might act or react in ways not in line with our values. When we are mindful, we can be aware of our actions and act in ways that are in line with our values. \n		\\item Recovery is about following our values and finding a sense of meaning and purpose in our lives. Getting in touch with our values can give us the strength to do what is important to us, even when distress and discomfort come up. \n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:268
+msgid "\\item Mindful Check-In;\\item Values Meditation."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:270
+msgid "Practice the \\textsc{Sober} Space when challenges come up. Consider your values and how you can make a mindful choice in line with your values."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:271
+msgid "Practice mindfulness while doing a daily chore, like washing the dishes or folding laundry. Bring a curious awareness to what you are doing in the moment. Connect with your senses (e.g., sights, sounds, touch, smell)."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:275
+msgid "My Personal Values;"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:276
+#: en/mbrpra-sheets.tex:23
+msgid "My Personal Values"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:278
+msgid "Deep down inside, what is important to you? What do you want your life to stand for?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:282
+msgid "Personal values are principles and beliefs we have about how we want to live our life and what kind of person we want to be. Values are directions we keep moving in. Values are an ongoing process. For example, if you want to be a loving, caring, supportive partner, that is a value – an ongoing process."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:286
+msgid "The following are areas of life that are valued by some people. Not everyone has the same values, and this is not a test to see whether you have the “correct” values. There may be certain areas that you don’t value much; you may skip them if you wish."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:290
+msgid "\\valItem{Family.} What sort of brother/sister, son/daughter, uncle/aunt, family member do you want to be? What personal qualities would you like to bring to those relationships? What sort of relationships would you like to build? How would you interact with others if you were the ‘ideal you’ in these relationships?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:291
+msgid "\\valItem{Marriage/couples/intimate relations.} What sort of partner would you like to be in an intimate relationship? What personal qualities would you like to develop? What sort of relationship would you like to build? How would you interact with your partner if you were the ‘ideal you’ in this relationship?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:292
+msgid "\\valItem{Parenting.} What sort of parent would you like to be? What sort of qualities would you like to have? What sort of relationships would you like to build with your children? How would you behave if you were the ‘ideal you’ as a parent?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:293
+msgid "\\valItem{Friendships.} What sort of qualities would you like to bring to your friendships? If you could be the best friend possible, how would you behave towards your friends? What friendships would you like to build?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:294
+msgid "\\valItem{Career/employment.} What do you value in your work? What would make it more meaningful? What kind of worker would you like to be? If you were living up to your own ideal standards, what personal qualities would you like to bring to your work? What sort of work relations would you like to build?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:295
+msgid "\\valItem{Education/personal growth and development.} What do you value about learning, education, training, or personal growth? What new skills would you like to learn? What knowledge would you like to gain? What further education/learning appeals to you? What sort of student would you like to be? What personal qualities would you like to apply?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:296
+msgid "\\valItem{Recreation/fun/leisure.} What sorts of hobbies, sports, or leisure activities do you enjoy? How would you like to relax/unwind? How would you like to have fun? What sorts of activities would you like to do?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:297
+msgid "\\valItem{Spirituality.} Spirituality means different things to everyone. It may be connecting with nature, or it may be participation in an organized religious group. What is important to you in this area of life?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:298
+msgid "\\valItem{Citizenship/environment/community life.} How would you like to contribute to your community or environment, e.g. through volunteering, or recycling, or supporting a group/charity/cause/political party? What sort of environments would you like to create at home, at work, in your community? What environments would you like to spend more time in?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:299
+msgid "\\valItem{Health.} What are your values related to maintaining your physical well-being? How do you want to look after your health, with regard to sleep, diet, exercise, smoking, alcohol, etc.? Why is this important?"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:306
+msgid "\\textsc{Sober} Space for values"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:308
+#: en/mbrpra-defs.tex:320
+msgid "The \\textsc{Sober} Space is an \\emph{on-the-go} mindfulness practice that you can do anywhere, anytime because it is brief, simple, and flexible."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:310
+msgid "You can use the \\textsc{Sober} Space as a way to make mindful choices and follow your values and goals."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:311
+#: en/mbrpra-defs.tex:209
+#: en/mbrpra-defs.tex:251
+#: en/mbrpra-defs.tex:322
+msgid "Stop."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:311
+#: en/mbrpra-defs.tex:322
+msgid "S"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:312
+#: en/mbrpra-defs.tex:210
+#: en/mbrpra-defs.tex:252
+#: en/mbrpra-defs.tex:323
+msgid "Observe."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:312
+#: en/mbrpra-defs.tex:323
+msgid "O"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:312
+#: en/mbrpra-defs.tex:323
+msgid "Remember to stop or “pause” to do this exercise. This is the first step in stepping out of automatic pilot."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:313
+#: en/mbrpra-defs.tex:211
+#: en/mbrpra-defs.tex:253
+#: en/mbrpra-defs.tex:324
+msgid "Breathe."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:313
+#: en/mbrpra-defs.tex:324
+msgid "B"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:313
+#: en/mbrpra-defs.tex:324
+msgid "Observe what is going on in the moment, both around you and inside of you (body sensations, emotions, and thoughts). Try to observe with a sense of curiosity and nonjudgment."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:314
+#: en/mbrpra-defs.tex:212
+#: en/mbrpra-defs.tex:254
+#: en/mbrpra-defs.tex:325
+msgid "Expand."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:314
+#: en/mbrpra-defs.tex:325
+msgid "E"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:314
+#: en/mbrpra-defs.tex:325
+msgid "Notice the sensations of the breath in your body as you take a few slow breaths in and out."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:315
+msgid "Expand your awareness to your body and the situation. \\emph{Expand your awareness even more to consider your values.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:315
+#: en/mbrpra-defs.tex:213
+#: en/mbrpra-defs.tex:255
+#: en/mbrpra-defs.tex:326
+msgid "Respond."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:315
+#: en/mbrpra-defs.tex:326
+msgid "R"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:316
+msgid "Respond to the situation with awareness. \\emph{How can your values guide you in responding to the situation?}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:321
+msgid "\\textsc{Sober} Space for values: anxiety"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:323
+#: en/mbrpra-sessions.tex:340
+msgid "“Choice Point” Situation"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:324
+msgid "Feel anxious before job interview.\\\\ Not sure whether to go."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:326
+msgid "I’m just going to mess up the interview."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:327
+msgid "What’s the point. I probably won’t even get the job."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:328
+msgid "Feel more anxious and start to also feel sense of shame."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:330
+msgid "Don’t go to job interview. Stay home and lie in bed."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:332
+msgid "{Heart beating fast;},{Anxious;},{Thoughts about avoiding interview.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:333
+#: en/mbrpra-sessions.tex:350
+#: en/mbrpra-defs.tex:96
+msgid "Take a few slow, mindful breaths in and out. Focus your attention on the breath."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:334
+#: en/mbrpra-sessions.tex:351
+msgid "Expand your awareness back to yourself and the situation. Expand your awareness even more to consider your personal values."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:337
+msgid "{Say to yourself: \\toSelf{Getting a job is important to me right now. I’ll just do the best I can.}},{Go to job interview.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:338
+msgid "\\textsc{Sober} Space for values: boredom"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:341
+msgid "Bored on a Sunday. Not sure what to do with yourself."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:343
+msgid "What should I do with myself? Maybe I’ll just chill."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:344
+msgid "I would feel more relaxed if I could get a little high."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:345
+msgid "Feel craving to get high."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:347
+msgid "Look around house for drugs or alcohol you might still have."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:349
+msgid "{Tension in shoulders;},{Agitated;},{Thinking: \\toSelf{What should I do with myself?}}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:360
+msgid "{Say to yourself: \\toSelf{You know what, I care about my daughter and want to spend more quality time with her.}},{Call daughter and plan to meet for lunch.}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:362
+msgid "Exploring Your Needs"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:367
+msgid "\n		\\item We can turn toward substance use because we are just trying find a way to meet our needs in the moment. These include wholesome and healthy needs that we all have as human beings, like the need to feel safe, to get some relief, to feel in control, connect with other people, or to feel happy and alive.   \n		\\item Substance use does not actually deliver on their promise. In the long-run, substance use does not fulfill our needs. Of course, it’s completely understandable that we turn towards substance use. As human beings, we all can turn to the wrong things to meet our needs. Having an urge to use substances or seeking out substances is not “bad” in any way. In those moments we are just trying to take care of ourselves and meet our needs, like any other human being.\n		\\item Mindfulness helps us look “beneath” the initial urge for substances and explore deeper needs we may have in the moment. When we have an urge, we can pause and ask ourselves: \\toSelf{what do I really need right now?} Recognizing what we actually need in the moment helps us make wise choices, instead of automatically turning to substances.\n	"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:368
+msgid "\\item Mindful Check-In;\\item Exploring Your Needs Meditation."
+msgstr ""
+
+#: en/mbrpra-sessions.tex:370
+msgid "Try doing the \\textsc{Sober} Space when challenges or urges come up. Think about your needs. Ask yourself: \\toSelf{What do I really need right now?}"
+msgstr ""
+
+#: en/mbrpra-sessions.tex:371
+msgid "Try practicing mindfulness of nature when you are outside. Bring a curious awareness to different aspects of the natural environment, such as the sky, clouds, the wind, plants, trees, or animals."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:10
+msgid "Write your own example. Think about a type of situation that brings about an automatic reaction."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:10
+msgid "\\textsc{Sober} Space for feelings"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:14
+msgid "Think about a \\emph{trigger} that brings about an urge or craving to use alcohol or other drugs."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:14
+msgid "\\textsc{Sober} Space for triggers"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:15
+msgid "Primary trigger"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:24
+msgid "Use this diagram to help you look at your personal values. In each blank circle, fill in a value you hold. You do not have to use every circle, and you may add more circles as needed. For help thinking about your values, take a look at the questions in Session 7."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:43
+msgid "How many times per week I listen to an mindfulness exercise:"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:43
+msgid "Plan out your practice routine"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:47
+msgid "The time of day I usually will practice is:"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:47
+msgid "We recommend listening to a mindfulness exercise on a daily or semi-daily basis (4 to 6 days per week). Regular practice will keep your “mindfulness muscle” strong over time."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:50
+msgid "Here are some example times of day to practice that work for other people:"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:54
+msgid "\n		\\item In the morning: before breakfast, after showering, when getting ready\n		\\item At night: after putting on pajamas, during nighttime unwind routine\n		\\item Midday: during lunch break\n	"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:56
+msgid "How am I going to access the audio-guided exercises? [?]"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:58
+msgid "I will practice in the following location:"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:62
+msgid "Here are some potential options: (1) Bedroom, (2) On the bus (with headphones), (3) Car (while parked), (4) Office, (5) Outside."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:62
+msgid "I will practice in the following position/posture:"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:65
+msgid "We recommend sitting upright, rather than slouching. For the options below, use pillows as needed to support your back."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:70
+msgid "\n		\\item Sit in a chair with feet on floor\n		\\item Sit on couch in a cross-legged position or with feet on floor\n		\\item Sit on a bed in a cross-legged position\n		\\item Sit cross-legged on the floor (maybe with back against wall)\n	"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:74
+msgid "Lying down is an option too. However, it can be easier to get sleepy in this position. If you get too sleepy lying down, then try sitting upright in one of the positions listed above."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:75
+msgid "Motivations for practicing"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:76
+msgid "What are your personal motivations for practicing mindfulness? Check one or more of the options below. Or, write in your own personal motivations."
+msgstr ""
+
+#: en/mbrpra-sheets.tex:78
+msgid "My recovery matters a lot to me"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:79
+msgid "Self-care is an important part of my life"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:80
+msgid "I want to boost my ability to handle stress in my life"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:81
+msgid "I am willing to try something new"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:82
+msgid "I like that mindfulness is backed by research"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:83
+msgid "I recognize that mindfulness has helped other people in recovery"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:84
+msgid "I want to learn effective coping strategies"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:85
+msgid "I value my mental health as much as my physical health"
+msgstr ""
+
+#: en/mbrpra-sheets.tex:86
+msgid "I want to live a healthy and balanced life"
+msgstr ""
+
+#: en/mbrpra-start.tex:11
+msgid "Getting Started"
+msgstr ""
+
+#: en/mbrpra-start.tex:13
+msgid "About Mindfulness-Based Relapse Prevention"
+msgstr ""
+
+#: en/mbrpra-start.tex:14
+msgid "Mindfulness-Based Relapse Prevention (MBRP) is a program designed to prevent relapse, in prevention of or recovery from addiction — in the wide sense (repeated behavior leading to significant harm and distress), including:"
+msgstr ""
+
+#: en/mbrpra-start.tex:17
+msgid "\n		\\item substance addictions (alcohol, drugs, tobacco, medicaments);\n		\\item addictive behaviors:"
+msgstr ""
+
+#: en/mbrpra-start.tex:20
+msgid "\n				\\item external: food, work, sport, sex, pornography, gambling, self-harm, shopping, …;\n				\\item internal: frequent self-criticism or devaluation of others, aggressiveness, anxiety, submissiveness, …\n			"
+msgstr ""
+
+#: en/mbrpra-start.tex:25
+msgid "\\textbf{Mindfulness} is being aware of our present moment experience (such as how we feel or what is going on around us) in an open and nonjudgmental way."
+msgstr ""
+
+#: en/mbrpra-start.tex:28
+msgid "MBRP is a structured training of the skill of mindfulness using various guided exercises. The ability to stay oriented in one’s experience as it unfolds reduces the likelihood of relapse — falling back into the addictive behavior."
+msgstr ""
+
+#: en/mbrpra-start.tex:29
+msgid "MBRP can help you:"
+msgstr ""
+
+#: en/mbrpra-start.tex:35
+msgid "\n		\\item Be more aware of relapse triggers.\n		\\item Respond/cope with triggers (not just react).\n		\\item Work with difficult emotions in healthy ways.\n		\\item Be kinder and more compassionate towards yourself.\n		\\item Develop a lifestyle that promotes long-term recovery.\n	"
+msgstr ""
+
+#: en/mbrpra-start.tex:38
+msgid "Research of mindfulness and MBRP"
+msgstr ""
+
+#: en/mbrpra-start.tex:39
+msgid "Research shows that learning and practicing mindfulness…"
+msgstr ""
+
+#: en/mbrpra-start.tex:41
+msgid "Reduces the odds of relapsing to alcohol or drug use."
+msgstr ""
+
+#: en/mbrpra-start.tex:42
+msgid "Reduces urges/cravings to use alcohol or drugs."
+msgstr ""
+
+#: en/mbrpra-start.tex:43
+msgid "Improves emotional well-being."
+msgstr ""
+
+#: en/mbrpra-start.tex:46
+msgid "Research results are described in articles referenced at XXX."
+msgstr ""
+
+#: en/mbrpra-start.tex:47
+msgid "Structure"
+msgstr ""
+
+#: en/mbrpra-start.tex:48
+msgid "The MBRP programme has three pillars, main components. They are all recommended, but also voluntary."
+msgstr ""
+
+#: en/mbrpra-start.tex:49
+msgid "Formal mindfulness practices:"
+msgstr ""
+
+#: en/mbrpra-start.tex:50
+msgid "Informal practices:"
+msgstr ""
+
+#: en/mbrpra-start.tex:50
+msgid "regular (e.g. daily) practice with guided meditation recordings, in dedicated time."
+msgstr ""
+
+#: en/mbrpra-start.tex:51
+msgid "Support group meetings:"
+msgstr ""
+
+#: en/mbrpra-start.tex:51
+msgid "bringing mindfulness into activities and situations throughout your daily life."
+msgstr ""
+
+#: en/mbrpra-start.tex:52
+msgid "sharing the experience, support from the group, regularity and structure for the practice. Groups are facilitated by a trained professional."
+msgstr ""
+
+#: en/mbrpra-start.tex:62
+msgid "Formal Practices"
+msgstr ""
+
+#: en/mbrpra-start.tex:63
+msgid "There are 12 guided meditations altogether, listed below. Each session recommends practices for the next week."
+msgstr ""
+
+#: en/mbrpra-start.tex:66
+msgid "\n		\\item All recorded meditations are available at \\href{https://PracticeMBRP.com}{PracticeMBRP.com}, you can play them on a computer or phone.\n		\\item You can also download and use the recordings in other suitable ways (offline from the phone, MP3 player, mindfulness app)\n	"
+msgstr ""
+
+#: en/mbrpra-start.tex:68
+msgid "It is beneficial to establish regularity of the practice, a routine. Example practice routines:"
+msgstr ""
+
+#: en/mbrpra-start.tex:69
+msgid "John"
+msgstr ""
+
+#: en/mbrpra-start.tex:70
+msgid "Emily"
+msgstr ""
+
+#: en/mbrpra-start.tex:70
+msgid "I listen to a 5- or 10-minute audio-guided mindfulness exercise about 6 days a week. I practice before breakfast in the morning. I sit in a chair. Practicing at the same time every day helps me remember to practice. I go to the website PracticeMBRP.com on my smartphone and play the recordings from there. I make mindfulness practice a part of my life because it helps me be more aware of what is going on and helps me stay on track with my recovery."
+msgstr ""
+
+#: en/mbrpra-start.tex:71
+msgid "I listen to a 10 or 15-minute audio-guided mindfulness exercise about 5 days a week. I practice at night after I shower and put on my pajamas. I sit in my bed and use pillows to support my back. I play the recordings from a MP3 player I borrowed from my therapist. I also use headphones to block out other noise. When I stick to a regular practice routine, I feel more grounded and I am better able to deal with stress that comes up in my life."
+msgstr ""
+
+#: en/mbrpra-start.tex:75
+msgid "Audio-guided exercises"
+msgstr ""
+
+#: en/mbrpra-start.tex:76
+msgid "Mindful Check-in"
+msgstr ""
+
+#: en/mbrpra-start.tex:77
+msgid "Body Scan"
+msgstr ""
+
+#: en/mbrpra-start.tex:77
+msgid "Check-in with yourself. Notice what’s going on in your body and mind. Then, focus your attention on your breathing. \\par The Mindful Check-in is a core exercise in this program that we practice at the beginning of every session. This a good practice to listen to on a regular basis.Of course, mix it up too and listen to other exercises, such as the one’s below."
+msgstr ""
+
+#: en/mbrpra-start.tex:78
+msgid "“Scan” your body and bring a curious awareness to sensations you notice."
+msgstr ""
+
+#: en/mbrpra-start.tex:79
+msgid "Go through the steps of the \\textsc{Sober}: Stop, Observe, Breathe, Expand, Respond."
+msgstr ""
+
+#: en/mbrpra-start.tex:79
+msgid "Urge Surfing"
+msgstr ""
+
+#: en/mbrpra-start.tex:80
+msgid "Breath Meditation"
+msgstr ""
+
+#: en/mbrpra-start.tex:80
+msgid "Practice mindfully “surfing” or riding out the experience of an urge or craving."
+msgstr ""
+
+#: en/mbrpra-start.tex:81
+msgid "Focus your attention on the breath. When your attention wanders, gently bring your focus back to the breath again and again."
+msgstr ""
+
+#: en/mbrpra-start.tex:81
+msgid "Mountain Meditation"
+msgstr ""
+
+#: en/mbrpra-start.tex:82
+msgid "Kindness Meditation"
+msgstr ""
+
+#: en/mbrpra-start.tex:82
+msgid "Use visualization to develop a sense of strength and stability."
+msgstr ""
+
+#: en/mbrpra-start.tex:83
+msgid "Mindful Movement"
+msgstr ""
+
+#: en/mbrpra-start.tex:83
+msgid "Send thoughts and feelings of kindness and compassion to yourself and others."
+msgstr ""
+
+#: en/mbrpra-start.tex:84
+msgid "Bring a curious awareness to sensations in your body as you engage in gentle movements and stretches."
+msgstr ""
+
+#: en/mbrpra-start.tex:84
+msgid "Mindful Walking"
+msgstr ""
+
+#: en/mbrpra-start.tex:85
+msgid "Bring a curious awareness to sensations in your body as you walk."
+msgstr ""
+
+#: en/mbrpra-start.tex:85
+msgid "Meditation on Thoughts"
+msgstr ""
+
+#: en/mbrpra-start.tex:86
+msgid "Practice mindfully observing thoughts that pass through your awareness."
+msgstr ""
+
+#: en/mbrpra-start.tex:90
+msgid "On-The-Go (informal) Practices"
+msgstr ""
+
+#: en/mbrpra-start.tex:91
+msgid "You can use on-the-go practices at any moment of your daily life."
+msgstr ""
+
+#: en/mbrpra-start.tex:92
+msgid "Mindful Moments"
+msgstr ""
+
+#: en/mbrpra-start.tex:93
+msgid "At random times during your day, \\emph{pause} and…"
+msgstr ""
+
+#: en/mbrpra-start.tex:96
+msgid "\n				\\item Take a few mindful breaths to slow down \n				\\item Take 1 minute to mindfully check-in with yourself (\\toSelf{How am I feeling right now?})\n			"
+msgstr ""
+
+#: en/mbrpra-start.tex:98
+msgid "When challenging situations come up, such as arguments, difficult emotions, craving to use…"
+msgstr ""
+
+#: en/mbrpra-start.tex:101
+msgid "\n				\\item Use mindfulness to cope\n				\\item Use the \\textsc{Sober} Space: is an \\emph{on-the-go} mindfulness practice that you can do anywhere, anytime because it is brief, simple, and flexible. It is described on page \\pageref{sober-space} in detail.\n			"
+msgstr ""
+
+#: en/mbrpra-start.tex:102
+msgid "Mindful Activities"
+msgstr ""
+
+#: en/mbrpra-start.tex:103
+msgid "When you are engaging in daily activities, such as eating, chores, showering, brushing teeth, walking…"
+msgstr ""
+
+#: en/mbrpra-start.tex:106
+msgid "\n				\\item Bring a curious attention to the present moment\n				\\item Connect with your 5 senses (sight, sound, touch, smell, taste)\n			"
+msgstr ""
+
+#: en/mbrpra-start.tex:111
+msgid "Common challenges"
+msgstr ""
+
+#: en/mbrpra-start.tex:113
+msgid "It is completely okay, normal, and common to experience the challenges listed below. These challenges are \\emph{not} “bad” or “wrong” in any way. These challenges are simply part of the process. You \\emph{can} work through these challenges and stick with your practice. Here are some tips for working through the different types of challenges that come up."
+msgstr ""
+
+#: en/mbrpra-start.tex:114
+msgid "“My mind won’t stop wandering.”"
+msgstr ""
+
+#: en/mbrpra-start.tex:115
+msgid "It is totally normal and common to experience a wandering mind and have lots of thoughts come up during mindfulness practice. That is just what the mind does; it wanders. You don’t need to stop thoughts or push them away. Do your best to just notice what your experience is with a sense of curiosity and nonjudgment (\\toSelf{Oh look at that, there my mind goes again}). Sometimes thoughts can be “racing” or “intrusive” to the point it is very distressing. In these moments, see what it’s like to bring a sense of acceptance and kindness to your experience (\\toSelf{Hmm, what would it be like to just notice these thoughts and let them be, instead of fighting them or criticizing myself?})."
+msgstr ""
+
+#: en/mbrpra-start.tex:115
+msgid "“I feel restless and can’t sit still.”"
+msgstr ""
+
+#: en/mbrpra-start.tex:116
+msgid "It is common and totally okay to feel restless while practicing. This can be a physical restlessness and/or a mental restlessness. See what it’s like to notice the restlessness with a sense of curiosity (\\toSelf{Hmm, what does this actually feel like?}), rather than judging yourself or trying to force the restlessness to go away. You can also mix in mindful walking and mindful movement into your practice, instead of only practices where you sit still."
+msgstr ""
+
+#: en/mbrpra-start.tex:116
+msgid "“I feel sleepy or fall asleep when I practice.”"
+msgstr ""
+
+#: en/mbrpra-start.tex:117
+msgid "It’s okay if you fall asleep. No worries! Getting sleepy is more likely to happen when lying down. Try practicing sitting upright instead, or practicing with your eyes open or half open (softly gazing downwards in front of you)."
+msgstr ""
+
+#: en/mbrpra-start.tex:117
+msgid "“I can’t do this” or “I’m not doing it right.”"
+msgstr ""
+
+#: en/mbrpra-start.tex:118
+msgid "It is totally normal to have thoughts like this where we start to doubt ourselves and our ability to practice mindfulness. Try to gently acknowledge these thoughts with a sense of curiosity and kindness. (\\toSelf{Oh, look at that, there’s that doubt coming up again}). Keep in mind that there is no such thing as doing a practice “right” or “wrong.” There is simply doing a practice and seeing what comes up for you. If your mind wanders a lot or you have difficulty focusing, that is totally okay and normal."
+msgstr ""
+
+#: en/mbrpra-start.tex:118
+msgid "“I don’t feel any better. What’s wrong with me?”"
+msgstr ""
+
+#: en/mbrpra-start.tex:119
+msgid "When we practice, it is common to feel a desire to feel better or to judge ourselves for how we feel. See if you can pause and acknowledge that desire to feel different (\\toSelf{Oh wow, look at that, I am putting pressure on myself to feel different than how I feel}). See what it’s like to give yourself permission to just feel the way you are feeling in the moment. Mindfulness practice involves bringing a sense of acceptance towards our experience, instead of pressuring ourselves to feel better or different."
+msgstr ""
+
+#: en/mbrpra-start.tex:119
+msgid "“I keep forgetting to practice.”"
+msgstr ""
+
+#: en/mbrpra-start.tex:120
+msgid "It is completely normal and okay to forget to practice and to have times when you are busy or get sidetracked from your practice. This happens to all us. Even if you have missed several days or weeks of practice, you can always get back on track at any time and start practicing again. The key is to commit to regular practice for the long-run and to keep coming back to your practice again and again. Remember that you don’t need to take huge chunks out of your day to practice mindfulness. Just 5 or 10 minutes of practice a day, goes a long way! Doing little bits of practice each day is like giving your brain a little “recharge” each day, which keep your brain strong and healthy. You can also set an “alarm” on your smartphone to remind you to practice."
+msgstr ""
+
+#: en/mbrpra-start.tex:125
+msgid "Why stick with it?"
+msgstr ""
+
+#: en/mbrpra-start.tex:126
+msgid "Think about your \\emph{brain}!"
+msgstr ""
+
+#: en/mbrpra-start.tex:127
+msgid "Our brains literally continue to grow and form new connections all throughout our lives,"
+msgstr ""
+
+#: en/mbrpra-start.tex:128
+msgid "Your brain is like a muscle that can be strengthened through hard work and practice."
+msgstr ""
+
+#: en/mbrpra-start.tex:128
+msgid "even as adults. We are not simply born with one brain that stay the same all of our lives. Rather, our brain is constantly changing depending on what experiences we have and what information and skills we learn about and practice. Whenever we learn or practice something new, like a skill, new connections are formed in the brain. The more and more we practice a skill, the stronger these connections become. The fancy word to describe changes in the brain is called neuroplasticity."
+msgstr ""
+
+#: en/mbrpra-start.tex:129
+msgid "Just like exercising your body makes your body stronger, exercising your brain with mental exercises like mindfulness actually makes your brain stronger. Research shows that regular practice of mindfulness actually changes people brains and strengthens the areas of the brain involved in managing stress and emotions. These studies also show that people’s stress levels go down with regular practice of mindfulness."
+msgstr ""
+
+#: en/mbrpra-start.tex:130
+msgid "Remember, you have the ability to change your brain. Mindfulness is a science-backed tool you can use to change your brain and boost your coping power."
+msgstr ""
+
+#: en/mbrpra.tex:35
+msgctxt "polyglossia"
+msgid "english"
+msgstr ""
+
+#: en/mbrpra.tex:188
+msgid "Mindfulness-Based Relapse Prevention (Rolling Admission)"
+msgstr ""
+
+#: en/mbrpra.tex:191
+msgid "Corey Roos \\&al \\href{https://PracticeMBRP.com}{PracticeMBRP.com}"
+msgstr ""
+
